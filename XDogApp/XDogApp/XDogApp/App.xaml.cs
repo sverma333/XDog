@@ -13,7 +13,7 @@ namespace XDogApp
         {
             InitializeComponent();
 
-            MainPage = new XDogApp.MainPage();
+            MainPage = new XDogApp.Views.LoginPage();
         }
 
         protected override void OnStart()
