@@ -41,8 +41,8 @@ namespace XDogApp.Views
                 setResponseLabel(true, "Login Failed. Login information incomplete.");
             else
                 if (StringUtils.IsValidEmail(Entry_Email.Text))
-                    setResponseLabel(false, $"Sending Verification Code to {Entry_Email.Text}");
-                else
+                    setResponseLabel(false, $"Sending Verification Code to {Entry_Email.Text}"); ////////////////////////////////////////////////////////////////////////////////
+            else
                     setResponseLabel(true, "Login Failed. Please enter a valid email address.");
         }
 
@@ -56,7 +56,10 @@ namespace XDogApp.Views
                 if (Entry_Password.Text != Entry_ConfirmPassword.Text)
                     setResponseLabel(true, "Login Failed. Passwords do not match.");
                 else
-                    setResponseLabel(false, "Login Success");
+                    if (StringUtils.IsValidEmail(Entry_Email.Text))
+                        setResponseLabel(false, "Login Success"); ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    else
+                        setResponseLabel(true, "Login Failed. Please enter a valid email address.");
             else
                 setResponseLabel(true, "Login Failed. Login information incomplete.");
 

@@ -8,7 +8,7 @@ using Xamarin.UITest.Queries;
 namespace XDogUITest
 {
     [TestFixture(Platform.Android)]
-    //[TestFixture(Platform.iOS)]
+    [TestFixture(Platform.iOS)]
     public class Tests
     {
         IApp app;
@@ -18,7 +18,6 @@ namespace XDogUITest
         public Tests(Platform platform)
         {
             this.platform = platform;
-            //ConfigureApp.Android.Debug().ApkFile(apkpath).StartApp();
         }
 
         [SetUp]
@@ -43,34 +42,37 @@ namespace XDogUITest
         [Category("CheckLoginVerification")]
         [TestCase("", "Login Failed. Login information incomplete.!!")]
         [TestCase("fakeemail@s", "Login Failed. Please enter a valid email address.")]
+        [TestCase("fake@gmail", "Login Failed.Please enter a valid email address.")]
         [TestCase("sandipverma222@gmail.com", "Sending Verification Code to sandipverma222@gmail.com")]
         public void TestIncompleteVerificationSend(string e, string res)
         {
-            //app.EnterText("LoginEntryEmail", e);
+            app.EnterText("LoginEntryEmail", e);
 
-            //app.Tap("btnSendVerification");
+            app.Tap("btnSendVerification");
 
-            //            Assert.IsTrue(LabelEquals("LoginLabelResponse", res));
-            Assert.IsTrue(true);
+            Assert.IsTrue(LabelEquals("LoginLabelResponse", res));
 
         }
 
-        //[Test]
-        //[Category("IncompleteLoginCheck")]
-        //[TestCase("", "", "", true)]
-        //[TestCase("", "123", "DOGGY", true)]
-        //[TestCase("", "", "DOGGY", true)]
-        //[TestCase("sandipverma22@gmail.com", "2017", "DOGGY", false)]
-        //public void TestIncompletLogin(string e, string p, string vc, bool r)
-        //{
-        //    app.EnterText("LoginEntryEmail", e);
-        //    app.EnterText("LoginEntryPassword", p);
-        //    app.EnterText("Entry_VerificationCode", vc);
+        [Test]
+        [Category("IncompleteLoginCheck")]
+        [TestCase("", "", "", "", "Login Failed. Login information incomplete.")]
+        [TestCase("", "123", "123", "DOGGY", "Login Failed. Login information incomplete.")]
+        [TestCase("", "", "", "DOGGY", "Login Failed. Login information incomplete.")]
+        [TestCase("sandipverma222@gmail.com", "2017", "2016", "DOGGY", "Login Failed. Passwords do not match.")]
+        [TestCase("fakeemail@gail", "2017", "2017", "DOGGY", "Login Failed. Please enter a valid email address.")]
+        [TestCase("sandipverma222@gmail.com", "2017", "2017", "DOGGY", "Login Success")]
+        public void TestIncompletLogin(string e, string p, string cp, string vc, string desiredOutput)
+        {
+            app.EnterText("LoginEntryEmail", e);
+            app.EnterText("LoginEntryPassword", p);
+            app.EnterText("LoginEntryConfirmPassword", cp);
+            app.EnterText("Entry_VerificationCode", vc);
 
-        //    app.Tap("btnLogin");
+            app.Tap("btnLogin");
 
-        //    Assert.IsTrue(LabelEquals("LoginLabelResponse", "Login Failed. Login information incomplete.") == r);
-        //}
+            Assert.IsTrue(LabelEquals("LoginLabelResponse", desiredOutput));
+        }
     }
 }
 
