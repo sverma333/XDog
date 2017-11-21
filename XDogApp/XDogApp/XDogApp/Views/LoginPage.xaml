@@ -1,20 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XDogApp.Views.LoginPage">
+             x:Class="XDogApp.Views.LoginPage"
+             Title="LoginPage">
     <StackLayout>
         <Label x:Name="Label_Email" Text="Email" />
-        <Entry x:Name="Entry_Email" Placeholder="Email" />
+        <Entry x:Name="Entry_Email" Placeholder="Email" AutomationId="LoginEntryEmail"/>
 
-        <Label x:Name="Label_Password" Text="Password" />
-        <Entry x:Name="Entry_Password" Placeholder="Password" />
-
-        <Button x:Name="btnSendverification" Text="Send Verification Code" Clicked="btnSendverification_Clicked" />
+        <Button x:Name="btnSendVerification" Text="Send Verification Code" Clicked="btnSendVerification_Clicked" AutomationId="btnSendVerification"/>
 
         <Label x:Name="Label_VerificationCode" Text="Verification Code" />
-        <Entry x:Name="Entry_VerificationCode" Placeholder="VerificationCode" />
+        <Entry x:Name="Entry_VerificationCode" Placeholder="VerificationCode" AutomationId="LoginEntryVerificationCode"/>
+        
+        <Label x:Name="Label_Password" Text="Password" />
+        <Entry x:Name="Entry_Password" Placeholder="Password" AutomationId="LoginEntryPassword"/>
 
-        <Button x:Name="btnLogin" Text="Log in" Clicked="btnLogin_Clicked" />
+        <Label x:Name="Label_ConfirmPassword" Text="Confirm Password" />
+        <Entry x:Name="Entry_ConfirmPassword" Placeholder="ConfirmPassword" AutomationId="LoginEntryConfirmPassword"/>
+
+        <Button x:Name="btnLogin" Text="Log in" Clicked="btnLogin_Clicked" AutomationId="btnLogin"/>
+        <Label x:Name="Label_Response" Text="Please Login" AutomationId="LoginLabelResponse"/>
 
 
     </StackLayout>

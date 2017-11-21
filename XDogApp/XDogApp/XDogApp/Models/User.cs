@@ -24,7 +24,7 @@ namespace XDogApp.Models
 
         public bool IsValid()
         {
-            return !StringUtils.AreAllNullOrWhiteSpace(Email, Password);
+            return !StringUtils.HasBlanks(Email, Password);
         }
     }
 }
