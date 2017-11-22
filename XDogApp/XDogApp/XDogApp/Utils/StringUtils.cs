@@ -15,7 +15,7 @@ namespace XDogApp.Utils
             bool ret = false;
 
             foreach (string s in prms)
-                if (!String.IsNullOrWhiteSpace(s))
+                if (String.IsNullOrWhiteSpace(s))
                 {
                     ret = true;
                     break;

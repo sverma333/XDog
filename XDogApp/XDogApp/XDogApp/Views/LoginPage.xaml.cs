@@ -42,7 +42,7 @@ namespace XDogApp.Views
             else
                 if (StringUtils.IsValidEmail(Entry_Email.Text))
                     setResponseLabel(false, $"Sending Verification Code to {Entry_Email.Text}"); ////////////////////////////////////////////////////////////////////////////////
-            else
+                else
                     setResponseLabel(true, "Login Failed. Please enter a valid email address.");
         }
 

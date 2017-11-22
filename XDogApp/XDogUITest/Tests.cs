@@ -8,7 +8,7 @@ using Xamarin.UITest.Queries;
 namespace XDogUITest
 {
     [TestFixture(Platform.Android)]
-    [TestFixture(Platform.iOS)]
+    // [TestFixture(Platform.iOS)]
     public class Tests
     {
         IApp app;
@@ -39,10 +39,10 @@ namespace XDogUITest
         }
 
         [Test]
-        [Category("CheckLoginVerification")]
-        [TestCase("", "Login Failed. Login information incomplete.!!")]
+        [Category("EmailVerification")]
+        [TestCase("", "Login Failed. Login information incomplete.")]
         [TestCase("fakeemail@s", "Login Failed. Please enter a valid email address.")]
-        [TestCase("fake@gmail", "Login Failed.Please enter a valid email address.")]
+        [TestCase("fake@gmail", "Login Failed. Please enter a valid email address.")]
         [TestCase("sandipverma222@gmail.com", "Sending Verification Code to sandipverma222@gmail.com")]
         public void TestIncompleteVerificationSend(string e, string res)
         {
@@ -55,23 +55,23 @@ namespace XDogUITest
         }
 
         [Test]
-        [Category("IncompleteLoginCheck")]
+        [Category("FullLogin")]
         [TestCase("", "", "", "", "Login Failed. Login information incomplete.")]
         [TestCase("", "123", "123", "DOGGY", "Login Failed. Login information incomplete.")]
         [TestCase("", "", "", "DOGGY", "Login Failed. Login information incomplete.")]
         [TestCase("sandipverma222@gmail.com", "2017", "2016", "DOGGY", "Login Failed. Passwords do not match.")]
         [TestCase("fakeemail@gail", "2017", "2017", "DOGGY", "Login Failed. Please enter a valid email address.")]
         [TestCase("sandipverma222@gmail.com", "2017", "2017", "DOGGY", "Login Success")]
-        public void TestIncompletLogin(string e, string p, string cp, string vc, string desiredOutput)
+        public void TestIncompletLogin(string e, string p, string cp, string vc, string res)
         {
             app.EnterText("LoginEntryEmail", e);
             app.EnterText("LoginEntryPassword", p);
             app.EnterText("LoginEntryConfirmPassword", cp);
-            app.EnterText("Entry_VerificationCode", vc);
+            app.EnterText("LoginEntryVerificationCode", vc);
 
             app.Tap("btnLogin");
 
-            Assert.IsTrue(LabelEquals("LoginLabelResponse", desiredOutput));
+            Assert.IsTrue(LabelEquals("LoginLabelResponse", res));
         }
     }
 }

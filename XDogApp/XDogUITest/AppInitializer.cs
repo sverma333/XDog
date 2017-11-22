@@ -14,7 +14,8 @@ namespace XDogUITest
             {
                 return ConfigureApp
                     .Android
-//                    .ApkFile("D:/Dev/XDog/XDog/XDogApp/XDogUITest/bin/Release/com.companyname.XDogApp-Signed.apk")
+                    .ApkFile(@".\..\..\..\XDogApp\XDogApp.Android\bin\Debug\com.companyname.XDogApp.apk")
+                    .PreferIdeSettings()
                     .StartApp();
             }
 
