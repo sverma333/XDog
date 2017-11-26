@@ -40,38 +40,38 @@ namespace XDogUITest
 
         [Test]
         [Category("EmailVerification")]
-        [TestCase("", "Login Failed. Login information incomplete.")]
-        [TestCase("fakeemail@s", "Login Failed. Please enter a valid email address.")]
-        [TestCase("fake@gmail", "Login Failed. Please enter a valid email address.")]
+        [TestCase("", "Registration Failed. Registration information incomplete.")]
+        [TestCase("fakeemail@s", "Registration Failed. Please enter a valid email address.")]
+        [TestCase("fake@gmail", "Registration Failed. Please enter a valid email address.")]
         [TestCase("sandipverma222@gmail.com", "Sending Verification Code to sandipverma222@gmail.com")]
         public void TestIncompleteVerificationSend(string e, string res)
         {
-            app.EnterText("LoginEntryEmail", e);
+            app.EnterText("RegisterEntryEmail", e);
 
             app.Tap("btnSendVerification");
 
-            Assert.IsTrue(LabelEquals("LoginLabelResponse", res));
+            Assert.IsTrue(LabelEquals("RegisterLabelResponse", res));
 
         }
 
         [Test]
-        [Category("FullLogin")]
-        [TestCase("", "", "", "", "Login Failed. Login information incomplete.")]
-        [TestCase("", "123", "123", "DOGGY", "Login Failed. Login information incomplete.")]
-        [TestCase("", "", "", "DOGGY", "Login Failed. Login information incomplete.")]
-        [TestCase("sandipverma222@gmail.com", "2017", "2016", "DOGGY", "Login Failed. Passwords do not match.")]
-        [TestCase("fakeemail@gail", "2017", "2017", "DOGGY", "Login Failed. Please enter a valid email address.")]
-        [TestCase("sandipverma222@gmail.com", "2017", "2017", "DOGGY", "Login Success")]
-        public void TestIncompletLogin(string e, string p, string cp, string vc, string res)
+        [Category("FullRegister")]
+        [TestCase("", "", "", "", "Registration Failed. Registration information incomplete.")]
+        [TestCase("", "123", "123", "DOGGY", "Registration Failed. Registration information incomplete.")]
+        [TestCase("", "", "", "DOGGY", "Registration Failed. Registration information incomplete.")]
+        [TestCase("sandipverma222@gmail.com", "2017", "2016", "DOGGY", "Registration Failed. Passwords do not match.")]
+        [TestCase("fakeemail@gail", "2017", "2017", "DOGGY", "Registration Failed. Please enter a valid email address.")]
+        [TestCase("sandipverma222@gmail.com", "2017", "2017", "DOGGY", "Registration has been successful.")]
+        public void TestIncompletRegister(string e, string p, string cp, string vc, string res)
         {
-            app.EnterText("LoginEntryEmail", e);
-            app.EnterText("LoginEntryPassword", p);
-            app.EnterText("LoginEntryConfirmPassword", cp);
-            app.EnterText("LoginEntryVerificationCode", vc);
+            app.EnterText("RegisterEntryEmail", e);
+            app.EnterText("RegisterEntryPassword", p);
+            app.EnterText("RegisterEntryConfirmPassword", cp);
+            app.EnterText("RegisterEntryVerificationCode", vc);
 
-            app.Tap("btnLogin");
+            app.Tap("btnRegister");
 
-            Assert.IsTrue(LabelEquals("LoginLabelResponse", res));
+            Assert.IsTrue(LabelEquals("RegisterLabelResponse", res));
         }
     }
 }

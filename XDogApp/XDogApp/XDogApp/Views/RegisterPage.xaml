@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XDogApp.Views.RegisterPage"
+             Title="RegisterPage">
+    <StackLayout>
+        <Label x:Name="Label_Email" Text="Email" />
+        <Entry x:Name="Entry_Email" Placeholder="Email" AutomationId="RegisterEntryEmail"/>
+
+        <Button x:Name="btnSendVerification" Text="Send Verification Code" Clicked="btnSendVerification_Clicked" AutomationId="btnSendVerification"/>
+
+        <Label x:Name="Label_VerificationCode" Text="Verification Code" />
+        <Entry x:Name="Entry_VerificationCode" Placeholder="VerificationCode" AutomationId="RegisterEntryVerificationCode"/>
+        
+        <Label x:Name="Label_Password" Text="Password" />
+        <Entry x:Name="Entry_Password" Placeholder="Password" AutomationId="RegisterEntryPassword"/>
+
+        <Label x:Name="Label_ConfirmPassword" Text="Confirm Password" />
+        <Entry x:Name="Entry_ConfirmPassword" Placeholder="ConfirmPassword" AutomationId="RegisterEntryConfirmPassword"/>
+
+        <Button x:Name="btnRegister" Text="Register" Clicked="btnRegister_Clicked" AutomationId="btnRegister"/>
+        <Label x:Name="Label_Response" Text="Please Register" AutomationId="RegisterLabelResponse"/>
+
+
+    </StackLayout>
+</ContentPage>
