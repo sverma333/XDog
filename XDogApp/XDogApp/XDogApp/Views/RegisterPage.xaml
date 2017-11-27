@@ -1,26 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XDogApp.Views.RegisterPage"
-             Title="RegisterPage">
-    <StackLayout>
-        <Label x:Name="Label_Email" Text="Email" />
-        <Entry x:Name="Entry_Email" Placeholder="Email" AutomationId="RegisterEntryEmail"/>
+             x:Class="XDogApp.Views.RegisterPage"     
+             xmlns:vm1="clr-namespace:XDogApp.ViewModels; assembly=XDogApp"
+             Title="RegisterPage"
+             xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp">
 
-        <Button x:Name="btnSendVerification" Text="Send Verification Code" Clicked="btnSendVerification_Clicked" AutomationId="btnSendVerification"/>
+    <ContentPage.BindingContext><vm1:RegisterViewModel/></ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:convTextColor x:Key="convTextColor"/>
+            <conv:convBackgroundColor x:Key="convBackgroundColor"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="0,20,0,0">
+
+        <Label x:Name="Label_Email" Text="Email"/>
+        <Entry x:Name="Entry_Email" Placeholder="Email" AutomationId="RegisterEntryEmail" Text="{Binding Email}"/>
+
+        <Button x:Name="btnSendVerification" Text="Send Verification Code" Command="{Binding ClickVerification}" AutomationId="btnSendVerification"/>
 
         <Label x:Name="Label_VerificationCode" Text="Verification Code" />
-        <Entry x:Name="Entry_VerificationCode" Placeholder="VerificationCode" AutomationId="RegisterEntryVerificationCode"/>
+        <Entry x:Name="Entry_VerificationCode" Placeholder="VerificationCode" AutomationId="RegisterEntryVerificationCode" Text="{Binding VerficationCode}"/>
         
         <Label x:Name="Label_Password" Text="Password" />
-        <Entry x:Name="Entry_Password" Placeholder="Password" AutomationId="RegisterEntryPassword"/>
+        <Entry x:Name="Entry_Password" Placeholder="Password" AutomationId="RegisterEntryPassword" Text="{Binding Password}"/>
 
         <Label x:Name="Label_ConfirmPassword" Text="Confirm Password" />
-        <Entry x:Name="Entry_ConfirmPassword" Placeholder="ConfirmPassword" AutomationId="RegisterEntryConfirmPassword"/>
+        <Entry x:Name="Entry_ConfirmPassword" Placeholder="ConfirmPassword" AutomationId="RegisterEntryConfirmPassword" Text="{Binding ConfirmPassword}"/>
 
-        <Button x:Name="btnRegister" Text="Register" Clicked="btnRegister_Clicked" AutomationId="btnRegister"/>
-        <Label x:Name="Label_Response" Text="Please Register" AutomationId="RegisterLabelResponse"/>
-
+        <Button x:Name="btnRegister" Text="Register" Command="{Binding ClickRegister}" AutomationId="btnRegister"/>
+        <Label x:Name="Label_Response" AutomationId="RegisterLabelResponse" Text="{Binding ResponseText, Mode=TwoWay}" 
+               TextColor="{Binding ResponseType, Converter={StaticResource convTextColor}}" BackgroundColor="{Binding ResponseType, Converter={StaticResource convBackgroundColor}}"/>
 
     </StackLayout>
 </ContentPage>

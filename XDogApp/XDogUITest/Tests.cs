@@ -40,9 +40,9 @@ namespace XDogUITest
 
         [Test]
         [Category("EmailVerification")]
-        [TestCase("", "Registration Failed. Registration information incomplete.")]
-        [TestCase("fakeemail@s", "Registration Failed. Please enter a valid email address.")]
-        [TestCase("fake@gmail", "Registration Failed. Please enter a valid email address.")]
+        [TestCase("", "Registration failed. Registration information incomplete.")]
+        [TestCase("fakeemail@s", "Registration failed. Please enter a valid email address.")]
+        [TestCase("fake@gmail", "Registration failed. Please enter a valid email address.")]
         [TestCase("sandipverma222@gmail.com", "Sending Verification Code to sandipverma222@gmail.com")]
         public void TestIncompleteVerificationSend(string e, string res)
         {
@@ -56,11 +56,11 @@ namespace XDogUITest
 
         [Test]
         [Category("FullRegister")]
-        [TestCase("", "", "", "", "Registration Failed. Registration information incomplete.")]
-        [TestCase("", "123", "123", "DOGGY", "Registration Failed. Registration information incomplete.")]
-        [TestCase("", "", "", "DOGGY", "Registration Failed. Registration information incomplete.")]
-        [TestCase("sandipverma222@gmail.com", "2017", "2016", "DOGGY", "Registration Failed. Passwords do not match.")]
-        [TestCase("fakeemail@gail", "2017", "2017", "DOGGY", "Registration Failed. Please enter a valid email address.")]
+        [TestCase("", "", "", "", "Registration failed. Registration information incomplete.")]
+        [TestCase("", "123", "123", "DOGGY", "Registration failed. Registration information incomplete.")]
+        [TestCase("", "", "", "DOGGY", "Registration failed. Registration information incomplete.")]
+        [TestCase("sandipverma222@gmail.com", "2017", "2016", "DOGGY", "Registration failed. Passwords do not match.")]
+        [TestCase("fakeemail@gail", "2017", "2017", "DOGGY", "Registration failed. Please enter a valid email address.")]
         [TestCase("sandipverma222@gmail.com", "2017", "2017", "DOGGY", "Registration has been successful.")]
         public void TestIncompletRegister(string e, string p, string cp, string vc, string res)
         {
