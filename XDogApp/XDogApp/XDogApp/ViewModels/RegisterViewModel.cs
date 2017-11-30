@@ -6,17 +6,40 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 using XDogApp.Models;
+using Microsoft.WindowsAzure.MobileServices;
+using XDogApp;
+
+using XDogApp.Services;
 
 namespace XDogApp.ViewModels
 {
     class RegisterViewModel : BaseViewModel
     {
+        public IDataStore<BaseAzureData> DataStore = null;
+
+        public ICommand ClickTest1 { get; private set; }
+        public ICommand ClickTest2 { get; private set; }
 
         public ICommand ClickVerification { get; private set; }
         public ICommand ClickRegister { get; private set; }
 
         public RegisterViewModel()
         {
+            //SV initialise backend framework
+            DataStore = (IDataStore<BaseAzureData>)DependencyService.Get<AzureDataStore<TodoItem>>() ?? new MockDataStore<TodoItem>();
+
+            ClickTest1 = new Command(async () =>
+            {
+                TodoItem item = new TodoItem { Text = "Awesome item " + DateTime.Now.ToString("yyyy-MM-dd HH:mmm:ss") };
+                await DataStore.AddItemAsync(item);
+            });
+
+            ClickTest2 = new Command(async () =>
+            {
+                int itemsCount = (await DataStore.GetItemsAsync(true)).ToList().Count;
+                System.Diagnostics.Debug.WriteLine($"Rows in table {itemsCount}");
+            });
+
             ClickVerification = new Command(() =>
             {
                 Tuple<bool, string> res = GetVerificationResponse(Email);

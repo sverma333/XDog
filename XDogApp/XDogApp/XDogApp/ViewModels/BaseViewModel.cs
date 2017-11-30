@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
+
 namespace XDogApp.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged

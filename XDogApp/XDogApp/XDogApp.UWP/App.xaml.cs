@@ -15,6 +15,11 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.WindowsAzure.MobileServices;
+
 namespace XDogApp.UWP
 {
     /// <summary>
@@ -22,12 +27,19 @@ namespace XDogApp.UWP
     /// </summary>
     sealed partial class App : Application
     {
+        //SV Added
+        //public static MobileServiceClient MobileService = new MobileServiceClient("https://xdogserver.azurewebsites.net");
+
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
         public App()
         {
+
+            //SV Added
+            AppCenter.Start("fd3b9965-2833-481b-a812-3cb085f66bc8", typeof(Analytics), typeof(Crashes));
+
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }

@@ -2,7 +2,10 @@
   "dependencies": {
     "Microsoft.AppCenter.Analytics": "1.0.1",
     "Microsoft.AppCenter.Crashes": "1.0.1",
+    "Microsoft.Azure.Mobile.Client": "4.0.2",
+    "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.0.2",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
+    "Xam.Plugin.Connectivity": "3.0.3",
     "Xamarin.Forms": "2.4.0.280"
   },
   "frameworks": {
