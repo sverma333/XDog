@@ -14,26 +14,33 @@ using System.IO;
 namespace XDogApp.Services
 {
     public class AzureDataStore<T> : IDataStore<BaseAzureData> where T : BaseAzureData
-    { 
-        bool isInitialized;
+    {
         IMobileServiceSyncTable<T> itemsTable;
+
+        public static MobileServiceClient MobileService = null;
+
+        public async Task InitializeAsync()
+        {
+
+            MobileService = new MobileServiceClient(App.sAzureMobileAppUrl);
+            string path = "app.db";
+
+            var store = new MobileServiceSQLiteStoreWithLogging(path, PCL_AppConstants.bLogSqlLite);
+            store.DefineTable<TodoItem>();
+            await MobileService.SyncContext.InitializeAsync(store, new MobileServiceSyncHandler());
+            itemsTable = MobileService.GetSyncTable<T>();
+        }
 
         public async Task<IEnumerable<BaseAzureData>> GetItemsAsync(bool forceRefresh = false)
         {
-            await InitializeAsync();
             if (forceRefresh)
                 await PullLatestAsync();
 
             return await itemsTable.ToEnumerableAsync();
         }
 
-        public static MobileServiceClient MobileService = null;
-        public static MobileServiceSQLiteStore SQLiteStore = null;
-
-
         public async Task<BaseAzureData> GetItemAsync(string id)
         {
-            await InitializeAsync();
             await PullLatestAsync();
             var items = await itemsTable.Where(s => ((BaseAzureData)s).Id == id).ToListAsync();
 
@@ -45,7 +52,6 @@ namespace XDogApp.Services
 
         public async Task<bool> AddItemAsync(BaseAzureData item)
         {
-            await InitializeAsync();
             await PullLatestAsync();
             await itemsTable.InsertAsync((T)item);
             await SyncAsync();
@@ -55,7 +61,6 @@ namespace XDogApp.Services
 
         public async Task<bool> UpdateItemAsync(BaseAzureData item)
         {
-            await InitializeAsync();
             await itemsTable.UpdateAsync((T)item);
             await SyncAsync();
 
@@ -64,35 +69,11 @@ namespace XDogApp.Services
 
         public async Task<bool> DeleteItemAsync(BaseAzureData item)
         {
-            await InitializeAsync();
             await PullLatestAsync();
             await itemsTable.DeleteAsync((T)item);
             await SyncAsync();
 
             return true;
-        }
-
-        public async Task InitializeAsync()
-        {
-            if (isInitialized)
-                return;
-
-
-            MobileService = new MobileServiceClient(App.sAzureMobileAppUrl);
-            string path = "app123.db";
-
-            var store = new MobileServiceSQLiteStore(path);
-            store.DefineTable<TodoItem>();
-            await MobileService.SyncContext.InitializeAsync(store, new MobileServiceSyncHandler());
-            itemsTable = MobileService.GetSyncTable<T>();
-
-
-
-            //App.SQLiteStore.DefineTable<TodoItem>();
-            //await App.MobileService.SyncContext.InitializeAsync(App.SQLiteStore, new MobileServiceSyncHandler());
-            //itemsTable = App.MobileService.GetSyncTable<T>();
-
-            isInitialized = true;
         }
 
         public async Task<bool> PullLatestAsync()
@@ -121,6 +102,8 @@ namespace XDogApp.Services
                 Debug.WriteLine("Unable to sync items, we are offline");
                 return false;
             }
+
+            
             try
             {
                 await MobileService.SyncContext.PushAsync();
@@ -134,16 +117,24 @@ namespace XDogApp.Services
                     Debug.WriteLine("Unable to sync, that is alright as we have offline capabilities: " + exc);
                     return false;
                 }
+
                 foreach (var error in exc.PushResult.Errors)
                 {
+                    // SV added code to sync later, since asp.net service is down
+                    if (error.Status == System.Net.HttpStatusCode.Forbidden)
+                    {
+                        Debug.WriteLine("Unable to sync, that is alright as we have offline capabilities: " + error.Status.ToString());
+                        return false;
+                    }
+
                     if (error.OperationKind == MobileServiceTableOperationKind.Update && error.Result != null)
                     {
                         //Update failed, reverting to server's copy.
                         await error.CancelAndUpdateItemAsync(error.Result);
                     }
-                    else
+                    else 
                     {
-                        // Discard local change.
+                        // Discard local change
                         await error.CancelAndDiscardItemAsync();
                     }
 

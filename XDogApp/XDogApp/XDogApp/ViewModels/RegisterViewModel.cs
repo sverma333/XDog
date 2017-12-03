@@ -27,6 +27,7 @@ namespace XDogApp.ViewModels
         {
             //SV initialise backend framework
             DataStore = (IDataStore<BaseAzureData>)DependencyService.Get<AzureDataStore<TodoItem>>() ?? new MockDataStore<TodoItem>();
+            DataStore.InitializeAsync();
 
             ClickTest1 = new Command(async () =>
             {

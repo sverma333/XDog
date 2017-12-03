@@ -1,4 +1,6 @@
-﻿using Microsoft.WindowsAzure.MobileServices;
+﻿#define OFFLINE_SYNC_ENABLED
+
+using Microsoft.WindowsAzure.MobileServices;
 using Microsoft.WindowsAzure.MobileServices.SQLiteStore;
 using System;
 using System.Collections.Generic;
@@ -13,21 +15,15 @@ namespace XDogApp
 {
     public partial class App : Application
     {
-        //SV Added
-        public static bool bUseMockDataStore = false;
-        public static bool bUseTestASPNetServer = false;
 
-        public static string sAzureMobileAppUrl = (bUseTestASPNetServer ? "http://localhost:51544/" : "http://xdogserver.azurewebsites.net");
-
-        //public static MobileServiceClient MobileService = new MobileServiceClient(sAzureMobileAppUrl);
-        //public static MobileServiceSQLiteStore SQLiteStore = new MobileServiceSQLiteStore("app1.db");
+        public static string sAzureMobileAppUrl = (PCL_AppConstants.bUseTestASPNetServer ? "http://localhost:51544/" : "http://xdogserver.azurewebsites.net");
 
         public App()
         {
 
             InitializeComponent();
 
-            if (bUseMockDataStore)
+            if (PCL_AppConstants.bUseMockDataStore)
                 DependencyService.Register<MockDataStore<TodoItem>>();
             else
                 DependencyService.Register<AzureDataStore<TodoItem>>();
