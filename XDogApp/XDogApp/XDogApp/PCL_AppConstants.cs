@@ -11,5 +11,10 @@ namespace XDogApp
         public static bool bUseMockDataStore = false;
         public static bool bUseTestASPNetServer = false;
         public static bool bLogSqlLite = false;
+
+        public static string sLocalURL = "http://localhost:51544/";
+        public static string sMobileApplURL = "http://xdogserver.azurewebsites.net";
+
+        public static string sAzureMobileAppUrl = (bUseTestASPNetServer ? sLocalURL : sMobileApplURL);
     }
 }

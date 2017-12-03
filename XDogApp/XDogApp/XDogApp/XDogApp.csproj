@@ -42,7 +42,6 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\AzureTestData.cs" />
-    <Compile Include="Models\Constants.cs" />
     <Compile Include="Models\Token.cs" />
     <Compile Include="Models\RegisterUser.cs" />
     <Compile Include="Models\User.cs" />

@@ -16,8 +16,6 @@ namespace XDogApp
     public partial class App : Application
     {
 
-        public static string sAzureMobileAppUrl = (PCL_AppConstants.bUseTestASPNetServer ? "http://localhost:51544/" : "http://xdogserver.azurewebsites.net");
-
         public App()
         {
 
