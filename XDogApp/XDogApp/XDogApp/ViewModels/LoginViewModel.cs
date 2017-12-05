@@ -13,46 +13,21 @@ using XDogApp.Services;
 
 namespace XDogApp.ViewModels
 {
-    class RegisterViewModel : BaseViewModel
+    class LoginViewModel : BaseViewModel
     {
         public IDataStore<BaseAzureData> DataStore = null;
 
-        //public ICommand ClickTest1 { get; private set; }
-        //public ICommand ClickTest2 { get; private set; }
+        public ICommand ClickLogin { get; private set; }
 
-        public ICommand ClickVerification { get; private set; }
-        public ICommand ClickRegister { get; private set; }
-
-        public RegisterViewModel()
+        public LoginViewModel()
         {
             //SV initialise backend framework
             DataStore = (IDataStore<BaseAzureData>)DependencyService.Get<AzureDataStore<TodoItem>>() ?? new MockDataStore<TodoItem>();
             DataStore.InitializeAsync();
 
-//            ClickTest1 = new Command(async () =>
-//            {
-//                TodoItem item = new TodoItem { Text = "Awesome item " + DateTime.Now.ToString("yyyy-MM-dd HH:mmm:ss") };
-//                await DataStore.AddItemAsync(item);
-//            });
-
-//            ClickTest2 = new Command(async () =>
-//            {
-//                var lst = (await DataStore.GetItemsAsync(true)).ToList();
-////                int itemsCount = (await DataStore.GetItemsAsync(true)).ToList().Count;
-//                int itemsCount = lst.Count;
-//                System.Diagnostics.Debug.WriteLine($"Rows in table {itemsCount}");
-//            });
-
-            ClickVerification = new Command(() =>
+            ClickLogin = new Command(() =>
             {
-                Tuple<bool, string> res = GetVerificationResponse(Email);
-                ResponseType = (res.Item1 ? 1 : 2);
-                ResponseText = res.Item2;
-            }) ;
-
-            ClickRegister = new Command(() =>
-            {
-                Tuple<bool, string> res = GetRegResponse(Email, VerficationCode, Password, ConfirmPassword);
+                Tuple<bool, string> res = GetLoginResponse(Email, Password);
                 ResponseType = (res.Item1 ? 1 : 2);
                 ResponseText = res.Item2;
             });
@@ -136,41 +111,20 @@ namespace XDogApp.ViewModels
         #endregion
 
 
-        public Tuple<bool, string> GetRegResponse(string email, string verificationCode, string password, string confirmPassword)
+        public Tuple<bool, string> GetLoginResponse(string email, string password)
         {
             Tuple<bool, string> res = null;
 
-            RegisterUser u = new RegisterUser(email, verificationCode, password, confirmPassword);
+            LoginUser u = new LoginUser(email, password);
 
             if (u.IsValid())
-                res = new Tuple<bool, string>(true, "Registration has been successful.");
+                res = new Tuple<bool, string>(true, "Login has been successful.");
             else
             {
                 if (u.HasBlanks())
-                    res = new Tuple<bool, string>(false, "Registration failed. Registration information incomplete.");
+                    res = new Tuple<bool, string>(false, "Login failed. Login information incomplete.");
                 else if (u.InValidEmail())
-                    res = new Tuple<bool, string>(false, "Registration failed. Please enter a valid email address.");
-                else if (u.PasswordMisMatch())
-                    res = new Tuple<bool, string>(false, "Registration failed. Passwords do not match.");
-            }
-
-            return res;
-        }
-
-        public Tuple<bool, string> GetVerificationResponse(string email)
-        {
-            Tuple<bool, string> res = null;
-
-            VertifyUser u = new VertifyUser(email);
-
-            if (u.IsValid())
-                res = new Tuple<bool, string>(true, $"Sending Verification Code to {email}");
-            else
-            {
-                if (u.HasBlanks())
-                    res = new Tuple<bool, string>(false, "Registration failed. Registration information incomplete.");
-                else if (u.InValidEmail())
-                    res = new Tuple<bool, string>(false, "Registration failed. Please enter a valid email address.");
+                    res = new Tuple<bool, string>(false, "Login failed. Please enter a valid email address.");
             }
 
             return res;

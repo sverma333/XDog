@@ -23,7 +23,7 @@ namespace XDogApp.AppResources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class AppResources {
+    public class AppResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -37,7 +37,7 @@ namespace XDogApp.AppResources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("XDogApp.AppResources.AppResources", typeof(AppResources).GetTypeInfo().Assembly);
@@ -52,7 +52,7 @@ namespace XDogApp.AppResources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -62,11 +62,83 @@ namespace XDogApp.AppResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Email def.
+        ///   Looks up a localized string similar to Please Login.
         /// </summary>
-        internal static string RegisterEmail {
+        public static string LoginResponseDef {
+            get {
+                return ResourceManager.GetString("LoginResponseDef", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirm Password.
+        /// </summary>
+        public static string RegisterConfirmPassword {
+            get {
+                return ResourceManager.GetString("RegisterConfirmPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email.
+        /// </summary>
+        public static string RegisterEmail {
             get {
                 return ResourceManager.GetString("RegisterEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Login.
+        /// </summary>
+        public static string RegisterLogin {
+            get {
+                return ResourceManager.GetString("RegisterLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        public static string RegisterPassword {
+            get {
+                return ResourceManager.GetString("RegisterPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Register.
+        /// </summary>
+        public static string RegisterRegister {
+            get {
+                return ResourceManager.GetString("RegisterRegister", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please Register.
+        /// </summary>
+        public static string RegisterResponseDef {
+            get {
+                return ResourceManager.GetString("RegisterResponseDef", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send Verification Code.
+        /// </summary>
+        public static string RegisterSendVerificationCode {
+            get {
+                return ResourceManager.GetString("RegisterSendVerificationCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Verification Code.
+        /// </summary>
+        public static string RegisterVerificationCode {
+            get {
+                return ResourceManager.GetString("RegisterVerificationCode", resourceCulture);
             }
         }
     }

@@ -53,11 +53,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AppResources.fr.resx</DependentUpon>
     </Compile>
-    <Compile Include="AppResources\AppResources.en.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AppResources.en.resx</DependentUpon>
-    </Compile>
     <Compile Include="AppResources\AppResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -67,6 +62,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\AzureTestData.cs" />
+    <Compile Include="Models\LoginUser.cs" />
     <Compile Include="Models\Token.cs" />
     <Compile Include="Models\RegisterUser.cs" />
     <Compile Include="Models\User.cs" />
@@ -81,30 +77,33 @@
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\Converters\convTextColor.cs" />
     <Compile Include="ViewModels\Converters\convBackgroundColor.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\RegisterViewModel.cs" />
+    <Compile Include="Views\CarouselCPage.xaml.cs">
+      <DependentUpon>CarouselCPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\RegisterPage.xaml.cs">
       <DependentUpon>RegisterPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AppResources\AppResources.it.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.it.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="AppResources\AppResources.de.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="AppResources\AppResources.fr.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.fr.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="AppResources\AppResources.en.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>AppResources.en.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="AppResources\AppResources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="MainPage.xaml">
@@ -226,6 +225,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helpers\TranslateExtension.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\CarouselCPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.4.0.280\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.4.0.280\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets')" />

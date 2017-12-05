@@ -120,4 +120,7 @@
   <data name="RegisterEmail" xml:space="preserve">
     <value> Email en</value>
   </data>
+  <data name="RegisterSendVerificationCode" xml:space="preserve">
+    <value>Send Verification Code en</value>
+  </data>
 </root>

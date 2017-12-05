@@ -62,12 +62,29 @@ namespace XDogUITest
         [TestCase("sandipverma222@gmail.com", "2017", "2016", "DOGGY", "Registration failed. Passwords do not match.")]
         [TestCase("fakeemail@gail", "2017", "2017", "DOGGY", "Registration failed. Please enter a valid email address.")]
         [TestCase("sandipverma222@gmail.com", "2017", "2017", "DOGGY", "Registration has been successful.")]
-        public void TestIncompletRegister(string e, string p, string cp, string vc, string res)
+        public void TestIncompleteRegister(string e, string p, string cp, string vc, string res)
         {
             app.EnterText("RegisterEntryEmail", e);
             app.EnterText("RegisterEntryPassword", p);
             app.EnterText("RegisterEntryConfirmPassword", cp);
             app.EnterText("RegisterEntryVerificationCode", vc);
+
+            app.Tap("btnRegister");
+
+            Assert.IsTrue(LabelEquals("RegisterLabelResponse", res));
+        }
+
+        [Test]
+        [Category("Login")]
+        [TestCase("", "", "Login failed. Login information incomplete.")]
+        [TestCase("", "123", "Login failed. Login information incomplete.")]
+        [TestCase("sv", "", "Login failed. Login information incomplete.")]
+        [TestCase("fakeemail@gail", "2017", "Login failed. Please enter a valid email address.")]
+        [TestCase("sandipverma222@gmail.com", "2017", "Login has been successful.")]
+        public void TestIncompleteLogin(string e,  string p, string res)
+        {
+            app.EnterText("RegisterEntryEmail", e);
+            app.EnterText("RegisterEntryPassword", p);
 
             app.Tap("btnRegister");
 

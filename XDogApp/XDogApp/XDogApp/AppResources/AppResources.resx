@@ -117,7 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="LoginResponseDef" xml:space="preserve">
+    <value>Please Login</value>
+  </data>
+  <data name="RegisterConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
   <data name="RegisterEmail" xml:space="preserve">
-    <value>Email def</value>
+    <value>Email</value>
+  </data>
+  <data name="RegisterLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="RegisterPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="RegisterRegister" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="RegisterResponseDef" xml:space="preserve">
+    <value>Please Register</value>
+  </data>
+  <data name="RegisterSendVerificationCode" xml:space="preserve">
+    <value>Send Verification Code</value>
+  </data>
+  <data name="RegisterVerificationCode" xml:space="preserve">
+    <value>Verification Code</value>
   </data>
 </root>

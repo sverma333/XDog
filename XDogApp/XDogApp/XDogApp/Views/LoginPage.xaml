@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XDogApp.Views.RegisterPage"     
+             x:Class="XDogApp.Views.LoginPage"     
              xmlns:vm1="clr-namespace:XDogApp.ViewModels; assembly=XDogApp"
-             Title="RegisterPage"
+             Title="LoginPage"
              xmlns:t="clr-namespace:XDogApp.Helpers"
              xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp">
 
-    <ContentPage.BindingContext><vm1:RegisterViewModel/></ContentPage.BindingContext>
+    <ContentPage.BindingContext><vm1:LoginViewModel/></ContentPage.BindingContext>
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -21,22 +21,13 @@
         <Label x:Name="Label_Email" Text="{t:Translate RegisterEmail}"/>
         <Entry x:Name="Entry_Email" Placeholder="{t:Translate RegisterEmail}" AutomationId="RegisterEntryEmail" Text="{Binding Email}"/>
 
-        <Button x:Name="btnSendVerification" Text="{t:Translate RegisterSendVerificationCode}" Command="{Binding ClickVerification}" AutomationId="btnSendVerification"/>
-
-        <Label x:Name="Label_VerificationCode" Text="{t:Translate RegisterVerificationCode}" />
-        <Entry x:Name="Entry_VerificationCode" Placeholder="{t:Translate RegisterVerificationCode}" AutomationId="RegisterEntryVerificationCode" Text="{Binding VerficationCode}"/>
-
         <Label x:Name="Label_Password" Text="{t:Translate RegisterPassword}" />
         <Entry x:Name="Entry_Password" Placeholder="{t:Translate RegisterPassword}" AutomationId="RegisterEntryPassword" Text="{Binding Password}"/>
 
-        <Label x:Name="Label_ConfirmPassword" Text="{t:Translate RegisterConfirmPassword}" />
-        <Entry x:Name="Entry_ConfirmPassword" Placeholder="{t:Translate RegisterConfirmPassword}" AutomationId="RegisterEntryConfirmPassword" Text="{Binding ConfirmPassword}"/>
-
-        <Button x:Name="btnRegister" Text="{t:Translate RegisterRegister}" Command="{Binding ClickRegister}" AutomationId="btnRegister"/>
+        <Button x:Name="btnRegister" Text="{t:Translate RegisterLogin}" Command="{Binding ClickLogin}" AutomationId="btnRegister"/>
+        
         <Label x:Name="Label_Response" AutomationId="RegisterLabelResponse" Text="{Binding ResponseText, Mode=TwoWay}" 
                TextColor="{Binding ResponseType, Converter={StaticResource convTextColor}}" BackgroundColor="{Binding ResponseType, Converter={StaticResource convBackgroundColor}}"/>
 
-        <!--<Button x:Name="btnTest1" Text="Test:Add" Command="{Binding ClickTest1}" AutomationId="btnTest1"/>
-        <Button x:Name="btnTest2" Text="Test:Get" Command="{Binding ClickTest2}" AutomationId="btnTest2"/>-->
     </StackLayout>
 </ContentPage>

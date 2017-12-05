@@ -32,10 +32,11 @@ namespace XDogApp
             if (Device.RuntimePlatform == Device.iOS)
                 MainPage = new MainPage();
             else
-                MainPage = new XDogApp.Views.RegisterPage();
-//            MainPage = new NavigationPage(new MainPage());
+                MainPage = new XDogApp.Views.LoginPage();
+            //  MainPage = new XDogApp.Views.RegisterPage();
+            //            MainPage = new NavigationPage(new MainPage());
 
-            
+
         }
 
         protected override void OnStart()
