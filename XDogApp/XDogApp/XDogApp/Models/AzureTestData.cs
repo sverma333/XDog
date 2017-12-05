@@ -7,15 +7,12 @@ namespace XDogApp.Models
 {
     public class BaseAzureData 
     {
-        public BaseAzureData() { }
         public string Id { get; set; }
-        public string Text { get; set; }
     }
 
     public class TodoItem : BaseAzureData
     {
-        public TodoItem() : base() { }
-
+        public string Text { get; set; }
         public bool Complete { get; set; }
     }
 }

@@ -37,7 +37,9 @@ namespace XDogApp.ViewModels
 
             ClickTest2 = new Command(async () =>
             {
-                int itemsCount = (await DataStore.GetItemsAsync(true)).ToList().Count;
+                var lst = (await DataStore.GetItemsAsync(true)).ToList();
+//                int itemsCount = (await DataStore.GetItemsAsync(true)).ToList().Count;
+                int itemsCount = lst.Count;
                 System.Diagnostics.Debug.WriteLine($"Rows in table {itemsCount}");
             });
 

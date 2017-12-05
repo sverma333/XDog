@@ -2,6 +2,7 @@
 
 using Microsoft.WindowsAzure.MobileServices;
 using Microsoft.WindowsAzure.MobileServices.SQLiteStore;
+using Plugin.Multilingual;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,8 @@ namespace XDogApp
         {
 
             InitializeComponent();
+
+            AppResources.AppResources.Culture = CrossMultilingual.Current.DeviceCultureInfo;
 
             if (PCL_AppConstants.bUseMockDataStore)
                 DependencyService.Register<MockDataStore<TodoItem>>();
