@@ -9,20 +9,16 @@ using XDogApp.ServiceData;
 
 namespace XDogApp.Services
 {
-    public class LoginServices
+    public class LoginServices : BaseApiService
     {
-
         public async Task<bool> RegisterAsync(string email, string verificationCode, string password, string confirmpassword)
         {
-            string serviceEnding = "/api/Account";
-            RegisterBindingModel d = new RegisterBindingModel() { Email = email, Password = password, ConfirmPassword = confirmpassword };
+            return await callServer("/api/Account/Register", new RegisterBindingModel() { Email = email, Password = password, ConfirmPassword = confirmpassword });
+        }
 
-            HttpClient client = new HttpClient();
-            HttpContent context = new StringContent(JsonConvert.SerializeObject(d));
-
-            var response = await client.PostAsync(PCL_AppConstants.sCurrentServiceURL + serviceEnding, context);
-
-            return response.IsSuccessStatusCode;
+        public async Task<bool> VerifyAsync(string email)
+        {
+            return await callServer($"/api/Account/Verify", new OneStringBindingModel() { Prm1 = email});
         }
     }
 }

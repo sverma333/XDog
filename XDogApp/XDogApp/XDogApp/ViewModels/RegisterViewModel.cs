@@ -44,16 +44,16 @@ namespace XDogApp.ViewModels
 //                System.Diagnostics.Debug.WriteLine($"Rows in table {itemsCount}");
 //            });
 
-            ClickVerification = new Command(() =>
+            ClickVerification = new Command(async () =>
             {
-                Tuple<bool, string> res = GetVerificationResponse(Email);
+                Tuple<bool, string> res = await GetVerificationResponse(Email);
                 ResponseType = (res.Item1 ? 1 : 2);
                 ResponseText = res.Item2;
             }) ;
 
-            ClickRegister = new Command(() =>
+            ClickRegister = new Command(async () =>
             {
-                Tuple<bool, string> res = GetRegResponse(Email, VerficationCode, Password, ConfirmPassword);
+                Tuple<bool, string> res = await GetRegResponse(Email, VerficationCode, Password, ConfirmPassword);
                 ResponseType = (res.Item1 ? 1 : 2);
                 ResponseText = res.Item2;
             });
@@ -137,7 +137,7 @@ namespace XDogApp.ViewModels
         #endregion
 
 
-        public async Tuple<bool, string> GetRegResponse(string email, string verificationCode, string password, string confirmPassword)
+        public async Task<Tuple<bool, string>> GetRegResponse(string email, string verificationCode, string password, string confirmPassword)
         {
             Tuple<bool, string> res = null;
 
@@ -145,8 +145,11 @@ namespace XDogApp.ViewModels
 
             if (u.IsValid())
             {
-                bool isSuccess = await loginServices.RegisterAsync(u.Email, u.VerificationCode, u.Password, u.ConfirmPassword)
-                //res = new Tuple<bool, string>(true, "Registration has been successful.");
+                bool isSuccess = await loginServices.RegisterAsync(u.Email, u.VerificationCode, u.Password, u.ConfirmPassword);
+                if (isSuccess)
+                    res = new Tuple<bool, string>(true, "Registration has been successful.");
+                else
+                    res = new Tuple<bool, string>(false, "Registration failed at the server");
             }
             else
             {
@@ -161,14 +164,20 @@ namespace XDogApp.ViewModels
             return res;
         }
 
-        public Tuple<bool, string> GetVerificationResponse(string email)
+        public async Task<Tuple<bool, string>> GetVerificationResponse(string email)
         {
             Tuple<bool, string> res = null;
 
             VertifyUser u = new VertifyUser(email);
 
             if (u.IsValid())
-                res = new Tuple<bool, string>(true, $"Sending Verification Code to {email}");
+            {
+                bool isSuccess = await loginServices.VerifyAsync(u.Email);
+                if (isSuccess)
+                    res = new Tuple<bool, string>(true, $"Sending Verification Code to {email}");
+                else
+                    res = new Tuple<bool, string>(false, $"Verification email failed and has not been sent to {email}");
+            }
             else
             {
                 if (u.HasBlanks())

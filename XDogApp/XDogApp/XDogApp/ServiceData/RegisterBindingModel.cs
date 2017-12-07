@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace XDogApp.ServiceData
 {
+    public class OneStringBindingModel
+    {
+        public string Prm1 { get; set; }
+    }
+
     public class RegisterBindingModel
     {
         public string Email { get; set; }

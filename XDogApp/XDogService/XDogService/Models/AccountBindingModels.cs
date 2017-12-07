@@ -13,6 +13,7 @@ namespace XDogService.Models
         public string ExternalAccessToken { get; set; }
     }
 
+
     public class ChangePasswordBindingModel
     {
         [Required]

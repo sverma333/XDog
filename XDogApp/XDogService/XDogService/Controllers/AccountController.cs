@@ -343,7 +343,7 @@ namespace XDogService.Controllers
         // POST api/Account/Verify
         [AllowAnonymous]
         [Route("Verify")]
-        public async Task<IHttpActionResult> Verify(string email)
+        public async Task<IHttpActionResult> Verify(FiveStringIntDblBindingModel model)
         {
             // TODO
             // Send verification email to email given.
