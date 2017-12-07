@@ -22,7 +22,7 @@
         <Entry x:Name="Entry_Email" Placeholder="{t:Translate RegisterEmail}" AutomationId="RegisterEntryEmail" Text="{Binding Email}"/>
 
         <Label x:Name="Label_Password" Text="{t:Translate RegisterPassword}" />
-        <Entry x:Name="Entry_Password" Placeholder="{t:Translate RegisterPassword}" AutomationId="RegisterEntryPassword" Text="{Binding Password}"/>
+        <Entry x:Name="Entry_Password" IsPassword="True" Placeholder="{t:Translate RegisterPassword}" AutomationId="RegisterEntryPassword" Text="{Binding Password}"/>
 
         <Button x:Name="btnRegister" Text="{t:Translate RegisterLogin}" Command="{Binding ClickLogin}" AutomationId="btnRegister"/>
         

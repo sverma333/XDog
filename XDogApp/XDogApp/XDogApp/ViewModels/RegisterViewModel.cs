@@ -22,6 +22,7 @@ namespace XDogApp.ViewModels
 
         public ICommand ClickVerification { get; private set; }
         public ICommand ClickRegister { get; private set; }
+        private LoginServices loginServices = new LoginServices();
 
         public RegisterViewModel()
         {
@@ -136,14 +137,17 @@ namespace XDogApp.ViewModels
         #endregion
 
 
-        public Tuple<bool, string> GetRegResponse(string email, string verificationCode, string password, string confirmPassword)
+        public async Tuple<bool, string> GetRegResponse(string email, string verificationCode, string password, string confirmPassword)
         {
             Tuple<bool, string> res = null;
 
             RegisterUser u = new RegisterUser(email, verificationCode, password, confirmPassword);
 
             if (u.IsValid())
-                res = new Tuple<bool, string>(true, "Registration has been successful.");
+            {
+                bool isSuccess = await loginServices.RegisterAsync(u.Email, u.VerificationCode, u.Password, u.ConfirmPassword)
+                //res = new Tuple<bool, string>(true, "Registration has been successful.");
+            }
             else
             {
                 if (u.HasBlanks())

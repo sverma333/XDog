@@ -69,9 +69,11 @@
     <Compile Include="Models\VertifyUser.cs" />
     <Compile Include="PCL_AppConstants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceData\RegisterBindingModel.cs" />
     <Compile Include="Services\AzureDataStore.cs" />
     <Compile Include="Services\base\MobileServiceSQLLiteStoreWithLogging.cs" />
     <Compile Include="Services\base\IDataStore.cs" />
+    <Compile Include="Services\LoginServices.cs" />
     <Compile Include="Services\MockDataStore.cs" />
     <Compile Include="Utils\StringUtils.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />

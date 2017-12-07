@@ -27,10 +27,10 @@
         <Entry x:Name="Entry_VerificationCode" Placeholder="{t:Translate RegisterVerificationCode}" AutomationId="RegisterEntryVerificationCode" Text="{Binding VerficationCode}"/>
 
         <Label x:Name="Label_Password" Text="{t:Translate RegisterPassword}" />
-        <Entry x:Name="Entry_Password" Placeholder="{t:Translate RegisterPassword}" AutomationId="RegisterEntryPassword" Text="{Binding Password}"/>
+        <Entry x:Name="Entry_Password" IsPassword="True" Placeholder="{t:Translate RegisterPassword}" AutomationId="RegisterEntryPassword" Text="{Binding Password}"/>
 
         <Label x:Name="Label_ConfirmPassword" Text="{t:Translate RegisterConfirmPassword}" />
-        <Entry x:Name="Entry_ConfirmPassword" Placeholder="{t:Translate RegisterConfirmPassword}" AutomationId="RegisterEntryConfirmPassword" Text="{Binding ConfirmPassword}"/>
+        <Entry x:Name="Entry_ConfirmPassword" IsPassword="True" Placeholder="{t:Translate RegisterConfirmPassword}" AutomationId="RegisterEntryConfirmPassword" Text="{Binding ConfirmPassword}"/>
 
         <Button x:Name="btnRegister" Text="{t:Translate RegisterRegister}" Command="{Binding ClickRegister}" AutomationId="btnRegister"/>
         <Label x:Name="Label_Response" AutomationId="RegisterLabelResponse" Text="{Binding ResponseText, Mode=TwoWay}" 
@@ -39,4 +39,4 @@
         <!--<Button x:Name="btnTest1" Text="Test:Add" Command="{Binding ClickTest1}" AutomationId="btnTest1"/>
         <Button x:Name="btnTest2" Text="Test:Get" Command="{Binding ClickTest2}" AutomationId="btnTest2"/>-->
     </StackLayout>
-</ContentPage>
+</ContentPage>  

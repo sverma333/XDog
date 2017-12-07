@@ -22,7 +22,7 @@ namespace XDogApp.Services
         public async Task InitializeAsync()
         {
 
-            MobileService = new MobileServiceClient(PCL_AppConstants.sAzureMobileAppUrl);
+            MobileService = new MobileServiceClient(PCL_AppConstants.sCurrentServiceURL);
             string path = "app.db";
 
             var store = new MobileServiceSQLiteStoreWithLogging(path, PCL_AppConstants.bLogSqlLite);

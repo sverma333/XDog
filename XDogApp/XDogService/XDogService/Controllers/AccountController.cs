@@ -340,6 +340,18 @@ namespace XDogService.Controllers
             return Ok();
         }
 
+        // POST api/Account/Verify
+        [AllowAnonymous]
+        [Route("Verify")]
+        public async Task<IHttpActionResult> Verify(string email)
+        {
+            // TODO
+            // Send verification email to email given.
+            await Task.FromResult(false);  // dummy line
+            
+            return Ok();
+        }
+
         // POST api/Account/RegisterExternal
         [OverrideAuthentication]
         [HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
