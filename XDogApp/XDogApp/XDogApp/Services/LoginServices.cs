@@ -13,12 +13,12 @@ namespace XDogApp.Services
     {
         public async Task<bool> RegisterAsync(string email, string verificationCode, string password, string confirmpassword)
         {
-            return await callServer("/api/Account/Register", new RegisterBindingModel() { Email = email, Password = password, ConfirmPassword = confirmpassword });
+            return await CallServer("/api/Account/Register", new RegisterBindingModel() { Email = email, Password = password, ConfirmPassword = confirmpassword });
         }
 
         public async Task<bool> VerifyAsync(string email)
         {
-            return await callServer($"/api/Account/Verify", new OneStringBindingModel() { Prm1 = email});
+            return await CallServer($"/api/Account/Verify", new FiveStringIntDblBindingModel() { sPrm1 = email});
         }
     }
 }
