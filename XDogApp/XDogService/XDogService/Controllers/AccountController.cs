@@ -352,6 +352,23 @@ namespace XDogService.Controllers
             return Ok();
         }
 
+        // POST api/Account/Login
+        [AllowAnonymous]
+        [Route("Login")]
+        public async Task<IHttpActionResult> Login(FiveStringIntDblBindingModel model)
+        {
+            List<KeyValuePair<string, string>> lst = new List<KeyValuePair<string, string>>();
+            lst.Add(new KeyValuePair<string, string>("username", model.sPrm1));
+            lst.Add(new KeyValuePair<string, string>("password", model.sPrm2));
+            lst.Add(new KeyValuePair<string, string>("grant_type", "password"));
+
+            // TODO
+            // Send verification email to email given.
+            await Task.FromResult(false);  // dummy line
+
+            return Ok();
+        }
+
         // POST api/Account/RegisterExternal
         [OverrideAuthentication]
         [HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]

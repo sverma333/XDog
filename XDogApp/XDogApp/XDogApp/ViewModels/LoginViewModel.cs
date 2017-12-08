@@ -16,6 +16,7 @@ namespace XDogApp.ViewModels
     class LoginViewModel : BaseViewModel
     {
         public IDataStore<BaseAzureData> DataStore = null;
+        private LoginServices loginServices = new LoginServices();
 
         public ICommand ClickLogin { get; private set; }
 
@@ -25,9 +26,9 @@ namespace XDogApp.ViewModels
             DataStore = (IDataStore<BaseAzureData>)DependencyService.Get<AzureDataStore<TodoItem>>() ?? new MockDataStore<TodoItem>();
             DataStore.InitializeAsync();
 
-            ClickLogin = new Command(() =>
+            ClickLogin = new Command(async () =>
             {
-                Tuple<bool, string> res = GetLoginResponse(Email, Password);
+                Tuple<bool, string> res = await GetLoginResponse(Email, Password);
                 ResponseType = (res.Item1 ? 1 : 2);
                 ResponseText = res.Item2;
             });
@@ -48,18 +49,6 @@ namespace XDogApp.ViewModels
         }
 
 
-        private string _VerficationCode = "";
-        public string VerficationCode
-        {
-            get { return _VerficationCode; }
-            set
-            {
-                if (_VerficationCode == value) return;
-                _VerficationCode = value;
-                OnPropertyChenged();
-            }
-        }
-
         private string _Password = "";
         public string Password
         {
@@ -72,17 +61,6 @@ namespace XDogApp.ViewModels
             }
         }
 
-        private string _ConfirmPassword = "";
-        public string ConfirmPassword
-        {
-            get { return _ConfirmPassword; }
-            set
-            {
-                if (_ConfirmPassword == value) return;
-                _ConfirmPassword = value;
-                OnPropertyChenged();
-            }
-        }
 
         private string _ResponseText = "";
         public string ResponseText
@@ -111,14 +89,21 @@ namespace XDogApp.ViewModels
         #endregion
 
 
-        public Tuple<bool, string> GetLoginResponse(string email, string password)
+        public async Task<Tuple<bool, string>> GetLoginResponse(string email, string password)
         {
             Tuple<bool, string> res = null;
 
             LoginUser u = new LoginUser(email, password);
 
             if (u.IsValid())
-                res = new Tuple<bool, string>(true, "Login has been successful.");
+            {
+
+                bool bSuccess = await loginServices.LoginAsync(u.Email, u.Password);
+                if (bSuccess)
+                    res = new Tuple<bool, string>(true, "Login has been successful.");
+                else
+                    res = new Tuple<bool, string>(false, "Login failed. Incorrect email and/or password.");
+            }
             else
             {
                 if (u.HasBlanks())

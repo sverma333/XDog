@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -19,6 +20,24 @@ namespace XDogApp.Services
         public async Task<bool> VerifyAsync(string email)
         {
             return await CallServer($"/api/Account/Verify", new FiveStringIntDblBindingModel() { sPrm1 = email});
+        }
+
+        public async Task<bool> LoginAsync(string email, string password)
+        {
+            List<KeyValuePair<string, string>> lst = new List<KeyValuePair<string, string>>();
+            lst.Add(new KeyValuePair<string, string>("username", email));
+            lst.Add(new KeyValuePair<string, string>("password", password));
+            lst.Add(new KeyValuePair<string, string>("grant_type", "password"));
+
+            var request = new HttpRequestMessage(HttpMethod.Post, PCL_AppConstants.sCurrentServiceURL + "/Token") { Content = new FormUrlEncodedContent(lst)};
+
+            var response = await new HttpClient().SendAsync(request);
+            string content = await response.Content.ReadAsStringAsync();
+
+            Debug.WriteLine(content);
+
+            return (response != null && response.IsSuccessStatusCode);
+            //return await CallServer($"/api/Account/Login", new FiveStringIntDblBindingModel() { sPrm1 = email, sPrm2 = password });
         }
     }
 }
