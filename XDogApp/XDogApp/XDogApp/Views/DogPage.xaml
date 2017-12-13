@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="DogPage"
+             x:Class="XDogApp.Views.DogPage"
+             xmlns:vm1="clr-namespace:XDogApp.ViewModels; assembly=XDogApp"
+             xmlns:t="clr-namespace:XDogApp.Helpers"
+             xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp">
+
+    <ContentPage.BindingContext><vm1:DogViewModel/></ContentPage.BindingContext>
+
+
+    <ScrollView>
+        <StackLayout Padding="0,20,0,0">
+
+            <Label x:Name="Label_Name" Text="{t:Translate DogName}"/>
+            <Entry x:Name="Entry_Name" Placeholder="{t:Translate DogName}" AutomationId="DogEntryName" Text="{Binding Name}"/>
+
+            <Label x:Name="Label_Interests" Text="{t:Translate DogInterests}"/>
+            <Entry x:Name="Entry_Interests" Placeholder="{t:Translate DogInterests}" AutomationId="DogEntryInterests" Text="{Binding Interests}"/>
+
+            <Label x:Name="Label_Bio" Text="{t:Translate DogBio}"/>
+            <Entry x:Name="Entry_Bio" Placeholder="{t:Translate DogBio}" AutomationId="DogOwnerEntryBio" Text="{Binding Bio}"/>
+
+            <Label x:Name="Label_DOB" Text="{t:Translate DogDOB}"/>
+            <Entry x:Name="Entry_DOB" Placeholder="{t:Translate DogDOB}" AutomationId="DogOwnerEntryDOB" Text="{Binding DOB}"/>
+
+            <!--
+            <Button x:Name="btnDogOwner" Text="{t:Translate DogOwnerDogOwner}" Command="{Binding ClickDogOwner}" AutomationId="btnDogOwner"/>
+ 
+            <Label x:Name="Label_Response" AutomationId="DogOwnerLabelResponse" Text="{Binding ResponseText, Mode=TwoWay}" 
+               TextColor="{Binding ResponseType, Converter={StaticResource convTextColor}}" BackgroundColor="{Binding ResponseType, Converter={StaticResource convBackgroundColor}}"/>
+-->
+        </StackLayout>
+    </ScrollView>
+</ContentPage>  

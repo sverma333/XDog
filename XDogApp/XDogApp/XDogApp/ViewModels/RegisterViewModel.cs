@@ -10,12 +10,14 @@ using Microsoft.WindowsAzure.MobileServices;
 using XDogApp;
 
 using XDogApp.Services;
+using XDogApp.Helpers;
+using ClientServerData.DataObjects;
 
 namespace XDogApp.ViewModels
 {
     class RegisterViewModel : BaseViewModel
     {
-        public IDataStore<BaseAzureData> DataStore = null;
+        //public IDataStore<BaseId> DataStore = null;
 
         //public ICommand ClickTest1 { get; private set; }
         //public ICommand ClickTest2 { get; private set; }
@@ -27,8 +29,8 @@ namespace XDogApp.ViewModels
         public RegisterViewModel()
         {
             //SV initialise backend framework
-            DataStore = (IDataStore<BaseAzureData>)DependencyService.Get<AzureDataStore<TodoItem>>() ?? new MockDataStore<TodoItem>();
-            DataStore.InitializeAsync();
+            //DataStore = (IDataStore<BaseId>)DependencyService.Get<AzureDataStore<TodoItem>>() ?? new MockDataStore<TodoItem>();
+            //DataStore.InitializeAsync();
 
 //            ClickTest1 = new Command(async () =>
 //            {
@@ -61,78 +63,24 @@ namespace XDogApp.ViewModels
 
 
         #region Attributes
-        private string _Email = "";
-        public string Email
-        {
-            get { return _Email; }
-            set
-            {
-                if (_Email == value) return;
-                _Email = value; 
-                OnPropertyChenged();
-            }
-        }
 
+        private string _Email = "";
+        public string Email { get { return _Email; } set { if (_Email == value) return; _Email = value;  OnPropertyChenged(); }}
 
         private string _VerficationCode = "";
-        public string VerficationCode
-        {
-            get { return _VerficationCode; }
-            set
-            {
-                if (_VerficationCode == value) return;
-                _VerficationCode = value;
-                OnPropertyChenged();
-            }
-        }
+        public string VerficationCode { get { return _VerficationCode; } set { if (_VerficationCode == value) return; _VerficationCode = value; OnPropertyChenged(); } }
 
         private string _Password = "";
-        public string Password
-        {
-            get { return _Password; }
-            set
-            {
-                if (_Password == value) return;
-                _Password = value;
-                OnPropertyChenged();
-            }
-        }
+        public string Password { get { return _Password; } set { if (_Password == value) return; _Password = value; OnPropertyChenged(); } }
 
         private string _ConfirmPassword = "";
-        public string ConfirmPassword
-        {
-            get { return _ConfirmPassword; }
-            set
-            {
-                if (_ConfirmPassword == value) return;
-                _ConfirmPassword = value;
-                OnPropertyChenged();
-            }
-        }
+        public string ConfirmPassword { get { return _ConfirmPassword; } set { if (_ConfirmPassword == value) return; _ConfirmPassword = value; OnPropertyChenged(); } }
 
         private string _ResponseText = "";
-        public string ResponseText
-        {
-            get { return _ResponseText; }
-            set
-            {
-                if (_ResponseText == value) return;
-                _ResponseText = value;
-                OnPropertyChenged();
-            }
-        }
+        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChenged(); } }
 
         private int _ResponseType = 1;
-        public int ResponseType
-        {
-            get { return _ResponseType; }
-            set
-            {
-                if (_ResponseType == value) return;
-                _ResponseType = value;
-                OnPropertyChenged();
-            }
-        }
+        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChenged(); } }
 
         #endregion
 

@@ -10,21 +10,24 @@ using Microsoft.WindowsAzure.MobileServices;
 using XDogApp;
 
 using XDogApp.Services;
+using XDogApp.Helpers;
+using ClientServerData.DataObjects;
 
 namespace XDogApp.ViewModels
 {
     class LoginViewModel : BaseViewModel
     {
-        public IDataStore<BaseAzureData> DataStore = null;
+        public IDataStore<BaseId> DataStore = null;
         private LoginServices loginServices = new LoginServices();
 
         public ICommand ClickLogin { get; private set; }
 
         public LoginViewModel()
         {
-            //SV initialise backend framework
-            DataStore = (IDataStore<BaseAzureData>)DependencyService.Get<AzureDataStore<TodoItem>>() ?? new MockDataStore<TodoItem>();
-            DataStore.InitializeAsync();
+
+            Email = Settings.Email;
+            Password = Settings.Password;
+            
 
             ClickLogin = new Command(async () =>
             {

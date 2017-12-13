@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -6,6 +7,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using XDogApp.Helpers;
 using XDogApp.ServiceData;
 
 namespace XDogApp.Services
@@ -14,7 +16,18 @@ namespace XDogApp.Services
     {
         public async Task<bool> RegisterAsync(string email, string verificationCode, string password, string confirmpassword)
         {
-            return await CallServer("/api/Account/Register", new RegisterBindingModel() { Email = email, Password = password, ConfirmPassword = confirmpassword });
+            var ret = await CallServer("/api/Account/Register", new RegisterBindingModel() { Email = email, Password = password, ConfirmPassword = confirmpassword });
+            if (ret)
+            {
+                Settings.Email = email;
+                Settings.Password = password;
+            }
+            else
+            {
+                Settings.Email = "";
+                Settings.Password = "";
+            }
+            return ret;
         }
 
         public async Task<bool> VerifyAsync(string email)
@@ -29,14 +42,21 @@ namespace XDogApp.Services
             lst.Add(new KeyValuePair<string, string>("password", password));
             lst.Add(new KeyValuePair<string, string>("grant_type", "password"));
 
-            var request = new HttpRequestMessage(HttpMethod.Post, PCL_AppConstants.sCurrentServiceURL + "/Token") { Content = new FormUrlEncodedContent(lst)};
+            var request = new HttpRequestMessage(HttpMethod.Post, PCL_AppConstants.sCurrentServiceURL + "/Token") { Content = new FormUrlEncodedContent(lst) };
 
             var response = await new HttpClient().SendAsync(request);
-            string content = await response.Content.ReadAsStringAsync();
+            bool bGood = (response != null && response.IsSuccessStatusCode);
+            string jwt = await response.Content.ReadAsStringAsync();
 
-            Debug.WriteLine(content);
+            if (bGood)
+            { 
+                JObject jwtDynamic = JsonConvert.DeserializeObject<dynamic>(jwt);
+                var accessToken = jwtDynamic.Value<string>("access_token");
+                Settings.Token = accessToken;
+            }
 
-            return (response != null && response.IsSuccessStatusCode);
+            Debug.WriteLine(jwt);
+            return bGood;
             //return await CallServer($"/api/Account/Login", new FiveStringIntDblBindingModel() { sPrm1 = email, sPrm2 = password });
         }
     }

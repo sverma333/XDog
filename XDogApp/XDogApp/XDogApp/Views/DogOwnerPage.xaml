@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="DogOwnerPage"
+             x:Class="XDogApp.Views.DogOwnerPage"
+             xmlns:vm1="clr-namespace:XDogApp.ViewModels; assembly=XDogApp"
+             xmlns:t="clr-namespace:XDogApp.Helpers"
+             xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp">
+
+    <ContentPage.BindingContext><vm1:DogOwnerViewModel/></ContentPage.BindingContext>
+
+
+    <ScrollView>
+        <StackLayout Padding="0,20,0,0">
+
+            <Label x:Name="Label_ScreenName" Text="{t:Translate DogOwnerScreenName}"/>
+            <Entry x:Name="Entry_ScreenName" Placeholder="{t:Translate DogOwnerScreenName}" AutomationId="DogOwnerEntryScreenName" Text="{Binding ScreenName}"/>
+
+            <Label x:Name="Label_FirstName" Text="{t:Translate DogOwnerFirstName}"/>
+            <Entry x:Name="Entry_FirstName" Placeholder="{t:Translate DogOwnerFirstName}" AutomationId="DogOwnerEntryFirstName" Text="{Binding FirstName}"/>
+
+            <Label x:Name="Label_Surname" Text="{t:Translate DogOwnerSurname}"/>
+            <Entry x:Name="Entry_Surname" Placeholder="{t:Translate DogOwnerSurname}" AutomationId="DogOwnerEntrySurname" Text="{Binding Surname}"/>
+
+            <Label x:Name="Label_AgeRangeMin" Text="{t:Translate DogOwnerAgeRangeMin}"/>
+            <Entry x:Name="Entry_AgeRangeMin" Placeholder="{t:Translate DogOwnerAgeRangeMin}" AutomationId="DogOwnerEntryAgeRangeMin" Text="{Binding AgeRangeMin}"/>
+
+            <Label x:Name="Label_CurrentTown" Text="{t:Translate DogOwnerCurrentTown}"/>
+            <Entry x:Name="Entry_CurrentTown" Placeholder="{t:Translate DogOwnerCurrentTown}" AutomationId="DogOwnerEntryCurrentTown" Text="{Binding CurrentTown}"/>
+
+            <Label x:Name="Label_HomeTown" Text="{t:Translate DogOwnerHomeTown}"/>
+            <Entry x:Name="Entry_HomeTown" Placeholder="{t:Translate DogOwnerHomeTown}" AutomationId="DogOwnerEntryHomeTown" Text="{Binding HomeTown}"/>
+
+            <Label x:Name="Label_Interests" Text="{t:Translate DogOwnerInterests}"/>
+            <Entry x:Name="Entry_Interests" Placeholder="{t:Translate DogOwnerInterests}" AutomationId="DogOwnerEntryInterests" Text="{Binding Interests}"/>
+
+            <Label x:Name="Label_Bio" Text="{t:Translate DogOwnerBio}"/>
+            <Entry x:Name="Entry_Bio" Placeholder="{t:Translate DogOwnerBio}" AutomationId="DogOwnerEntryBio" Text="{Binding Bio}"/>
+
+            <Label x:Name="Label_RelationshipStatus" Text="{t:Translate DogOwnerRelationshipStatus}"/>
+            <Entry x:Name="Entry_RelationshipStatus" Placeholder="{t:Translate DogOwnerRelationshipStatus}" AutomationId="DogOwnerEntryRelationshipStatus" Text="{Binding RelationshipStatus}"/>
+
+            <Label x:Name="Label_Job" Text="{t:Translate DogOwnerJob}"/>
+            <Entry x:Name="Entry_Job" Placeholder="{t:Translate DogOwnerJob}" AutomationId="DogOwnerEntryJob" Text="{Binding Job}"/>
+
+            <Label x:Name="Label_WorkPlace" Text="{t:Translate DogOwnerWorkPlace}"/>
+            <Entry x:Name="Entry_WorkPlace" Placeholder="{t:Translate DogOwnerWorkPlace}" AutomationId="DogOwnerEntryWorkPlace" Text="{Binding WorkPlace}"/>
+
+            <Label x:Name="Label_Education" Text="{t:Translate DogOwnerEducation}"/>
+            <Entry x:Name="Entry_Education" Placeholder="{t:Translate DogOwnerEducation}" AutomationId="DogOwnerEntryEducation" Text="{Binding Education}"/>
+
+            <Label x:Name="Label_Address" Text="{t:Translate DogOwnerAddress}"/>
+            <Entry x:Name="Entry_Address" Placeholder="{t:Translate DogOwnerAddress}" AutomationId="DogOwnerEntryAddress" Text="{Binding Address}"/>
+
+            <Label x:Name="Label_PostCode" Text="{t:Translate DogOwnerPostCode}"/>
+            <Entry x:Name="Entry_PostCode" Placeholder="{t:Translate DogOwnerPostCode}" AutomationId="DogOwnerEntryPostCode" Text="{Binding PostCode}"/>
+
+            <Label x:Name="Label_Country" Text="{t:Translate DogOwnerCountry}"/>
+            <Entry x:Name="Entry_Country" Placeholder="{t:Translate DogOwnerCountry}" AutomationId="DogOwnerEntryCountry" Text="{Binding Country}"/>
+
+            <Label x:Name="Label_TelphoneNumber" Text="{t:Translate DogOwnerTelphoneNumber}"/>
+            <Entry x:Name="Entry_TelphoneNumber" Placeholder="{t:Translate DogOwnerTelphoneNumber}" AutomationId="DogOwnerEntryTelphoneNumber" Text="{Binding TelphoneNumber}"/>
+
+            <Label x:Name="Label_MobileNumber" Text="{t:Translate DogOwnerMobileNumber}"/>
+            <Entry x:Name="Entry_MobileNumber" Placeholder="{t:Translate DogOwnerMobileNumber}" AutomationId="DogOwnerEntryMobileNumber" Text="{Binding MobileNumber}"/>
+
+            <Label x:Name="Label_EmailAddress" Text="{t:Translate DogOwnerEmailAddress}"/>
+            <Entry x:Name="Entry_EmailAddress" Placeholder="{t:Translate DogOwnerEmailAddress}" AutomationId="DogOwnerEntryEmailAddress" Text="{Binding EmailAddress}"/>
+
+            <Label x:Name="Label_DOB" Text="{t:Translate DogOwnerDOB}"/>
+            <Entry x:Name="Entry_DOB" Placeholder="{t:Translate DogOwnerDOB}" AutomationId="DogOwnerEntryDOB" Text="{Binding DOB}"/>
+
+            <Label x:Name="Label_Dogs" Text="{t:Translate DogOwnerDogs}"/>
+            <Entry x:Name="Entry_Dogs" Placeholder="{t:Translate DogOwnerDogs}" AutomationId="DogOwnerEntryDogs" Text="{Binding Dogs}"/>
+
+            <Label x:Name="Label_RelatedDogs" Text="{t:Translate DogOwnerRelatedDogs}"/>
+            <Entry x:Name="Entry_RelatedDogs" Placeholder="{t:Translate DogOwnerRelatedDogs}" AutomationId="DogOwnerEntryRelatedDogs" Text="{Binding RelatedDogs}"/>
+
+            <!--
+            <Button x:Name="btnDogOwner" Text="{t:Translate DogOwnerDogOwner}" Command="{Binding ClickDogOwner}" AutomationId="btnDogOwner"/>
+ 
+            <Label x:Name="Label_Response" AutomationId="DogOwnerLabelResponse" Text="{Binding ResponseText, Mode=TwoWay}" 
+               TextColor="{Binding ResponseType, Converter={StaticResource convTextColor}}" BackgroundColor="{Binding ResponseType, Converter={StaticResource convBackgroundColor}}"/>
+-->
+        </StackLayout>
+    </ScrollView>
+</ContentPage>  

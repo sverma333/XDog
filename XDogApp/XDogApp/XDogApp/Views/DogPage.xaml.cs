@@ -6,15 +6,20 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XDogApp.Models;
+using XDogApp.Utils;
+using XDogApp.ViewModels;
 
 namespace XDogApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CarouselCPage : ContentPage
+    public partial class DogPage : ContentPage
     {
-        public CarouselCPage()
+        public DogPage()
         {
             InitializeComponent();
+            //Label_Response.Text = AppResources.AppResources.RegisterResponseDef;
+
         }
     }
 }

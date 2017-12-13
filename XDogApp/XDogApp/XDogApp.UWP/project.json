@@ -7,6 +7,7 @@
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
     "Plugin.Multilingual": "1.0.2",
     "Xam.Plugin.Connectivity": "3.0.3",
+    "Xam.Plugins.Settings": "3.1.1",
     "Xamarin.Forms": "2.4.0.280"
   },
   "frameworks": {

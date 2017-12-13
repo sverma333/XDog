@@ -62,6 +62,231 @@ namespace XDogApp.AppResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Descripton.
+        /// </summary>
+        public static string DogBio {
+            get {
+                return ResourceManager.GetString("DogBio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date of Birth.
+        /// </summary>
+        public static string DogDOB {
+            get {
+                return ResourceManager.GetString("DogDOB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Interests.
+        /// </summary>
+        public static string DogInterests {
+            get {
+                return ResourceManager.GetString("DogInterests", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        public static string DogName {
+            get {
+                return ResourceManager.GetString("DogName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Home Address.
+        /// </summary>
+        public static string DogOwnerAddress {
+            get {
+                return ResourceManager.GetString("DogOwnerAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Age Range.
+        /// </summary>
+        public static string DogOwnerAgeRangeMin {
+            get {
+                return ResourceManager.GetString("DogOwnerAgeRangeMin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Personal Description.
+        /// </summary>
+        public static string DogOwnerBio {
+            get {
+                return ResourceManager.GetString("DogOwnerBio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Home Country.
+        /// </summary>
+        public static string DogOwnerCountry {
+            get {
+                return ResourceManager.GetString("DogOwnerCountry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current Town.
+        /// </summary>
+        public static string DogOwnerCurrentTown {
+            get {
+                return ResourceManager.GetString("DogOwnerCurrentTown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date of Birth.
+        /// </summary>
+        public static string DogOwnerDOB {
+            get {
+                return ResourceManager.GetString("DogOwnerDOB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dogs.
+        /// </summary>
+        public static string DogOwnerDogs {
+            get {
+                return ResourceManager.GetString("DogOwnerDogs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Education.
+        /// </summary>
+        public static string DogOwnerEducation {
+            get {
+                return ResourceManager.GetString("DogOwnerEducation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email.
+        /// </summary>
+        public static string DogOwnerEmailAddress {
+            get {
+                return ResourceManager.GetString("DogOwnerEmailAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to First Name.
+        /// </summary>
+        public static string DogOwnerFirstName {
+            get {
+                return ResourceManager.GetString("DogOwnerFirstName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Home Town.
+        /// </summary>
+        public static string DogOwnerHomeTown {
+            get {
+                return ResourceManager.GetString("DogOwnerHomeTown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Interests.
+        /// </summary>
+        public static string DogOwnerInterests {
+            get {
+                return ResourceManager.GetString("DogOwnerInterests", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Job Title.
+        /// </summary>
+        public static string DogOwnerJob {
+            get {
+                return ResourceManager.GetString("DogOwnerJob", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mobile Number.
+        /// </summary>
+        public static string DogOwnerMobileNumber {
+            get {
+                return ResourceManager.GetString("DogOwnerMobileNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Home Post Code.
+        /// </summary>
+        public static string DogOwnerPostCode {
+            get {
+                return ResourceManager.GetString("DogOwnerPostCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Related Dogs.
+        /// </summary>
+        public static string DogOwnerRelatedDogs {
+            get {
+                return ResourceManager.GetString("DogOwnerRelatedDogs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Relationship Status.
+        /// </summary>
+        public static string DogOwnerRelationshipStatus {
+            get {
+                return ResourceManager.GetString("DogOwnerRelationshipStatus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Screen Name.
+        /// </summary>
+        public static string DogOwnerScreenName {
+            get {
+                return ResourceManager.GetString("DogOwnerScreenName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last Name.
+        /// </summary>
+        public static string DogOwnerSurname {
+            get {
+                return ResourceManager.GetString("DogOwnerSurname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Telephone Number.
+        /// </summary>
+        public static string DogOwnerTelphoneNumber {
+            get {
+                return ResourceManager.GetString("DogOwnerTelphoneNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Work Place.
+        /// </summary>
+        public static string DogOwnerWorkPlace {
+            get {
+                return ResourceManager.GetString("DogOwnerWorkPlace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please Login.
         /// </summary>
         public static string LoginResponseDef {

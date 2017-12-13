@@ -14,7 +14,7 @@ using ClientServerData.DataObjects;
 
 namespace XDogApp.Services
 {
-    public class AzureDataStore<T> : IDataStore<BaseId> where T : BaseId
+    public class DataStore<T> : IDataStore<BaseId> where T : BaseId
     {
         IMobileServiceSyncTable<T> itemsTable;
 

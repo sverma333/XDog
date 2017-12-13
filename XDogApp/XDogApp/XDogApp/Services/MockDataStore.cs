@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClientServerData.DataObjects;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,12 +8,12 @@ using XDogApp.Models;
 
 namespace XDogApp.Services
 {
-    public class MockDataStore<T> : IDataStore<BaseAzureData> where T : BaseAzureData
+    public class MockDataStore<T> : IDataStore<BaseId> where T : BaseId
     {
         bool isInitialized;
-        List<BaseAzureData> items;
+        List<BaseId> items;
 
-        public async Task<bool> AddItemAsync(BaseAzureData item)
+        public async Task<bool> AddItemAsync(BaseId item)
         {
             await InitializeAsync();
 
@@ -21,35 +22,35 @@ namespace XDogApp.Services
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> UpdateItemAsync(BaseAzureData item)
+        public async Task<bool> UpdateItemAsync(BaseId item)
         {
             await InitializeAsync();
 
-            var _item = items.Where((BaseAzureData arg) => arg.Id == item.Id).FirstOrDefault();
+            var _item = items.Where((BaseId arg) => arg.Id == item.Id).FirstOrDefault();
             items.Remove(_item);
             items.Add(item);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> DeleteItemAsync(BaseAzureData item)
+        public async Task<bool> DeleteItemAsync(BaseId item)
         {
             await InitializeAsync();
 
-            var _item = items.Where((BaseAzureData arg) => arg.Id == item.Id).FirstOrDefault();
+            var _item = items.Where((BaseId arg) => arg.Id == item.Id).FirstOrDefault();
             items.Remove(_item);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<BaseAzureData> GetItemAsync(string id)
+        public async Task<BaseId> GetItemAsync(string id)
         {
             await InitializeAsync();
 
-            return await Task.FromResult((BaseAzureData)items.FirstOrDefault(s => s.Id == id));
+            return await Task.FromResult((BaseId)items.FirstOrDefault(s => s.Id == id));
         }
 
-        public async Task<IEnumerable<BaseAzureData>> GetItemsAsync(bool forceRefresh = false)
+        public async Task<IEnumerable<BaseId>> GetItemsAsync(bool forceRefresh = false)
         {
             await InitializeAsync();
             return await Task.FromResult(items);
@@ -73,7 +74,7 @@ namespace XDogApp.Services
             if (isInitialized)
                 return;
 
-            items = new List<BaseAzureData>();
+            items = new List<BaseId>();
             var _items = new List<TodoItem>
             {
                 //new TodoItem { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
@@ -93,7 +94,7 @@ namespace XDogApp.Services
 
             foreach (TodoItem item in _items)
             {
-                items.Add((BaseAzureData)item);
+                items.Add((BaseId)item);
             }
 
             isInitialized = true;

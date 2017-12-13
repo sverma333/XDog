@@ -117,6 +117,81 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DogBio" xml:space="preserve">
+    <value>Descripton</value>
+  </data>
+  <data name="DogDOB" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="DogInterests" xml:space="preserve">
+    <value>Interests</value>
+  </data>
+  <data name="DogName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DogOwnerAddress" xml:space="preserve">
+    <value>Home Address</value>
+  </data>
+  <data name="DogOwnerAgeRangeMin" xml:space="preserve">
+    <value>Age Range</value>
+  </data>
+  <data name="DogOwnerBio" xml:space="preserve">
+    <value>Personal Description</value>
+  </data>
+  <data name="DogOwnerCountry" xml:space="preserve">
+    <value>Home Country</value>
+  </data>
+  <data name="DogOwnerCurrentTown" xml:space="preserve">
+    <value>Current Town</value>
+  </data>
+  <data name="DogOwnerDOB" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="DogOwnerDogs" xml:space="preserve">
+    <value>Dogs</value>
+  </data>
+  <data name="DogOwnerEducation" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="DogOwnerEmailAddress" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="DogOwnerFirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="DogOwnerHomeTown" xml:space="preserve">
+    <value>Home Town</value>
+  </data>
+  <data name="DogOwnerInterests" xml:space="preserve">
+    <value>Interests</value>
+  </data>
+  <data name="DogOwnerJob" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="DogOwnerMobileNumber" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+  <data name="DogOwnerPostCode" xml:space="preserve">
+    <value>Home Post Code</value>
+  </data>
+  <data name="DogOwnerRelatedDogs" xml:space="preserve">
+    <value>Related Dogs</value>
+  </data>
+  <data name="DogOwnerRelationshipStatus" xml:space="preserve">
+    <value>Relationship Status</value>
+  </data>
+  <data name="DogOwnerScreenName" xml:space="preserve">
+    <value>Screen Name</value>
+  </data>
+  <data name="DogOwnerSurname" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="DogOwnerTelphoneNumber" xml:space="preserve">
+    <value>Telephone Number</value>
+  </data>
+  <data name="DogOwnerWorkPlace" xml:space="preserve">
+    <value>Work Place</value>
+  </data>
   <data name="LoginResponseDef" xml:space="preserve">
     <value>Please Login</value>
   </data>

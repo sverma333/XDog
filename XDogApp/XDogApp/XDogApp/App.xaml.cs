@@ -9,8 +9,10 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
+using XDogApp.Helpers;
 using XDogApp.Models;
 using XDogApp.Services;
+using XDogApp.Views;
 
 namespace XDogApp
 {
@@ -25,19 +27,41 @@ namespace XDogApp
             AppResources.AppResources.Culture = CrossMultilingual.Current.DeviceCultureInfo;
 
             if (PCL_AppConstants.bUseMockDataStore)
+            {
                 DependencyService.Register<MockDataStore<TodoItem>>();
+            }
             else
+            {
                 DependencyService.Register<AzureDataStore<TodoItem>>();
-
+            }
             if (Device.RuntimePlatform == Device.iOS)
-                MainPage = new MainPage();
+                MainPage = getStartPage();
             else
-                MainPage = new XDogApp.Views.LoginPage();
-            //    MainPage = new XDogApp.Views.RegisterPage();
-            //            MainPage = new NavigationPage(new MainPage());
+                MainPage = new NavigationPage(getStartPage());
 
 
         }
+
+        private Page getStartPage()
+        {
+            Page ret;
+
+            // test TODO remove later
+            return new DogPage();
+
+
+            if (!string.IsNullOrEmpty(Settings.Token) && !string.IsNullOrEmpty(Settings.ScreenName))     // logged in, so start
+                ret = new MainPage();
+            else if (!string.IsNullOrEmpty(Settings.Token) && string.IsNullOrEmpty(Settings.ScreenName)) // registered but no profile
+                ret = new DogOwnerPage();
+            else if (!string.IsNullOrEmpty(Settings.Email) && !string.IsNullOrEmpty(Settings.Password))  // has login/password but not logged in
+                ret = new LoginPage();
+            else                                                                                         // never been here before
+                ret = new RegisterPage();
+
+            return ret;
+        }
+
 
         protected override void OnStart()
         {

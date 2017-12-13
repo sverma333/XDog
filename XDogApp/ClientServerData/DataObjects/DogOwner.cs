@@ -1,21 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 
-namespace XDogService.Models
+namespace ClientServerData.DataObjects
 {
-    public class DogOwner
+    public class DogOwner : BaseId
     {
         public List<string> RelationshipStatusTypes = new List<string>(new string[] { "Single", "Married", "In a Relationship", "It's Complicated" });
         public List<string> InterestTypes = new List<string>(new string[] { "Films", "Books", "Travel", "Sports" });
         public List<string> EducationTypes = new List<string>(new string[] { "High School", "Degree", "Masters", "PhD" });
+        public List<string> AgeRanges = new List<string>(new string[] { "-15", "16-21", "22-30", "31-40", "41-50", "51-60", "61+" });
 
-        public string Id { get; set; }
         public string UserId { get; set; }
+        public string ScreenName { get; set; }
         public string FirstName { get; set; }
         public string Surname { get; set; }
-        public string ScreenName { get; set; }
         public int AgeRangeMin { get; set; }
         public string CurrentTown { get; set; }
         public string HomeTown { get; set; }
@@ -34,7 +33,5 @@ namespace XDogService.Models
         public DateTime DOB { get; set; }
         public List<Dog> Dogs { get; set; }
         public List<Dog> RelatedDogs { get; set; }
-
-
     }
 }

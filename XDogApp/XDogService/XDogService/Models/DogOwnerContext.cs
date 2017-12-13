@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClientServerData.DataObjects;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -19,6 +20,6 @@ namespace XDogService.Models
         {
         }
 
-        public System.Data.Entity.DbSet<XDogService.Models.DogOwner> DogOwners { get; set; }
+        public System.Data.Entity.DbSet<DogOwner> DogOwners { get; set; }
     }
 }
