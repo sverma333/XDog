@@ -11,7 +11,7 @@ using XDogApp;
 
 using XDogApp.Services;
 using XDogApp.Helpers;
-using ClientServerData.DataObjects;
+using XDogApp.ServiceData;
 
 namespace XDogApp.ViewModels
 {
@@ -24,22 +24,24 @@ namespace XDogApp.ViewModels
         public DogOwnerViewModel()
         {
             //SV initialise backend framework
-            DataStore = (IDataStore<BaseId>)DependencyService.Get<AzureDataStore<DogOwner>>() ?? new MockDataStore<DogOwner>();
+            DataStore = (IDataStore<BaseId>)DependencyService.Get<DataStore<DogOwner>>() ?? new MockDataStore<DogOwner>();
             DataStore.InitializeAsync();
 
             this.ScreenName = Settings.ScreenName;
             
             ClickCreate = new Command(async () =>
             {
-                DogOwner item = new DogOwner { ScreenName = this.ScreenName, FirstName = this.FirstName, Surname = this.Surname, AgeRangeMin = Int32.Parse(this.AgeRangeMin),
-                                               CurrentTown = this.CurrentTown, HomeTown = this.HomeTown, Interests = new List<string> (new string[] { this.Interests }),
-                                               Bio = this.Bio, RelationshipStatus = this.RelationshipStatus, Job = this.Job, WorkPlace = this.WorkPlace,
-                                               Education = new List<string>(new string[] { this.Education }), Address = new List<string>(new string[] { this.Address }),
-                                               PostCode = this.PostCode, Country = this.Country, TelphoneNumber = this.TelphoneNumber, MobileNumber = this.MobileNumber,
-                                               EmailAddress = this.EmailAddress, DOB = Convert.ToDateTime(this.DOB)
-                                               //, Dogs = new List<string>(new string[] { this.Dogs }),RelatedDogs = new List<string>(new string[] { this.RelatedDogs })
-                                              };
-                
+                //DogOwner item = new DogOwner { ScreenName = this.ScreenName, FirstName = this.FirstName, Surname = this.Surname, AgeRangeMin = Int32.Parse(this.AgeRangeMin),
+                //                               CurrentTown = this.CurrentTown, HomeTown = this.HomeTown, Interests = new List<string> (new string[] { this.Interests }),
+                //                               Bio = this.Bio, RelationshipStatus = this.RelationshipStatus, Job = this.Job, WorkPlace = this.WorkPlace,
+                //                               Education = new List<string>(new string[] { this.Education }), Address = new List<string>(new string[] { this.Address }),
+                //                               PostCode = this.PostCode, Country = this.Country, TelphoneNumber = this.TelphoneNumber, MobileNumber = this.MobileNumber,
+                //                               EmailAddress = this.EmailAddress, DOB = Convert.ToDateTime(this.DOB)
+                //                               //, Dogs = new List<string>(new string[] { this.Dogs }),RelatedDogs = new List<string>(new string[] { this.RelatedDogs })
+                //                              };
+
+                DogOwner item = new DogOwner { ScreenName = this.ScreenName };
+
                 await DataStore.AddItemAsync(item);
                 Settings.ScreenName = this.ScreenName;
             });

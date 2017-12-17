@@ -11,7 +11,7 @@ using XDogApp;
 
 using XDogApp.Services;
 using XDogApp.Helpers;
-using ClientServerData.DataObjects;
+using XDogApp.ServiceData;
 
 namespace XDogApp.ViewModels
 {
@@ -24,19 +24,33 @@ namespace XDogApp.ViewModels
         public DogViewModel()
         {
             //SV initialise backend framework
-            DataStore = (IDataStore<BaseId>)DependencyService.Get<AzureDataStore<Dog>>() ?? new MockDataStore<Dog>();
+            DataStore = (IDataStore<BaseId>)DependencyService.Get<DataStore<Dog>>() ?? new MockDataStore<Dog>();
             DataStore.InitializeAsync();
 
             
             ClickCreate = new Command(async () =>
             {
-                Dog item = new Dog { Name = this.Name, Interests = new List<string>(new string[] { this.Interests }), Bio = this.Bio, DOB = Convert.ToDateTime(this.DOB) };                
-                await DataStore.AddItemAsync(item);
+//                Dog item = new Dog { Name = this.Name, Interests = new List<string>(new string[] { this.Interests }), Bio = this.Bio, DOB = Convert.ToDateTime(this.DOB) };
+                Dog item = new Dog { Name = this.Name };
+
+                //prep in calling page.
+                //item.MainOwnerId = this.MainOwnerId; item.MainOwnerUserId = this.MainOwnerId;
+
+                bool res = await DataStore.AddItemAsync(item);
+                ResponseType = (res ? 1 : 2);
+                ResponseText = (res ? "Successfully Saved" : "Failed to Save");
+
             });
         }
 
 
         #region Attributes
+        private string _MainOwnerId = "";
+        public string MainOwnerId { get { return _MainOwnerId; } set { if (_MainOwnerId == value) return; _MainOwnerId = value; OnPropertyChenged(); } }
+
+        private string _MainOwnerUserId = "";
+        public string MainOwnerUserId { get { return _MainOwnerUserId; } set { if (_MainOwnerUserId == value) return; _MainOwnerUserId = value; OnPropertyChenged(); } }
+
         private string _Name = "";
         public string Name { get { return _Name; } set { if (_Name == value) return; _Name = value; OnPropertyChenged(); }}
 
@@ -49,6 +63,12 @@ namespace XDogApp.ViewModels
 
         private string _DOB = "";
         public string DOB { get { return _DOB; } set { if (_DOB == value) return; _DOB = value; OnPropertyChenged(); } }
+
+        private string _ResponseText = "";
+        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChenged(); } }
+
+        private int _ResponseType = 1;
+        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChenged(); } }
 
         #endregion
 

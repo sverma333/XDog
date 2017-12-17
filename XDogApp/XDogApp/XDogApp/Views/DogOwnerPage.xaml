@@ -75,6 +75,7 @@
 
             <Label x:Name="Label_RelatedDogs" Text="{t:Translate DogOwnerRelatedDogs}"/>
             <Entry x:Name="Entry_RelatedDogs" Placeholder="{t:Translate DogOwnerRelatedDogs}" AutomationId="DogOwnerEntryRelatedDogs" Text="{Binding RelatedDogs}"/>
+            <Button x:Name="btnDogOwner" Text="{t:Translate DogCreate}" Command="{Binding ClickCreate}" AutomationId="btnDog"/>
 
             <!--
             <Button x:Name="btnDogOwner" Text="{t:Translate DogOwnerDogOwner}" Command="{Binding ClickDogOwner}" AutomationId="btnDogOwner"/>

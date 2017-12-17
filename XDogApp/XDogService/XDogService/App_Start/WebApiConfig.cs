@@ -5,6 +5,10 @@ using System.Net.Http;
 using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
+using Microsoft.Azure.Mobile.Server.Tables;
+using Microsoft.Azure.Mobile.Server.Config;
+using System.Web.Http.Tracing;
+using Microsoft.Azure.Mobile.Server.Tables.Config;
 
 namespace XDogService
 {
@@ -19,12 +23,8 @@ namespace XDogService
 
             // Web API routes
             config.MapHttpAttributeRoutes();
+            new MobileAppConfiguration().UseDefaultConfiguration().ApplyTo(config);
 
-            config.Routes.MapHttpRoute(
-                name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
-            );
         }
     }
 }

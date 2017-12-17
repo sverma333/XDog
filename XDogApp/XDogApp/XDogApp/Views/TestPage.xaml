@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XDogApp.Views.TestPage"     
+             xmlns:vm1="clr-namespace:XDogApp.ViewModels; assembly=XDogApp"
+             Title="LoginPage"
+             xmlns:t="clr-namespace:XDogApp.Helpers"
+             xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp">
+
+    <ContentPage.BindingContext><vm1:TestViewModel/></ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:convTextColor x:Key="convTextColor"/>
+            <conv:convBackgroundColor x:Key="convBackgroundColor"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="0,20,0,0">
+
+        <Entry x:Name="Entry_Text" Placeholder="Enter Text"  Text="{Binding EntryText}"/>
+
+        <Button x:Name="btnRegister" Text="Click" Command="{Binding ClickTest}" AutomationId="btnRegister"/>
+        
+        <Label x:Name="Label_Response" AutomationId="RegisterLabelResponse" Text="{Binding ResponseText, Mode=TwoWay}" 
+               TextColor="{Binding ResponseType, Converter={StaticResource convTextColor}}" BackgroundColor="{Binding ResponseType, Converter={StaticResource convBackgroundColor}}"/>
+
+    </StackLayout>
+</ContentPage>

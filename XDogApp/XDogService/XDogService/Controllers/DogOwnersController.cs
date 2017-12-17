@@ -1,5 +1,5 @@
-﻿using ClientServerData.DataObjects;
-using Microsoft.AspNet.Identity;
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.Azure.Mobile.Server;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -14,7 +14,7 @@ using XDogService.Models;
 
 namespace XDogService.Controllers
 {
-    public class DogOwnersController : ApiController
+    public class DogOwnersController : TableController<DogOwner>
     {
         private DogOwnerContext db = new DogOwnerContext();
 

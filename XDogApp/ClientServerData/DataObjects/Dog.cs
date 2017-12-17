@@ -11,7 +11,7 @@ namespace ClientServerData.DataObjects
         public string MainOwnerUserId { get; set; }
 
         public string Name { get; set; }
-        public List<string> Interests { get; set; }
+        //public List<string> Interests { get; set; }
         public string Bio { get; set; }
         public DateTime DOB { get; set; }
 

@@ -71,6 +71,15 @@ namespace XDogApp.AppResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string DogCreate {
+            get {
+                return ResourceManager.GetString("DogCreate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Date of Birth.
         /// </summary>
         public static string DogDOB {
@@ -130,6 +139,15 @@ namespace XDogApp.AppResources {
         public static string DogOwnerCountry {
             get {
                 return ResourceManager.GetString("DogOwnerCountry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string DogOwnerCreate {
+            get {
+                return ResourceManager.GetString("DogOwnerCreate", resourceCulture);
             }
         }
         

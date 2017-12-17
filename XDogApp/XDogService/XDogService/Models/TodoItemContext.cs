@@ -9,7 +9,7 @@ using System.Web;
 
 namespace XDogService.Models
 {
-    public class DogContext : DbContext
+    public class TodoItemContext : DbContext
     {
         // You can add custom code to this file. Changes will not be overwritten.
         // 
@@ -18,18 +18,17 @@ namespace XDogService.Models
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
     
-        public DogContext() : base("name=MS_ConnectionString")
+        public TodoItemContext() : base("name=MS_ConnectionString")
         {
         }
 
-        public System.Data.Entity.DbSet<Dog> Dogs { get; set; }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Conventions.Add(
+                new AttributeToColumnAnnotationConvention<TableColumnAttribute, string>(
+                    "ServiceTableColumn", (property, attributes) => attributes.Single().ColumnType.ToString()));
+        }
 
-        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Conventions.Add(
-        //        new AttributeToColumnAnnotationConvention<TableColumnAttribute, string>(
-        //            "ServiceTableColumn", (property, attributes) => attributes.Single().ColumnType.ToString()));
-        //}
-
+        public System.Data.Entity.DbSet<XDogService.Models.TodoItem> TodoItems { get; set; }
     }
 }

@@ -11,6 +11,7 @@ using System.Text;
 using Xamarin.Forms;
 using XDogApp.Helpers;
 using XDogApp.Models;
+using XDogApp.ServiceData;
 using XDogApp.Services;
 using XDogApp.Views;
 
@@ -29,10 +30,15 @@ namespace XDogApp
             if (PCL_AppConstants.bUseMockDataStore)
             {
                 DependencyService.Register<MockDataStore<TodoItem>>();
+                DependencyService.Register<MockDataStore<Dog>>();
+                DependencyService.Register<MockDataStore<DogOwner>>();
             }
             else
             {
                 DependencyService.Register<AzureDataStore<TodoItem>>();
+                DependencyService.Register<DataStore<TodoItem>>();
+                DependencyService.Register<DataStore<Dog>>();
+                DependencyService.Register<DataStore<DogOwner>>();
             }
             if (Device.RuntimePlatform == Device.iOS)
                 MainPage = getStartPage();
@@ -47,7 +53,7 @@ namespace XDogApp
             Page ret;
 
             // test TODO remove later
-            return new DogPage();
+            return new TestPage();
 
 
             if (!string.IsNullOrEmpty(Settings.Token) && !string.IsNullOrEmpty(Settings.ScreenName))     // logged in, so start

@@ -11,7 +11,6 @@ using XDogApp;
 
 using XDogApp.Services;
 using XDogApp.Helpers;
-using ClientServerData.DataObjects;
 
 namespace XDogApp.ViewModels
 {
@@ -28,23 +27,24 @@ namespace XDogApp.ViewModels
 
         public RegisterViewModel()
         {
+            ResponseText = AppResources.AppResources.RegisterResponseDef;
             //SV initialise backend framework
             //DataStore = (IDataStore<BaseId>)DependencyService.Get<AzureDataStore<TodoItem>>() ?? new MockDataStore<TodoItem>();
             //DataStore.InitializeAsync();
 
-//            ClickTest1 = new Command(async () =>
-//            {
-//                TodoItem item = new TodoItem { Text = "Awesome item " + DateTime.Now.ToString("yyyy-MM-dd HH:mmm:ss") };
-//                await DataStore.AddItemAsync(item);
-//            });
+            //            ClickTest1 = new Command(async () =>
+            //            {
+            //                TodoItem item = new TodoItem { Text = "Awesome item " + DateTime.Now.ToString("yyyy-MM-dd HH:mmm:ss") };
+            //                await DataStore.AddItemAsync(item);
+            //            });
 
-//            ClickTest2 = new Command(async () =>
-//            {
-//                var lst = (await DataStore.GetItemsAsync(true)).ToList();
-////                int itemsCount = (await DataStore.GetItemsAsync(true)).ToList().Count;
-//                int itemsCount = lst.Count;
-//                System.Diagnostics.Debug.WriteLine($"Rows in table {itemsCount}");
-//            });
+            //            ClickTest2 = new Command(async () =>
+            //            {
+            //                var lst = (await DataStore.GetItemsAsync(true)).ToList();
+            ////                int itemsCount = (await DataStore.GetItemsAsync(true)).ToList().Count;
+            //                int itemsCount = lst.Count;
+            //                System.Diagnostics.Debug.WriteLine($"Rows in table {itemsCount}");
+            //            });
 
             ClickVerification = new Command(async () =>
             {

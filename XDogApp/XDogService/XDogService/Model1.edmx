@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005">
+        <EntityContainer Name="Model1TargetContainer" >
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DogOwners" EntityType="Model1.DogOwner" />
+          <EntitySet Name="Dogs" EntityType="Model1.Dog" />
+          <EntitySet Name="OwnerDogRels" EntityType="Model1.OwnerDogRel" />
+          <EntitySet Name="OwnerDogRelTypes" EntityType="Model1.OwnerDogRelType" />
+          <AssociationSet Name="OwnerDogRelTypeOwnerDogRel" Association="Model1.OwnerDogRelTypeOwnerDogRel">
+            <End Role="OwnerDogRelType" EntitySet="OwnerDogRelTypes" />
+            <End Role="OwnerDogRel" EntitySet="OwnerDogRels" />
+          </AssociationSet>
+          <AssociationSet Name="DogOwnerOwnerDogRel" Association="Model1.DogOwnerOwnerDogRel">
+            <End Role="DogOwner" EntitySet="DogOwners" />
+            <End Role="OwnerDogRel" EntitySet="OwnerDogRels" />
+          </AssociationSet>
+          <AssociationSet Name="DogOwnerDogRel" Association="Model1.DogOwnerDogRel">
+            <End Role="Dog" EntitySet="Dogs" />
+            <End Role="OwnerDogRel" EntitySet="OwnerDogRels" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="DogOwner">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" Nullable="false" />
+          <Property Name="LastName" Type="String" Nullable="false" />
+          <NavigationProperty Name="OwnerDogRels" Relationship="Model1.DogOwnerOwnerDogRel" FromRole="DogOwner" ToRole="OwnerDogRel" />
+        </EntityType>
+        <EntityType Name="Dog">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="OwnerId" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="DOB" Type="DateTime" Nullable="false" />
+          <Property Name="OwnerId" Type="String" Nullable="false" />
+          <NavigationProperty Name="OwnerDogRels" Relationship="Model1.DogOwnerDogRel" FromRole="Dog" ToRole="OwnerDogRel" />
+        </EntityType>
+        <EntityType Name="OwnerDogRel">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="OwnerDogRelType" Relationship="Model1.OwnerDogRelTypeOwnerDogRel" FromRole="OwnerDogRel" ToRole="OwnerDogRelType" />
+          <NavigationProperty Name="DogOwner" Relationship="Model1.DogOwnerOwnerDogRel" FromRole="OwnerDogRel" ToRole="DogOwner" />
+          <NavigationProperty Name="Dog" Relationship="Model1.DogOwnerDogRel" FromRole="OwnerDogRel" ToRole="Dog" />
+        </EntityType>
+        <EntityType Name="OwnerDogRelType">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TypeShortName" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <NavigationProperty Name="OwnerDogRels" Relationship="Model1.OwnerDogRelTypeOwnerDogRel" FromRole="OwnerDogRelType" ToRole="OwnerDogRel" />
+        </EntityType>
+        <Association Name="OwnerDogRelTypeOwnerDogRel">
+          <End Type="Model1.OwnerDogRelType" Role="OwnerDogRelType" Multiplicity="1" />
+          <End Type="Model1.OwnerDogRel" Role="OwnerDogRel" Multiplicity="*" />
+        </Association>
+        <Association Name="DogOwnerOwnerDogRel">
+          <End Type="Model1.DogOwner" Role="DogOwner" Multiplicity="1" />
+          <End Type="Model1.OwnerDogRel" Role="OwnerDogRel" Multiplicity="*" />
+        </Association>
+        <Association Name="DogOwnerDogRel">
+          <End Type="Model1.Dog" Role="Dog" Multiplicity="1" />
+          <End Type="Model1.OwnerDogRel" Role="OwnerDogRel" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="Model1" />
+        <Alias Key="Target" Value="Model1.Store" />
+        <EntityContainerMapping CdmEntityContainer="Model1Container" StorageEntityContainer="Model1TargetContainer">
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

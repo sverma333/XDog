@@ -22,6 +22,7 @@ namespace XDogApp.iOS
         {
             //SV Added
             AppCenter.Start("fd3b9965-2833-481b-a812-3cb085f66bc8", typeof(Analytics), typeof(Crashes));
+            Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
 
 
 

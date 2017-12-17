@@ -25,12 +25,11 @@
             <Label x:Name="Label_DOB" Text="{t:Translate DogDOB}"/>
             <Entry x:Name="Entry_DOB" Placeholder="{t:Translate DogDOB}" AutomationId="DogOwnerEntryDOB" Text="{Binding DOB}"/>
 
-            <!--
-            <Button x:Name="btnDogOwner" Text="{t:Translate DogOwnerDogOwner}" Command="{Binding ClickDogOwner}" AutomationId="btnDogOwner"/>
- 
-            <Label x:Name="Label_Response" AutomationId="DogOwnerLabelResponse" Text="{Binding ResponseText, Mode=TwoWay}" 
-               TextColor="{Binding ResponseType, Converter={StaticResource convTextColor}}" BackgroundColor="{Binding ResponseType, Converter={StaticResource convBackgroundColor}}"/>
--->
+            <Button x:Name="btnDog" Text="{t:Translate DogCreate}" Command="{Binding ClickCreate}" AutomationId="btnDog"/>
+
+            <!--<Label x:Name="Label_Response" AutomationId="DogLabelResponse" Text="{Binding ResponseText, Mode=TwoWay}" 
+               TextColor="{Binding ResponseType, Converter={StaticResource convTextColor}}" BackgroundColor="{Binding ResponseType, Converter={StaticResource convBackgroundColor}}"/>-->
+
         </StackLayout>
     </ScrollView>
 </ContentPage>  

@@ -1,10 +1,10 @@
-﻿using ClientServerData.DataObjects;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using XDogApp.Models;
+using XDogApp.ServiceData;
 
 namespace XDogApp.Services
 {

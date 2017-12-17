@@ -10,7 +10,7 @@ using Plugin.Connectivity;
 using System.Diagnostics;
 using XDogApp.Models;
 using System.IO;
-using ClientServerData.DataObjects;
+using XDogApp.ServiceData;
 
 namespace XDogApp.Services
 {
@@ -23,17 +23,21 @@ namespace XDogApp.Services
         public async Task InitializeAsync()
         {
 
+            if (MobileService?.SyncContext?.IsInitialized ?? false)
+                return;
+
             MobileService = new MobileServiceClient(PCL_AppConstants.sCurrentServiceURL);
-            string path = "app.db";
+            string path = "app1.db";
 
             var store = new MobileServiceSQLiteStoreWithLogging(path, PCL_AppConstants.bLogSqlLite);
-            store.DefineTable<TodoItem>();
-            await MobileService.SyncContext.InitializeAsync(store, new MobileServiceSyncHandler());
+            store.DefineTable<T>();
+            await MobileService.SyncContext.InitializeAsync(store);
             itemsTable = MobileService.GetSyncTable<T>();
         }
 
         public async Task<IEnumerable<BaseId>> GetItemsAsync(bool forceRefresh = false)
         {
+            await InitializeAsync();
             if (forceRefresh)
                 await PullLatestAsync();
 
@@ -42,6 +46,7 @@ namespace XDogApp.Services
 
         public async Task<BaseId> GetItemAsync(string id)
         {
+            await InitializeAsync();
             await PullLatestAsync();
             var items = await itemsTable.Where(s => ((BaseId)s).Id == id).ToListAsync();
 
@@ -53,6 +58,7 @@ namespace XDogApp.Services
 
         public async Task<bool> AddItemAsync(BaseId item)
         {
+            await InitializeAsync();
             await PullLatestAsync();
             await itemsTable.InsertAsync((T)item);
             await SyncAsync();
@@ -62,6 +68,7 @@ namespace XDogApp.Services
 
         public async Task<bool> UpdateItemAsync(BaseId item)
         {
+            await InitializeAsync();
             await itemsTable.UpdateAsync((T)item);
             await SyncAsync();
 
@@ -70,6 +77,7 @@ namespace XDogApp.Services
 
         public async Task<bool> DeleteItemAsync(BaseId item)
         {
+            await InitializeAsync();
             await PullLatestAsync();
             await itemsTable.DeleteAsync((T)item);
             await SyncAsync();
@@ -79,6 +87,7 @@ namespace XDogApp.Services
 
         public async Task<bool> PullLatestAsync()
         {
+            await InitializeAsync();
             if (!CrossConnectivity.Current.IsConnected)
             {
                 Debug.WriteLine("Unable to pull items, we are offline");
@@ -86,6 +95,9 @@ namespace XDogApp.Services
             }
             try
             {
+                var va = $"all{typeof(T).Name}";
+                var v2 = itemsTable.CreateQuery();
+
                 await itemsTable.PullAsync($"all{typeof(T).Name}", itemsTable.CreateQuery());
             }
             catch (Exception ex)
@@ -98,6 +110,7 @@ namespace XDogApp.Services
 
         public async Task<bool> SyncAsync()
         {
+            await InitializeAsync();
             if (!CrossConnectivity.Current.IsConnected)
             {
                 Debug.WriteLine("Unable to sync items, we are offline");

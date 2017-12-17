@@ -11,7 +11,7 @@ using XDogApp;
 
 using XDogApp.Services;
 using XDogApp.Helpers;
-using ClientServerData.DataObjects;
+using XDogApp.ServiceData;
 
 namespace XDogApp.ViewModels
 {
