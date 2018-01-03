@@ -37,9 +37,9 @@ namespace XDogApp.ViewModels
             ClickTest = new Command(async () =>
             {
                 TodoItem item = new TodoItem() { Text = EntryText };
-                bool b = await testServices.AddItemAsync(item);
-                ResponseType = (b ? 1 : 2);
-                ResponseText = (b ? "Successful inserted" : "Failed to insert"); 
+                bool res = await testServices.AddItemAsync(item);
+                ResponseType = (res ? 1 : 2);
+                ResponseText = (res ? "Successful inserted" : "Failed to insert");
             });
         }
 

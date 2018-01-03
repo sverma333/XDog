@@ -19,5 +19,10 @@ namespace XDogApp.ViewModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        public Task InitializeAsync()
+        {
+            return null;
+        }
     }
 }

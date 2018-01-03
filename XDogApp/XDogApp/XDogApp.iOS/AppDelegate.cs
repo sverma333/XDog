@@ -4,6 +4,8 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Plugin.Media;
+using Plugin.MediaManager.Forms.iOS;
 
 namespace XDogApp.iOS
 {
@@ -22,7 +24,10 @@ namespace XDogApp.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            #region SV ADDED Init
+            VideoViewRenderer.Init();
             global::Xamarin.Forms.Forms.Init();
+            #endregion
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

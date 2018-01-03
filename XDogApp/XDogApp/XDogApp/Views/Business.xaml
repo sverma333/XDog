@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="BusinessPage"
+             x:Class="XDogApp.Views.BusinessPage"
+             xmlns:vm1="clr-namespace:XDogApp.ViewModels; assembly=XDogApp"
+             xmlns:t="clr-namespace:XDogApp.Helpers"
+             xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp">
+
+    <ContentPage.BindingContext><vm1:BusinessViewModel/></ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:convTextColor x:Key="convTextColor"/>
+            <conv:convBackgroundColor x:Key="convBackgroundColor"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="0,20,0,0">
+
+        <Entry x:Name="Entry_Name" Placeholder="{t:Translate BusinessName}" AutomationId="BusinessEntryName" Text="{Binding BusinessName}"/>
+        <Entry x:Name="Entry_Type" Placeholder="{t:Translate BusinessType}" AutomationId="BusinessEntryType" Text="{Binding BusinessType}"/>
+        <Entry x:Name="Entry_Bio" Placeholder="{t:Translate BusinessBio}" AutomationId="BusinessEntryBio" Text="{Binding BusinessBio}"/>
+        <Entry x:Name="Entry_OpeningTimes" Placeholder="{t:Translate BusinessOpeningTimes}" AutomationId="BusinessEntryOpeningTimes" Text="{Binding BusinessOpeningTimes}"/>
+        <Entry x:Name="Entry_DOB" Placeholder="{t:Translate BusinessDOB}" AutomationId="BusinessEntryDOB" Text="{Binding BusinessDOB}"/>
+
+        <Button x:Name="btnBusiness" Text="{t:Translate Create}" Command="{Binding ClickCreate}" AutomationId="btnBusiness"/>
+
+        <Label x:Name="Label_Response" AutomationId="DogLabelResponse" Text="{Binding ResponseText, Mode=TwoWay}" 
+            TextColor="{Binding ResponseType, Converter={StaticResource convTextColor}}" BackgroundColor="{Binding ResponseType, Converter={StaticResource convBackgroundColor}}"/>
+
+    </StackLayout>
+</ContentPage>  

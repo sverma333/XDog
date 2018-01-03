@@ -5,31 +5,37 @@
              x:Class="XDogApp.Views.DogPage"
              xmlns:vm1="clr-namespace:XDogApp.ViewModels; assembly=XDogApp"
              xmlns:t="clr-namespace:XDogApp.Helpers"
-             xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp">
+             xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp"
+             xmlns:Vid="clr-namespace:Plugin.MediaManager.Forms;assembly=Plugin.MediaManager.Forms">
 
     <ContentPage.BindingContext><vm1:DogViewModel/></ContentPage.BindingContext>
 
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:convTextColor x:Key="convTextColor"/>
+            <conv:convBackgroundColor x:Key="convBackgroundColor"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
-    <ScrollView>
-        <StackLayout Padding="0,20,0,0">
+    <StackLayout Padding="0,20,0,0">
 
-            <Label x:Name="Label_Name" Text="{t:Translate DogName}"/>
-            <Entry x:Name="Entry_Name" Placeholder="{t:Translate DogName}" AutomationId="DogEntryName" Text="{Binding Name}"/>
+        <Entry x:Name="Entry_Name" Placeholder="{t:Translate DogName}" AutomationId="DogEntryName" Text="{Binding Name}"/>
+        <Entry x:Name="Entry_Breed" Placeholder="{t:Translate DogBreed}" AutomationId="DogEntryBreed" Text="{Binding Breed}"/>
+        <Entry x:Name="Entry_Gender" Placeholder="{t:Translate GenderDesc}" AutomationId="DogEntryGender" Text="{Binding Gender}"/>
+        <Entry x:Name="Entry_Interests" Placeholder="{t:Translate DogInterests}" AutomationId="DogEntryInterests" Text="{Binding Interests}"/>
+        <Entry x:Name="Entry_Bio" Placeholder="{t:Translate DogBio}" AutomationId="DogEntryBio" Text="{Binding Bio}"/>
+        <Entry x:Name="Entry_DOB" Placeholder="{t:Translate DogDOB}" AutomationId="DogEntryDOB" Text="{Binding DOB}"/>
 
-            <Label x:Name="Label_Interests" Text="{t:Translate DogInterests}"/>
-            <Entry x:Name="Entry_Interests" Placeholder="{t:Translate DogInterests}" AutomationId="DogEntryInterests" Text="{Binding Interests}"/>
+        <Button x:Name="btnDog" Text="{t:Translate Create}" Command="{Binding ClickCreate}" AutomationId="btnDog"/>
+        <Button x:Name="btnDogTakePhoto" Text="{t:Translate TakePhoto}" Command="{Binding ClickTakePhoto}" AutomationId="btnDogTakePhoto"/>
+        <Button x:Name="btnDogPickPhoto" Text="{t:Translate PickPhoto}" Command="{Binding ClickPickPhoto}" AutomationId="btnDogPickPhoto"/>
+        <Button x:Name="btnDogTakeVideo" Text="{t:Translate TakeVideo}" Command="{Binding ClickTakeVideo}" AutomationId="btnDogTakeVideo"/>
+        <Button x:Name="btnDogPickVideo" Text="{t:Translate PickVideo}" Command="{Binding ClickPickVideo}" AutomationId="btnDogPickVideo"/>
+        <Image x:Name="MainImage" Source="{Binding MainImageSource}"/>
+        <!--<Vid:VideoView x:Name="MainVideo" WidthRequest="360" HeightRequest="202"/>-->
 
-            <Label x:Name="Label_Bio" Text="{t:Translate DogBio}"/>
-            <Entry x:Name="Entry_Bio" Placeholder="{t:Translate DogBio}" AutomationId="DogOwnerEntryBio" Text="{Binding Bio}"/>
+        <Label x:Name="Label_Response" AutomationId="DogLabelResponse" Text="{Binding ResponseText, Mode=TwoWay}" 
+            TextColor="{Binding ResponseType, Converter={StaticResource convTextColor}}" BackgroundColor="{Binding ResponseType, Converter={StaticResource convBackgroundColor}}"/>
 
-            <Label x:Name="Label_DOB" Text="{t:Translate DogDOB}"/>
-            <Entry x:Name="Entry_DOB" Placeholder="{t:Translate DogDOB}" AutomationId="DogOwnerEntryDOB" Text="{Binding DOB}"/>
-
-            <Button x:Name="btnDog" Text="{t:Translate DogCreate}" Command="{Binding ClickCreate}" AutomationId="btnDog"/>
-
-            <!--<Label x:Name="Label_Response" AutomationId="DogLabelResponse" Text="{Binding ResponseText, Mode=TwoWay}" 
-               TextColor="{Binding ResponseType, Converter={StaticResource convTextColor}}" BackgroundColor="{Binding ResponseType, Converter={StaticResource convBackgroundColor}}"/>-->
-
-        </StackLayout>
-    </ScrollView>
+    </StackLayout>
 </ContentPage>  

@@ -32,6 +32,8 @@ namespace XDogApp
                 DependencyService.Register<MockDataStore<TodoItem>>();
                 DependencyService.Register<MockDataStore<Dog>>();
                 DependencyService.Register<MockDataStore<DogOwner>>();
+                DependencyService.Register<MockDataStore<Address>>();
+                DependencyService.Register<MockDataStore<Business>>();
             }
             else
             {
@@ -39,13 +41,12 @@ namespace XDogApp
                 DependencyService.Register<DataStore<TodoItem>>();
                 DependencyService.Register<DataStore<Dog>>();
                 DependencyService.Register<DataStore<DogOwner>>();
+                DependencyService.Register<DataStore<Address>>();
+                DependencyService.Register<DataStore<Business>>();
             }
-            if (Device.RuntimePlatform == Device.iOS)
-                MainPage = getStartPage();
-            else
-                MainPage = new NavigationPage(getStartPage());
 
 
+            MainPage = (Device.RuntimePlatform == Device.iOS ? getStartPage() : new NavigationPage(getStartPage()));
         }
 
         private Page getStartPage()
@@ -53,7 +54,7 @@ namespace XDogApp
             Page ret;
 
             // test TODO remove later
-            return new TestPage();
+            return new DogListPage();
 
 
             if (!string.IsNullOrEmpty(Settings.Token) && !string.IsNullOrEmpty(Settings.ScreenName))     // logged in, so start

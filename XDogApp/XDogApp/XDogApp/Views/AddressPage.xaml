@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="AddressPage"
+             x:Class="XDogApp.Views.AddressPage"
+             xmlns:vm1="clr-namespace:XDogApp.ViewModels; assembly=XDogApp"
+             xmlns:t="clr-namespace:XDogApp.Helpers"
+             xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp">
+
+    <ContentPage.BindingContext><vm1:AddressViewModel/></ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:convTextColor x:Key="convTextColor"/>
+            <conv:convBackgroundColor x:Key="convBackgroundColor"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+        
+    <StackLayout Padding="0,20,0,0">
+
+        <Entry x:Name="Entry_Address1" Placeholder="{t:Translate AddressAddress1}" AutomationId="AddressEntryAddress1" Text="{Binding Address1}"/>
+        <Entry x:Name="Entry_Address2" Placeholder="{t:Translate AddressAddress2}" AutomationId="AddressEntryAddress2" Text="{Binding Address2}"/>
+        <Entry x:Name="Entry_Address3" Placeholder="{t:Translate AddressAddress3}" AutomationId="AddressEntryAddress3" Text="{Binding Address3}"/>
+        <Entry x:Name="Entry_Address4" Placeholder="{t:Translate AddressAddress4}" AutomationId="AddressEntryAddress4" Text="{Binding Address4}"/>
+        <Entry x:Name="Entry_Town" Placeholder="{t:Translate AddressTown}" AutomationId="AddressEntryTown" Text="{Binding Town}"/>
+        <Entry x:Name="Entry_City" Placeholder="{t:Translate AddressCity}" AutomationId="AddressEntryCity" Text="{Binding City}"/>
+        <Entry x:Name="Entry_PostCode" Placeholder="{t:Translate AddressPostCode}" AutomationId="AddressEntryPostCode" Text="{Binding PostCode}"/>
+        <Entry x:Name="Entry_Country" Placeholder="{t:Translate AddressCountry}" AutomationId="AddressEntryCountry" Text="{Binding Country}"/>
+            
+        <Button x:Name="btnAddress" Text="{t:Translate Create}" Command="{Binding ClickCreate}" AutomationId="btnAddress"/>
+
+        <Label x:Name="Label_Response" AutomationId="AddressLabelResponse" Text="{Binding ResponseText, Mode=TwoWay}" 
+            TextColor="{Binding ResponseType, Converter={StaticResource convTextColor}}" BackgroundColor="{Binding ResponseType, Converter={StaticResource convBackgroundColor}}"/>
+    </StackLayout>
+</ContentPage>  

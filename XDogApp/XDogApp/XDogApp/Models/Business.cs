@@ -7,15 +7,12 @@ using XDogApp.ServiceData;
 
 namespace XDogApp.Models
 {
-    public class Dog : BaseId
+    public class Business : BaseId
     {
-        public string MainOwnerId { get; set; }
-
-        public string PPPath { get; set; }
         public string Name { get; set; }
-        public string Breed { get; set; }
-        public string Gender { get; set; }
+        public string Type { get; set; }
         public string Bio { get; set; }
+        public string OpeningTimes { get; set; }
         public DateTime DOB { get; set; }
     }
 }

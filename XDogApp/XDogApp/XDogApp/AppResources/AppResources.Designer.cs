@@ -62,6 +62,132 @@ namespace XDogApp.AppResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Address Line 1.
+        /// </summary>
+        public static string AddressAddress1 {
+            get {
+                return ResourceManager.GetString("AddressAddress1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Address Line 2.
+        /// </summary>
+        public static string AddressAddress2 {
+            get {
+                return ResourceManager.GetString("AddressAddress2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Address Line 3.
+        /// </summary>
+        public static string AddressAddress3 {
+            get {
+                return ResourceManager.GetString("AddressAddress3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Address Line 4.
+        /// </summary>
+        public static string AddressAddress4 {
+            get {
+                return ResourceManager.GetString("AddressAddress4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to City.
+        /// </summary>
+        public static string AddressCity {
+            get {
+                return ResourceManager.GetString("AddressCity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Country.
+        /// </summary>
+        public static string AddressCountry {
+            get {
+                return ResourceManager.GetString("AddressCountry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PostCode.
+        /// </summary>
+        public static string AddressPostCode {
+            get {
+                return ResourceManager.GetString("AddressPostCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Town.
+        /// </summary>
+        public static string AddressTown {
+            get {
+                return ResourceManager.GetString("AddressTown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Description.
+        /// </summary>
+        public static string BusinessBio {
+            get {
+                return ResourceManager.GetString("BusinessBio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date of Incorporation.
+        /// </summary>
+        public static string BusinessDOB {
+            get {
+                return ResourceManager.GetString("BusinessDOB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name of Business.
+        /// </summary>
+        public static string BusinessName {
+            get {
+                return ResourceManager.GetString("BusinessName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Opening Times.
+        /// </summary>
+        public static string BusinessOpeningTimes {
+            get {
+                return ResourceManager.GetString("BusinessOpeningTimes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Type.
+        /// </summary>
+        public static string BusinessType {
+            get {
+                return ResourceManager.GetString("BusinessType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string Create {
+            get {
+                return ResourceManager.GetString("Create", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Descripton.
         /// </summary>
         public static string DogBio {
@@ -71,11 +197,11 @@ namespace XDogApp.AppResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Save.
+        ///   Looks up a localized string similar to Breed.
         /// </summary>
-        public static string DogCreate {
+        public static string DogBreed {
             get {
-                return ResourceManager.GetString("DogCreate", resourceCulture);
+                return ResourceManager.GetString("DogBreed", resourceCulture);
             }
         }
         
@@ -305,11 +431,38 @@ namespace XDogApp.AppResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Male or Female.
+        /// </summary>
+        public static string GenderDesc {
+            get {
+                return ResourceManager.GetString("GenderDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please Login.
         /// </summary>
         public static string LoginResponseDef {
             get {
                 return ResourceManager.GetString("LoginResponseDef", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pick Photo.
+        /// </summary>
+        public static string PickPhoto {
+            get {
+                return ResourceManager.GetString("PickPhoto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pick Video.
+        /// </summary>
+        public static string PickVideo {
+            get {
+                return ResourceManager.GetString("PickVideo", resourceCulture);
             }
         }
         
@@ -382,6 +535,24 @@ namespace XDogApp.AppResources {
         public static string RegisterVerificationCode {
             get {
                 return ResourceManager.GetString("RegisterVerificationCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Take Photo.
+        /// </summary>
+        public static string TakePhoto {
+            get {
+                return ResourceManager.GetString("TakePhoto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Take Video.
+        /// </summary>
+        public static string TakeVideo {
+            get {
+                return ResourceManager.GetString("TakeVideo", resourceCulture);
             }
         }
     }

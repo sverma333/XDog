@@ -19,6 +19,8 @@ using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using Microsoft.WindowsAzure.MobileServices;
+using Plugin.Media;
+using Plugin.MediaManager.Forms.UWP;
 
 namespace XDogApp.UWP
 {
@@ -49,7 +51,7 @@ namespace XDogApp.UWP
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
 
 #if DEBUG
@@ -70,7 +72,13 @@ namespace XDogApp.UWP
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
+                #region SV ADDED Init
+                //VideoViewRenderer.Init();
                 Xamarin.Forms.Forms.Init(e);
+                await CrossMedia.Current.Initialize();
+
+                #endregion
+
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

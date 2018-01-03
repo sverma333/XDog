@@ -117,11 +117,53 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AddressAddress1" xml:space="preserve">
+    <value>Address Line 1</value>
+  </data>
+  <data name="AddressAddress2" xml:space="preserve">
+    <value>Address Line 2</value>
+  </data>
+  <data name="AddressAddress3" xml:space="preserve">
+    <value>Address Line 3</value>
+  </data>
+  <data name="AddressAddress4" xml:space="preserve">
+    <value>Address Line 4</value>
+  </data>
+  <data name="AddressCity" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="AddressCountry" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="AddressPostCode" xml:space="preserve">
+    <value>PostCode</value>
+  </data>
+  <data name="AddressTown" xml:space="preserve">
+    <value>Town</value>
+  </data>
+  <data name="BusinessBio" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="BusinessDOB" xml:space="preserve">
+    <value>Date of Incorporation</value>
+  </data>
+  <data name="BusinessName" xml:space="preserve">
+    <value>Name of Business</value>
+  </data>
+  <data name="BusinessOpeningTimes" xml:space="preserve">
+    <value>Opening Times</value>
+  </data>
+  <data name="BusinessType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Save</value>
+  </data>
   <data name="DogBio" xml:space="preserve">
     <value>Descripton</value>
   </data>
-  <data name="DogCreate" xml:space="preserve">
-    <value>Save</value>
+  <data name="DogBreed" xml:space="preserve">
+    <value>Breed</value>
   </data>
   <data name="DogDOB" xml:space="preserve">
     <value>Date of Birth</value>
@@ -198,8 +240,17 @@
   <data name="DogOwnerWorkPlace" xml:space="preserve">
     <value>Work Place</value>
   </data>
+  <data name="GenderDesc" xml:space="preserve">
+    <value>Male or Female</value>
+  </data>
   <data name="LoginResponseDef" xml:space="preserve">
     <value>Please Login</value>
+  </data>
+  <data name="PickPhoto" xml:space="preserve">
+    <value>Pick Photo</value>
+  </data>
+  <data name="PickVideo" xml:space="preserve">
+    <value>Pick Video</value>
   </data>
   <data name="RegisterConfirmPassword" xml:space="preserve">
     <value>Confirm Password</value>
@@ -224,5 +275,11 @@
   </data>
   <data name="RegisterVerificationCode" xml:space="preserve">
     <value>Verification Code</value>
+  </data>
+  <data name="TakePhoto" xml:space="preserve">
+    <value>Take Photo</value>
+  </data>
+  <data name="TakeVideo" xml:space="preserve">
+    <value>Take Video</value>
   </data>
 </root>

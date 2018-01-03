@@ -36,6 +36,2119 @@ namespace XDogApp.Droid
 			global::Xamarin.Auth._MobileServices.Resource.String.title_activity_webview = global::XDogApp.Droid.Resource.String.title_activity_webview;
 			global::PCLCrypto.Resource.String.ApplicationName = global::XDogApp.Droid.Resource.String.ApplicationName;
 			global::PCLCrypto.Resource.String.Hello = global::XDogApp.Droid.Resource.String.Hello;
+			global::PCLStorage.Resource.String.ApplicationName = global::XDogApp.Droid.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::XDogApp.Droid.Resource.String.Hello;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_fade_in = global::XDogApp.Droid.Resource.Animation.abc_fade_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_fade_out = global::XDogApp.Droid.Resource.Animation.abc_fade_out;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::XDogApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_popup_enter = global::XDogApp.Droid.Resource.Animation.abc_popup_enter;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_popup_exit = global::XDogApp.Droid.Resource.Animation.abc_popup_exit;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::XDogApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_slide_in_bottom = global::XDogApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_slide_in_top = global::XDogApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_slide_out_bottom = global::XDogApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_slide_out_top = global::XDogApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_bottom_sheet_slide_in = global::XDogApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_bottom_sheet_slide_out = global::XDogApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_fab_in = global::XDogApp.Droid.Resource.Animation.design_fab_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_fab_out = global::XDogApp.Droid.Resource.Animation.design_fab_out;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_snackbar_in = global::XDogApp.Droid.Resource.Animation.design_snackbar_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_snackbar_out = global::XDogApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animator.design_appbar_state_list_animator = global::XDogApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarDivider = global::XDogApp.Droid.Resource.Attribute.actionBarDivider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarItemBackground = global::XDogApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarPopupTheme = global::XDogApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarSize = global::XDogApp.Droid.Resource.Attribute.actionBarSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarSplitStyle = global::XDogApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarStyle = global::XDogApp.Droid.Resource.Attribute.actionBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarTabBarStyle = global::XDogApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarTabStyle = global::XDogApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarTabTextStyle = global::XDogApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarTheme = global::XDogApp.Droid.Resource.Attribute.actionBarTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarWidgetTheme = global::XDogApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionButtonStyle = global::XDogApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionDropDownStyle = global::XDogApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionLayout = global::XDogApp.Droid.Resource.Attribute.actionLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionMenuTextAppearance = global::XDogApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionMenuTextColor = global::XDogApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeBackground = global::XDogApp.Droid.Resource.Attribute.actionModeBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeCloseButtonStyle = global::XDogApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeCloseDrawable = global::XDogApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeCopyDrawable = global::XDogApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeCutDrawable = global::XDogApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeFindDrawable = global::XDogApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModePasteDrawable = global::XDogApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModePopupWindowStyle = global::XDogApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeSelectAllDrawable = global::XDogApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeShareDrawable = global::XDogApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeSplitBackground = global::XDogApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeStyle = global::XDogApp.Droid.Resource.Attribute.actionModeStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeWebSearchDrawable = global::XDogApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionOverflowButtonStyle = global::XDogApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionOverflowMenuStyle = global::XDogApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionProviderClass = global::XDogApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionViewClass = global::XDogApp.Droid.Resource.Attribute.actionViewClass;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.activityChooserViewStyle = global::XDogApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::XDogApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alertDialogCenterButtons = global::XDogApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alertDialogStyle = global::XDogApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alertDialogTheme = global::XDogApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.allowStacking = global::XDogApp.Droid.Resource.Attribute.allowStacking;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alpha = global::XDogApp.Droid.Resource.Attribute.alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.arrowHeadLength = global::XDogApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.arrowShaftLength = global::XDogApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.autoCompleteTextViewStyle = global::XDogApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.background = global::XDogApp.Droid.Resource.Attribute.background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.backgroundSplit = global::XDogApp.Droid.Resource.Attribute.backgroundSplit;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.backgroundStacked = global::XDogApp.Droid.Resource.Attribute.backgroundStacked;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.backgroundTint = global::XDogApp.Droid.Resource.Attribute.backgroundTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.backgroundTintMode = global::XDogApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.barLength = global::XDogApp.Droid.Resource.Attribute.barLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_autoHide = global::XDogApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_hideable = global::XDogApp.Droid.Resource.Attribute.behavior_hideable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_overlapTop = global::XDogApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_peekHeight = global::XDogApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_skipCollapsed = global::XDogApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.borderWidth = global::XDogApp.Droid.Resource.Attribute.borderWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.borderlessButtonStyle = global::XDogApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.bottomSheetDialogTheme = global::XDogApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.bottomSheetStyle = global::XDogApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarButtonStyle = global::XDogApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::XDogApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::XDogApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::XDogApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarStyle = global::XDogApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonGravity = global::XDogApp.Droid.Resource.Attribute.buttonGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonPanelSideLayout = global::XDogApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonStyle = global::XDogApp.Droid.Resource.Attribute.buttonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonStyleSmall = global::XDogApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonTint = global::XDogApp.Droid.Resource.Attribute.buttonTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonTintMode = global::XDogApp.Droid.Resource.Attribute.buttonTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardBackgroundColor = global::XDogApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardCornerRadius = global::XDogApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardElevation = global::XDogApp.Droid.Resource.Attribute.cardElevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardMaxElevation = global::XDogApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardPreventCornerOverlap = global::XDogApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardUseCompatPadding = global::XDogApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.checkboxStyle = global::XDogApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.checkedTextViewStyle = global::XDogApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.closeIcon = global::XDogApp.Droid.Resource.Attribute.closeIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.closeItemLayout = global::XDogApp.Droid.Resource.Attribute.closeItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.collapseContentDescription = global::XDogApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.collapseIcon = global::XDogApp.Droid.Resource.Attribute.collapseIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.collapsedTitleGravity = global::XDogApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.collapsedTitleTextAppearance = global::XDogApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.color = global::XDogApp.Droid.Resource.Attribute.color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorAccent = global::XDogApp.Droid.Resource.Attribute.colorAccent;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorBackgroundFloating = global::XDogApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorButtonNormal = global::XDogApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorControlActivated = global::XDogApp.Droid.Resource.Attribute.colorControlActivated;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorControlHighlight = global::XDogApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorControlNormal = global::XDogApp.Droid.Resource.Attribute.colorControlNormal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorPrimary = global::XDogApp.Droid.Resource.Attribute.colorPrimary;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorPrimaryDark = global::XDogApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorSwitchThumbNormal = global::XDogApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.commitIcon = global::XDogApp.Droid.Resource.Attribute.commitIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetEnd = global::XDogApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetEndWithActions = global::XDogApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetLeft = global::XDogApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetRight = global::XDogApp.Droid.Resource.Attribute.contentInsetRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetStart = global::XDogApp.Droid.Resource.Attribute.contentInsetStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetStartWithNavigation = global::XDogApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPadding = global::XDogApp.Droid.Resource.Attribute.contentPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPaddingBottom = global::XDogApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPaddingLeft = global::XDogApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPaddingRight = global::XDogApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPaddingTop = global::XDogApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentScrim = global::XDogApp.Droid.Resource.Attribute.contentScrim;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.controlBackground = global::XDogApp.Droid.Resource.Attribute.controlBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.counterEnabled = global::XDogApp.Droid.Resource.Attribute.counterEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.counterMaxLength = global::XDogApp.Droid.Resource.Attribute.counterMaxLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.counterOverflowTextAppearance = global::XDogApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.counterTextAppearance = global::XDogApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.customNavigationLayout = global::XDogApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.defaultQueryHint = global::XDogApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dialogPreferredPadding = global::XDogApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dialogTheme = global::XDogApp.Droid.Resource.Attribute.dialogTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.displayOptions = global::XDogApp.Droid.Resource.Attribute.displayOptions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.divider = global::XDogApp.Droid.Resource.Attribute.divider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dividerHorizontal = global::XDogApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dividerPadding = global::XDogApp.Droid.Resource.Attribute.dividerPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dividerVertical = global::XDogApp.Droid.Resource.Attribute.dividerVertical;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.drawableSize = global::XDogApp.Droid.Resource.Attribute.drawableSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.drawerArrowStyle = global::XDogApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dropDownListViewStyle = global::XDogApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::XDogApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.editTextBackground = global::XDogApp.Droid.Resource.Attribute.editTextBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.editTextColor = global::XDogApp.Droid.Resource.Attribute.editTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.editTextStyle = global::XDogApp.Droid.Resource.Attribute.editTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.elevation = global::XDogApp.Droid.Resource.Attribute.elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.errorEnabled = global::XDogApp.Droid.Resource.Attribute.errorEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.errorTextAppearance = global::XDogApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::XDogApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expanded = global::XDogApp.Droid.Resource.Attribute.expanded;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleGravity = global::XDogApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMargin = global::XDogApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMarginBottom = global::XDogApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMarginEnd = global::XDogApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMarginStart = global::XDogApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMarginTop = global::XDogApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleTextAppearance = global::XDogApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.externalRouteEnabledDrawable = global::XDogApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.fabSize = global::XDogApp.Droid.Resource.Attribute.fabSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.foregroundInsidePadding = global::XDogApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.gapBetweenBars = global::XDogApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.goIcon = global::XDogApp.Droid.Resource.Attribute.goIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.headerLayout = global::XDogApp.Droid.Resource.Attribute.headerLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.height = global::XDogApp.Droid.Resource.Attribute.height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.hideOnContentScroll = global::XDogApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.hintAnimationEnabled = global::XDogApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.hintEnabled = global::XDogApp.Droid.Resource.Attribute.hintEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.hintTextAppearance = global::XDogApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.homeAsUpIndicator = global::XDogApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.homeLayout = global::XDogApp.Droid.Resource.Attribute.homeLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.icon = global::XDogApp.Droid.Resource.Attribute.icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.iconifiedByDefault = global::XDogApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.imageButtonStyle = global::XDogApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.indeterminateProgressStyle = global::XDogApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.initialActivityCount = global::XDogApp.Droid.Resource.Attribute.initialActivityCount;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.insetForeground = global::XDogApp.Droid.Resource.Attribute.insetForeground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.isLightTheme = global::XDogApp.Droid.Resource.Attribute.isLightTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemBackground = global::XDogApp.Droid.Resource.Attribute.itemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemIconTint = global::XDogApp.Droid.Resource.Attribute.itemIconTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemPadding = global::XDogApp.Droid.Resource.Attribute.itemPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemTextAppearance = global::XDogApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemTextColor = global::XDogApp.Droid.Resource.Attribute.itemTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.keylines = global::XDogApp.Droid.Resource.Attribute.keylines;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout = global::XDogApp.Droid.Resource.Attribute.layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layoutManager = global::XDogApp.Droid.Resource.Attribute.layoutManager;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_anchor = global::XDogApp.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_anchorGravity = global::XDogApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_behavior = global::XDogApp.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_collapseMode = global::XDogApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::XDogApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_dodgeInsetEdges = global::XDogApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_insetEdge = global::XDogApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_keyline = global::XDogApp.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_scrollFlags = global::XDogApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_scrollInterpolator = global::XDogApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::XDogApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listDividerAlertDialog = global::XDogApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listItemLayout = global::XDogApp.Droid.Resource.Attribute.listItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listLayout = global::XDogApp.Droid.Resource.Attribute.listLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listMenuViewStyle = global::XDogApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPopupWindowStyle = global::XDogApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemHeight = global::XDogApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemHeightLarge = global::XDogApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemHeightSmall = global::XDogApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::XDogApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemPaddingRight = global::XDogApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.logo = global::XDogApp.Droid.Resource.Attribute.logo;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.logoDescription = global::XDogApp.Droid.Resource.Attribute.logoDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.maxActionInlineWidth = global::XDogApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.maxButtonHeight = global::XDogApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.measureWithLargestChild = global::XDogApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::XDogApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteButtonStyle = global::XDogApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteCloseDrawable = global::XDogApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::XDogApp.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::XDogApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRoutePauseDrawable = global::XDogApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRoutePlayDrawable = global::XDogApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::XDogApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::XDogApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteStopDrawable = global::XDogApp.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteTheme = global::XDogApp.Droid.Resource.Attribute.mediaRouteTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::XDogApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.menu = global::XDogApp.Droid.Resource.Attribute.menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.multiChoiceItemLayout = global::XDogApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.navigationContentDescription = global::XDogApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.navigationIcon = global::XDogApp.Droid.Resource.Attribute.navigationIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.navigationMode = global::XDogApp.Droid.Resource.Attribute.navigationMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.overlapAnchor = global::XDogApp.Droid.Resource.Attribute.overlapAnchor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.paddingBottomNoButtons = global::XDogApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.paddingEnd = global::XDogApp.Droid.Resource.Attribute.paddingEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.paddingStart = global::XDogApp.Droid.Resource.Attribute.paddingStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.paddingTopNoTitle = global::XDogApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.panelBackground = global::XDogApp.Droid.Resource.Attribute.panelBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.panelMenuListTheme = global::XDogApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.panelMenuListWidth = global::XDogApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleContentDescription = global::XDogApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleDrawable = global::XDogApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleEnabled = global::XDogApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleTint = global::XDogApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleTintMode = global::XDogApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.popupMenuStyle = global::XDogApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.popupTheme = global::XDogApp.Droid.Resource.Attribute.popupTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.popupWindowStyle = global::XDogApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.preserveIconSpacing = global::XDogApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.pressedTranslationZ = global::XDogApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.progressBarPadding = global::XDogApp.Droid.Resource.Attribute.progressBarPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.progressBarStyle = global::XDogApp.Droid.Resource.Attribute.progressBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.queryBackground = global::XDogApp.Droid.Resource.Attribute.queryBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.queryHint = global::XDogApp.Droid.Resource.Attribute.queryHint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.radioButtonStyle = global::XDogApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.ratingBarStyle = global::XDogApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.ratingBarStyleIndicator = global::XDogApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.ratingBarStyleSmall = global::XDogApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.reverseLayout = global::XDogApp.Droid.Resource.Attribute.reverseLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.rippleColor = global::XDogApp.Droid.Resource.Attribute.rippleColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.scrimAnimationDuration = global::XDogApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::XDogApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.searchHintIcon = global::XDogApp.Droid.Resource.Attribute.searchHintIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.searchIcon = global::XDogApp.Droid.Resource.Attribute.searchIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.searchViewStyle = global::XDogApp.Droid.Resource.Attribute.searchViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.seekBarStyle = global::XDogApp.Droid.Resource.Attribute.seekBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.selectableItemBackground = global::XDogApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::XDogApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.showAsAction = global::XDogApp.Droid.Resource.Attribute.showAsAction;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.showDividers = global::XDogApp.Droid.Resource.Attribute.showDividers;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.showText = global::XDogApp.Droid.Resource.Attribute.showText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.showTitle = global::XDogApp.Droid.Resource.Attribute.showTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.singleChoiceItemLayout = global::XDogApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.spanCount = global::XDogApp.Droid.Resource.Attribute.spanCount;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.spinBars = global::XDogApp.Droid.Resource.Attribute.spinBars;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.spinnerDropDownItemStyle = global::XDogApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.spinnerStyle = global::XDogApp.Droid.Resource.Attribute.spinnerStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.splitTrack = global::XDogApp.Droid.Resource.Attribute.splitTrack;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.srcCompat = global::XDogApp.Droid.Resource.Attribute.srcCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.stackFromEnd = global::XDogApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.state_above_anchor = global::XDogApp.Droid.Resource.Attribute.state_above_anchor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.state_collapsed = global::XDogApp.Droid.Resource.Attribute.state_collapsed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.state_collapsible = global::XDogApp.Droid.Resource.Attribute.state_collapsible;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.statusBarBackground = global::XDogApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.statusBarScrim = global::XDogApp.Droid.Resource.Attribute.statusBarScrim;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subMenuArrow = global::XDogApp.Droid.Resource.Attribute.subMenuArrow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.submitBackground = global::XDogApp.Droid.Resource.Attribute.submitBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subtitle = global::XDogApp.Droid.Resource.Attribute.subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subtitleTextAppearance = global::XDogApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subtitleTextColor = global::XDogApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subtitleTextStyle = global::XDogApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.suggestionRowLayout = global::XDogApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.switchMinWidth = global::XDogApp.Droid.Resource.Attribute.switchMinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.switchPadding = global::XDogApp.Droid.Resource.Attribute.switchPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.switchStyle = global::XDogApp.Droid.Resource.Attribute.switchStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.switchTextAppearance = global::XDogApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabBackground = global::XDogApp.Droid.Resource.Attribute.tabBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabContentStart = global::XDogApp.Droid.Resource.Attribute.tabContentStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabGravity = global::XDogApp.Droid.Resource.Attribute.tabGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabIndicatorColor = global::XDogApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabIndicatorHeight = global::XDogApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabMaxWidth = global::XDogApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabMinWidth = global::XDogApp.Droid.Resource.Attribute.tabMinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabMode = global::XDogApp.Droid.Resource.Attribute.tabMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPadding = global::XDogApp.Droid.Resource.Attribute.tabPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPaddingBottom = global::XDogApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPaddingEnd = global::XDogApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPaddingStart = global::XDogApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPaddingTop = global::XDogApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabSelectedTextColor = global::XDogApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabTextAppearance = global::XDogApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabTextColor = global::XDogApp.Droid.Resource.Attribute.tabTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAllCaps = global::XDogApp.Droid.Resource.Attribute.textAllCaps;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::XDogApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceListItem = global::XDogApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceListItemSmall = global::XDogApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::XDogApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::XDogApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::XDogApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::XDogApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textColorAlertDialogListItem = global::XDogApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textColorError = global::XDogApp.Droid.Resource.Attribute.textColorError;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textColorSearchUrl = global::XDogApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.theme = global::XDogApp.Droid.Resource.Attribute.theme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.thickness = global::XDogApp.Droid.Resource.Attribute.thickness;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.thumbTextPadding = global::XDogApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.thumbTint = global::XDogApp.Droid.Resource.Attribute.thumbTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.thumbTintMode = global::XDogApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tickMark = global::XDogApp.Droid.Resource.Attribute.tickMark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tickMarkTint = global::XDogApp.Droid.Resource.Attribute.tickMarkTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tickMarkTintMode = global::XDogApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.title = global::XDogApp.Droid.Resource.Attribute.title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleEnabled = global::XDogApp.Droid.Resource.Attribute.titleEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMargin = global::XDogApp.Droid.Resource.Attribute.titleMargin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMarginBottom = global::XDogApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMarginEnd = global::XDogApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMarginStart = global::XDogApp.Droid.Resource.Attribute.titleMarginStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMarginTop = global::XDogApp.Droid.Resource.Attribute.titleMarginTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMargins = global::XDogApp.Droid.Resource.Attribute.titleMargins;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleTextAppearance = global::XDogApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleTextColor = global::XDogApp.Droid.Resource.Attribute.titleTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleTextStyle = global::XDogApp.Droid.Resource.Attribute.titleTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.toolbarId = global::XDogApp.Droid.Resource.Attribute.toolbarId;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::XDogApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.toolbarStyle = global::XDogApp.Droid.Resource.Attribute.toolbarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.track = global::XDogApp.Droid.Resource.Attribute.track;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.trackTint = global::XDogApp.Droid.Resource.Attribute.trackTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.trackTintMode = global::XDogApp.Droid.Resource.Attribute.trackTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.useCompatPadding = global::XDogApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.voiceIcon = global::XDogApp.Droid.Resource.Attribute.voiceIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowActionBar = global::XDogApp.Droid.Resource.Attribute.windowActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowActionBarOverlay = global::XDogApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowActionModeOverlay = global::XDogApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowFixedHeightMajor = global::XDogApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowFixedHeightMinor = global::XDogApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowFixedWidthMajor = global::XDogApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowFixedWidthMinor = global::XDogApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowMinWidthMajor = global::XDogApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowMinWidthMinor = global::XDogApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowNoTitle = global::XDogApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::XDogApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::XDogApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::XDogApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::XDogApp.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::XDogApp.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::XDogApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::XDogApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::XDogApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_btn_colored_text_material = global::XDogApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_color_highlight_material = global::XDogApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_hint_foreground_material_dark = global::XDogApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_hint_foreground_material_light = global::XDogApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_input_method_navigation_guard = global::XDogApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::XDogApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::XDogApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_primary_text_material_dark = global::XDogApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_primary_text_material_light = global::XDogApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_search_url_text = global::XDogApp.Droid.Resource.Color.abc_search_url_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_search_url_text_normal = global::XDogApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_search_url_text_pressed = global::XDogApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_search_url_text_selected = global::XDogApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_secondary_text_material_dark = global::XDogApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_secondary_text_material_light = global::XDogApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_btn_checkable = global::XDogApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_default = global::XDogApp.Droid.Resource.Color.abc_tint_default;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_edittext = global::XDogApp.Droid.Resource.Color.abc_tint_edittext;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_seek_thumb = global::XDogApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_spinner = global::XDogApp.Droid.Resource.Color.abc_tint_spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_switch_thumb = global::XDogApp.Droid.Resource.Color.abc_tint_switch_thumb;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_switch_track = global::XDogApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.accent_material_dark = global::XDogApp.Droid.Resource.Color.accent_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.accent_material_light = global::XDogApp.Droid.Resource.Color.accent_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.background_floating_material_dark = global::XDogApp.Droid.Resource.Color.background_floating_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.background_floating_material_light = global::XDogApp.Droid.Resource.Color.background_floating_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.background_material_dark = global::XDogApp.Droid.Resource.Color.background_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.background_material_light = global::XDogApp.Droid.Resource.Color.background_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_disabled_material_dark = global::XDogApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_disabled_material_light = global::XDogApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_inverse_material_dark = global::XDogApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_inverse_material_light = global::XDogApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_material_dark = global::XDogApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_material_light = global::XDogApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.button_material_dark = global::XDogApp.Droid.Resource.Color.button_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.button_material_light = global::XDogApp.Droid.Resource.Color.button_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.cardview_dark_background = global::XDogApp.Droid.Resource.Color.cardview_dark_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.cardview_light_background = global::XDogApp.Droid.Resource.Color.cardview_light_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.cardview_shadow_end_color = global::XDogApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.cardview_shadow_start_color = global::XDogApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_bottom_navigation_shadow_color = global::XDogApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_error = global::XDogApp.Droid.Resource.Color.design_error;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_shadow_end_color = global::XDogApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_shadow_mid_color = global::XDogApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_shadow_start_color = global::XDogApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_stroke_end_inner_color = global::XDogApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_stroke_end_outer_color = global::XDogApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_stroke_top_inner_color = global::XDogApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_stroke_top_outer_color = global::XDogApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_snackbar_background_color = global::XDogApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_textinput_error_color_dark = global::XDogApp.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_textinput_error_color_light = global::XDogApp.Droid.Resource.Color.design_textinput_error_color_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_tint_password_toggle = global::XDogApp.Droid.Resource.Color.design_tint_password_toggle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.dim_foreground_disabled_material_dark = global::XDogApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.dim_foreground_disabled_material_light = global::XDogApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.dim_foreground_material_dark = global::XDogApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.dim_foreground_material_light = global::XDogApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.foreground_material_dark = global::XDogApp.Droid.Resource.Color.foreground_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.foreground_material_light = global::XDogApp.Droid.Resource.Color.foreground_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.highlighted_text_material_dark = global::XDogApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.highlighted_text_material_light = global::XDogApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_blue_grey_800 = global::XDogApp.Droid.Resource.Color.material_blue_grey_800;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_blue_grey_900 = global::XDogApp.Droid.Resource.Color.material_blue_grey_900;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_blue_grey_950 = global::XDogApp.Droid.Resource.Color.material_blue_grey_950;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_deep_teal_200 = global::XDogApp.Droid.Resource.Color.material_deep_teal_200;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_deep_teal_500 = global::XDogApp.Droid.Resource.Color.material_deep_teal_500;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_100 = global::XDogApp.Droid.Resource.Color.material_grey_100;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_300 = global::XDogApp.Droid.Resource.Color.material_grey_300;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_50 = global::XDogApp.Droid.Resource.Color.material_grey_50;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_600 = global::XDogApp.Droid.Resource.Color.material_grey_600;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_800 = global::XDogApp.Droid.Resource.Color.material_grey_800;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_850 = global::XDogApp.Droid.Resource.Color.material_grey_850;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_900 = global::XDogApp.Droid.Resource.Color.material_grey_900;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.notification_action_color_filter = global::XDogApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.notification_icon_bg_color = global::XDogApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.notification_material_background_media_default_color = global::XDogApp.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_dark_material_dark = global::XDogApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_dark_material_light = global::XDogApp.Droid.Resource.Color.primary_dark_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_material_dark = global::XDogApp.Droid.Resource.Color.primary_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_material_light = global::XDogApp.Droid.Resource.Color.primary_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_text_default_material_dark = global::XDogApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_text_default_material_light = global::XDogApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_text_disabled_material_dark = global::XDogApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_text_disabled_material_light = global::XDogApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.ripple_material_dark = global::XDogApp.Droid.Resource.Color.ripple_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.ripple_material_light = global::XDogApp.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.secondary_text_default_material_dark = global::XDogApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.secondary_text_default_material_light = global::XDogApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.secondary_text_disabled_material_dark = global::XDogApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.secondary_text_disabled_material_light = global::XDogApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_disabled_material_dark = global::XDogApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_disabled_material_light = global::XDogApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_material_dark = global::XDogApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_material_light = global::XDogApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_normal_material_dark = global::XDogApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_normal_material_light = global::XDogApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_default_height_material = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_elevation_material = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::XDogApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_button_min_height_material = global::XDogApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_button_min_width_material = global::XDogApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::XDogApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::XDogApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::XDogApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_button_inset_vertical_material = global::XDogApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::XDogApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_button_padding_vertical_material = global::XDogApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::XDogApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_config_prefDialogWidth = global::XDogApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_control_corner_material = global::XDogApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_control_inset_material = global::XDogApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_control_padding_material = global::XDogApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::XDogApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::XDogApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::XDogApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::XDogApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::XDogApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::XDogApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_min_width_major = global::XDogApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_min_width_minor = global::XDogApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_padding_material = global::XDogApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_padding_top_material = global::XDogApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_title_divider_material = global::XDogApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::XDogApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::XDogApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::XDogApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::XDogApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::XDogApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::XDogApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::XDogApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::XDogApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_floating_window_z = global::XDogApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::XDogApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_panel_menu_list_width = global::XDogApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_progress_bar_height_material = global::XDogApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_search_view_preferred_height = global::XDogApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_search_view_preferred_width = global::XDogApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::XDogApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::XDogApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::XDogApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_switch_padding = global::XDogApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_body_1_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_body_2_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_button_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_caption_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_display_1_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_display_2_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_display_3_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_display_4_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_headline_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_large_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_medium_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_menu_header_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_menu_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_small_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_subhead_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::XDogApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_title_material = global::XDogApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::XDogApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.cardview_compat_inset_shadow = global::XDogApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.cardview_default_elevation = global::XDogApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.cardview_default_radius = global::XDogApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_appbar_elevation = global::XDogApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::XDogApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::XDogApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_elevation = global::XDogApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_height = global::XDogApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::XDogApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::XDogApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_margin = global::XDogApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::XDogApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_text_size = global::XDogApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::XDogApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::XDogApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_border_width = global::XDogApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_elevation = global::XDogApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_image_size = global::XDogApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_size_mini = global::XDogApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_size_normal = global::XDogApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_translation_z_pressed = global::XDogApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_elevation = global::XDogApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_icon_padding = global::XDogApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_icon_size = global::XDogApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_max_width = global::XDogApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_padding_bottom = global::XDogApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::XDogApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::XDogApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::XDogApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_elevation = global::XDogApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::XDogApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_max_width = global::XDogApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_min_width = global::XDogApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::XDogApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical = global::XDogApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::XDogApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_text_size = global::XDogApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_tab_max_width = global::XDogApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_tab_scrollable_min_width = global::XDogApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_tab_text_size = global::XDogApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_tab_text_size_2line = global::XDogApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.disabled_alpha_material_dark = global::XDogApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.disabled_alpha_material_light = global::XDogApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.highlight_alpha_material_colored = global::XDogApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.highlight_alpha_material_dark = global::XDogApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.highlight_alpha_material_light = global::XDogApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.hint_alpha_material_dark = global::XDogApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.hint_alpha_material_light = global::XDogApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::XDogApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::XDogApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::XDogApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::XDogApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::XDogApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::XDogApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::XDogApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::XDogApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::XDogApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::XDogApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::XDogApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_action_icon_size = global::XDogApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_action_text_size = global::XDogApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_big_circle_margin = global::XDogApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_content_margin_start = global::XDogApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_large_icon_height = global::XDogApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_large_icon_width = global::XDogApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_main_column_padding_top = global::XDogApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_media_narrow_margin = global::XDogApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_right_icon_size = global::XDogApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_right_side_padding_top = global::XDogApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_small_icon_background_padding = global::XDogApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_small_icon_size_as_large = global::XDogApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_subtext_size = global::XDogApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_top_pad = global::XDogApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_top_pad_large_text = global::XDogApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_action_bar_item_background_material = global::XDogApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_borderless_material = global::XDogApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_check_material = global::XDogApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::XDogApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::XDogApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_colored_material = global::XDogApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::XDogApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_radio_material = global::XDogApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::XDogApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::XDogApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::XDogApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::XDogApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_cab_background_internal_bg = global::XDogApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_cab_background_top_material = global::XDogApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_control_background_material = global::XDogApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_dialog_material_background = global::XDogApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_edit_text_material = global::XDogApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_ab_back_material = global::XDogApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::XDogApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_clear_material = global::XDogApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_go_search_api_material = global::XDogApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::XDogApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::XDogApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::XDogApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_search_api_material = global::XDogApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_black_16dp = global::XDogApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_black_36dp = global::XDogApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_black_48dp = global::XDogApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::XDogApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::XDogApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::XDogApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::XDogApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_item_background_holo_dark = global::XDogApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_item_background_holo_light = global::XDogApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_focused_holo = global::XDogApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_longpressed_holo = global::XDogApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::XDogApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_pressed_holo_light = global::XDogApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::XDogApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::XDogApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::XDogApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::XDogApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_holo_dark = global::XDogApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_holo_light = global::XDogApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::XDogApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::XDogApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::XDogApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ratingbar_material = global::XDogApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ratingbar_small_material = global::XDogApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::XDogApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::XDogApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_seekbar_thumb_material = global::XDogApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::XDogApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_seekbar_track_material = global::XDogApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::XDogApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::XDogApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_switch_thumb_material = global::XDogApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_tab_indicator_material = global::XDogApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_cursor_material = global::XDogApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::XDogApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::XDogApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::XDogApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::XDogApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::XDogApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::XDogApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::XDogApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_search_material = global::XDogApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_vector_test = global::XDogApp.Droid.Resource.Drawable.abc_vector_test;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.avd_hide_password = global::XDogApp.Droid.Resource.Drawable.avd_hide_password;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.avd_hide_password_1 = global::XDogApp.Droid.Resource.Drawable.avd_hide_password_1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.avd_hide_password_2 = global::XDogApp.Droid.Resource.Drawable.avd_hide_password_2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.avd_hide_password_3 = global::XDogApp.Droid.Resource.Drawable.avd_hide_password_3;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.avd_show_password = global::XDogApp.Droid.Resource.Drawable.avd_show_password;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.avd_show_password_1 = global::XDogApp.Droid.Resource.Drawable.avd_show_password_1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.avd_show_password_2 = global::XDogApp.Droid.Resource.Drawable.avd_show_password_2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.avd_show_password_3 = global::XDogApp.Droid.Resource.Drawable.avd_show_password_3;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_bottom_navigation_item_background = global::XDogApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_fab_background = global::XDogApp.Droid.Resource.Drawable.design_fab_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_ic_visibility = global::XDogApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_ic_visibility_off = global::XDogApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_password_eye = global::XDogApp.Droid.Resource.Drawable.design_password_eye;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_snackbar_background = global::XDogApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_audiotrack_dark = global::XDogApp.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_audiotrack_light = global::XDogApp.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_dialog_close_dark = global::XDogApp.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_dialog_close_light = global::XDogApp.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_00 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_01 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_02 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_03 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_04 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_05 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_06 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_07 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_08 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_09 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_10 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_11 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_12 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_13 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_14 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_15 = global::XDogApp.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_00 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_00;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_01 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_01;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_02 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_02;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_03 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_03;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_04 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_04;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_05 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_05;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_06 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_06;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_07 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_07;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_08 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_08;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_09 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_09;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_10 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_10;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_11 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_11;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_12 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_12;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_13 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_13;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_14 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_14;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_15 = global::XDogApp.Droid.Resource.Drawable.ic_group_expand_15;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_pause_dark = global::XDogApp.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_pause_light = global::XDogApp.Droid.Resource.Drawable.ic_media_pause_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_play_dark = global::XDogApp.Droid.Resource.Drawable.ic_media_play_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_play_light = global::XDogApp.Droid.Resource.Drawable.ic_media_play_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_stop_dark = global::XDogApp.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_stop_light = global::XDogApp.Droid.Resource.Drawable.ic_media_stop_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_disabled_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_grey = global::XDogApp.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::XDogApp.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::XDogApp.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::XDogApp.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_speaker_light = global::XDogApp.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_tv_dark = global::XDogApp.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_tv_light = global::XDogApp.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_connected_dark = global::XDogApp.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_connected_light = global::XDogApp.Droid.Resource.Drawable.mr_button_connected_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_connecting_dark = global::XDogApp.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_connecting_light = global::XDogApp.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_dark = global::XDogApp.Droid.Resource.Drawable.mr_button_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_light = global::XDogApp.Droid.Resource.Drawable.mr_button_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_dialog_close_dark = global::XDogApp.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_dialog_close_light = global::XDogApp.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_dialog_material_background_dark = global::XDogApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_dialog_material_background_light = global::XDogApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_group_collapse = global::XDogApp.Droid.Resource.Drawable.mr_group_collapse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_group_expand = global::XDogApp.Droid.Resource.Drawable.mr_group_expand;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_pause_dark = global::XDogApp.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_pause_light = global::XDogApp.Droid.Resource.Drawable.mr_media_pause_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_play_dark = global::XDogApp.Droid.Resource.Drawable.mr_media_play_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_play_light = global::XDogApp.Droid.Resource.Drawable.mr_media_play_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_stop_dark = global::XDogApp.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_stop_light = global::XDogApp.Droid.Resource.Drawable.mr_media_stop_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::XDogApp.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::XDogApp.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.navigation_empty_icon = global::XDogApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_action_background = global::XDogApp.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg = global::XDogApp.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_low = global::XDogApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_low_normal = global::XDogApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_low_pressed = global::XDogApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_normal = global::XDogApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_normal_pressed = global::XDogApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_icon_background = global::XDogApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_template_icon_bg = global::XDogApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_template_icon_low_bg = global::XDogApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_tile_bg = global::XDogApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::XDogApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action0 = global::XDogApp.Droid.Resource.Id.action0;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar = global::XDogApp.Droid.Resource.Id.action_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_activity_content = global::XDogApp.Droid.Resource.Id.action_bar_activity_content;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_container = global::XDogApp.Droid.Resource.Id.action_bar_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_root = global::XDogApp.Droid.Resource.Id.action_bar_root;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_spinner = global::XDogApp.Droid.Resource.Id.action_bar_spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_subtitle = global::XDogApp.Droid.Resource.Id.action_bar_subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_title = global::XDogApp.Droid.Resource.Id.action_bar_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_container = global::XDogApp.Droid.Resource.Id.action_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_context_bar = global::XDogApp.Droid.Resource.Id.action_context_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_divider = global::XDogApp.Droid.Resource.Id.action_divider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_image = global::XDogApp.Droid.Resource.Id.action_image;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_menu_divider = global::XDogApp.Droid.Resource.Id.action_menu_divider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_menu_presenter = global::XDogApp.Droid.Resource.Id.action_menu_presenter;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_mode_bar = global::XDogApp.Droid.Resource.Id.action_mode_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_mode_bar_stub = global::XDogApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_mode_close_button = global::XDogApp.Droid.Resource.Id.action_mode_close_button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_text = global::XDogApp.Droid.Resource.Id.action_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.actions = global::XDogApp.Droid.Resource.Id.actions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.activity_chooser_view_content = global::XDogApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.add = global::XDogApp.Droid.Resource.Id.add;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.alertTitle = global::XDogApp.Droid.Resource.Id.alertTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.all = global::XDogApp.Droid.Resource.Id.all;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.always = global::XDogApp.Droid.Resource.Id.always;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.auto = global::XDogApp.Droid.Resource.Id.auto;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.beginning = global::XDogApp.Droid.Resource.Id.beginning;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.bottom = global::XDogApp.Droid.Resource.Id.bottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.buttonPanel = global::XDogApp.Droid.Resource.Id.buttonPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.cancel_action = global::XDogApp.Droid.Resource.Id.cancel_action;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.center = global::XDogApp.Droid.Resource.Id.center;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.center_horizontal = global::XDogApp.Droid.Resource.Id.center_horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.center_vertical = global::XDogApp.Droid.Resource.Id.center_vertical;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.checkbox = global::XDogApp.Droid.Resource.Id.checkbox;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.chronometer = global::XDogApp.Droid.Resource.Id.chronometer;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.clip_horizontal = global::XDogApp.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.clip_vertical = global::XDogApp.Droid.Resource.Id.clip_vertical;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.collapseActionView = global::XDogApp.Droid.Resource.Id.collapseActionView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.contentPanel = global::XDogApp.Droid.Resource.Id.contentPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.custom = global::XDogApp.Droid.Resource.Id.custom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.customPanel = global::XDogApp.Droid.Resource.Id.customPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.decor_content_parent = global::XDogApp.Droid.Resource.Id.decor_content_parent;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.default_activity_button = global::XDogApp.Droid.Resource.Id.default_activity_button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_bottom_sheet = global::XDogApp.Droid.Resource.Id.design_bottom_sheet;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_menu_item_action_area = global::XDogApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_menu_item_action_area_stub = global::XDogApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_menu_item_text = global::XDogApp.Droid.Resource.Id.design_menu_item_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_navigation_view = global::XDogApp.Droid.Resource.Id.design_navigation_view;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.disableHome = global::XDogApp.Droid.Resource.Id.disableHome;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.edit_query = global::XDogApp.Droid.Resource.Id.edit_query;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.end = global::XDogApp.Droid.Resource.Id.end;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.end_padder = global::XDogApp.Droid.Resource.Id.end_padder;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.enterAlways = global::XDogApp.Droid.Resource.Id.enterAlways;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.enterAlwaysCollapsed = global::XDogApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.exitUntilCollapsed = global::XDogApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.expand_activities_button = global::XDogApp.Droid.Resource.Id.expand_activities_button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.expanded_menu = global::XDogApp.Droid.Resource.Id.expanded_menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.fill = global::XDogApp.Droid.Resource.Id.fill;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.fill_horizontal = global::XDogApp.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.fill_vertical = global::XDogApp.Droid.Resource.Id.fill_vertical;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.@fixed = global::XDogApp.Droid.Resource.Id.@fixed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.home = global::XDogApp.Droid.Resource.Id.home;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.homeAsUp = global::XDogApp.Droid.Resource.Id.homeAsUp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.icon = global::XDogApp.Droid.Resource.Id.icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.icon_group = global::XDogApp.Droid.Resource.Id.icon_group;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.ifRoom = global::XDogApp.Droid.Resource.Id.ifRoom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.image = global::XDogApp.Droid.Resource.Id.image;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.info = global::XDogApp.Droid.Resource.Id.info;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.item_touch_helper_previous_elevation = global::XDogApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.largeLabel = global::XDogApp.Droid.Resource.Id.largeLabel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.left = global::XDogApp.Droid.Resource.Id.left;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.line1 = global::XDogApp.Droid.Resource.Id.line1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.line3 = global::XDogApp.Droid.Resource.Id.line3;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.listMode = global::XDogApp.Droid.Resource.Id.listMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.list_item = global::XDogApp.Droid.Resource.Id.list_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.masked = global::XDogApp.Droid.Resource.Id.masked;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.media_actions = global::XDogApp.Droid.Resource.Id.media_actions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.middle = global::XDogApp.Droid.Resource.Id.middle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mini = global::XDogApp.Droid.Resource.Id.mini;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_art = global::XDogApp.Droid.Resource.Id.mr_art;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_list = global::XDogApp.Droid.Resource.Id.mr_chooser_list;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_route_desc = global::XDogApp.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_route_icon = global::XDogApp.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_route_name = global::XDogApp.Droid.Resource.Id.mr_chooser_route_name;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_title = global::XDogApp.Droid.Resource.Id.mr_chooser_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_close = global::XDogApp.Droid.Resource.Id.mr_close;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_divider = global::XDogApp.Droid.Resource.Id.mr_control_divider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_playback_ctrl = global::XDogApp.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_subtitle = global::XDogApp.Droid.Resource.Id.mr_control_subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_title = global::XDogApp.Droid.Resource.Id.mr_control_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_title_container = global::XDogApp.Droid.Resource.Id.mr_control_title_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_custom_control = global::XDogApp.Droid.Resource.Id.mr_custom_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_default_control = global::XDogApp.Droid.Resource.Id.mr_default_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_dialog_area = global::XDogApp.Droid.Resource.Id.mr_dialog_area;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_expandable_area = global::XDogApp.Droid.Resource.Id.mr_expandable_area;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_group_expand_collapse = global::XDogApp.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_media_main_control = global::XDogApp.Droid.Resource.Id.mr_media_main_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_name = global::XDogApp.Droid.Resource.Id.mr_name;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_playback_control = global::XDogApp.Droid.Resource.Id.mr_playback_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_title_bar = global::XDogApp.Droid.Resource.Id.mr_title_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_volume_control = global::XDogApp.Droid.Resource.Id.mr_volume_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_volume_group_list = global::XDogApp.Droid.Resource.Id.mr_volume_group_list;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_volume_item_icon = global::XDogApp.Droid.Resource.Id.mr_volume_item_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_volume_slider = global::XDogApp.Droid.Resource.Id.mr_volume_slider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.multiply = global::XDogApp.Droid.Resource.Id.multiply;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.navigation_header_container = global::XDogApp.Droid.Resource.Id.navigation_header_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.never = global::XDogApp.Droid.Resource.Id.never;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.none = global::XDogApp.Droid.Resource.Id.none;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.normal = global::XDogApp.Droid.Resource.Id.normal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.notification_background = global::XDogApp.Droid.Resource.Id.notification_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.notification_main_column = global::XDogApp.Droid.Resource.Id.notification_main_column;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.notification_main_column_container = global::XDogApp.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.parallax = global::XDogApp.Droid.Resource.Id.parallax;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.parentPanel = global::XDogApp.Droid.Resource.Id.parentPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.pin = global::XDogApp.Droid.Resource.Id.pin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.progress_circular = global::XDogApp.Droid.Resource.Id.progress_circular;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.progress_horizontal = global::XDogApp.Droid.Resource.Id.progress_horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.radio = global::XDogApp.Droid.Resource.Id.radio;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.right = global::XDogApp.Droid.Resource.Id.right;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.right_icon = global::XDogApp.Droid.Resource.Id.right_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.right_side = global::XDogApp.Droid.Resource.Id.right_side;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.screen = global::XDogApp.Droid.Resource.Id.screen;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.scroll = global::XDogApp.Droid.Resource.Id.scroll;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.scrollIndicatorDown = global::XDogApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.scrollIndicatorUp = global::XDogApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.scrollView = global::XDogApp.Droid.Resource.Id.scrollView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.scrollable = global::XDogApp.Droid.Resource.Id.scrollable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_badge = global::XDogApp.Droid.Resource.Id.search_badge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_bar = global::XDogApp.Droid.Resource.Id.search_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_button = global::XDogApp.Droid.Resource.Id.search_button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_close_btn = global::XDogApp.Droid.Resource.Id.search_close_btn;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_edit_frame = global::XDogApp.Droid.Resource.Id.search_edit_frame;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_go_btn = global::XDogApp.Droid.Resource.Id.search_go_btn;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_mag_icon = global::XDogApp.Droid.Resource.Id.search_mag_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_plate = global::XDogApp.Droid.Resource.Id.search_plate;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_src_text = global::XDogApp.Droid.Resource.Id.search_src_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_voice_btn = global::XDogApp.Droid.Resource.Id.search_voice_btn;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.select_dialog_listview = global::XDogApp.Droid.Resource.Id.select_dialog_listview;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.shortcut = global::XDogApp.Droid.Resource.Id.shortcut;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.showCustom = global::XDogApp.Droid.Resource.Id.showCustom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.showHome = global::XDogApp.Droid.Resource.Id.showHome;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.showTitle = global::XDogApp.Droid.Resource.Id.showTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.smallLabel = global::XDogApp.Droid.Resource.Id.smallLabel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.snackbar_action = global::XDogApp.Droid.Resource.Id.snackbar_action;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.snackbar_text = global::XDogApp.Droid.Resource.Id.snackbar_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.snap = global::XDogApp.Droid.Resource.Id.snap;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.spacer = global::XDogApp.Droid.Resource.Id.spacer;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.split_action_bar = global::XDogApp.Droid.Resource.Id.split_action_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.src_atop = global::XDogApp.Droid.Resource.Id.src_atop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.src_in = global::XDogApp.Droid.Resource.Id.src_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.src_over = global::XDogApp.Droid.Resource.Id.src_over;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.start = global::XDogApp.Droid.Resource.Id.start;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.status_bar_latest_event_content = global::XDogApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.submenuarrow = global::XDogApp.Droid.Resource.Id.submenuarrow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.submit_area = global::XDogApp.Droid.Resource.Id.submit_area;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.tabMode = global::XDogApp.Droid.Resource.Id.tabMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.text = global::XDogApp.Droid.Resource.Id.text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.text2 = global::XDogApp.Droid.Resource.Id.text2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.textSpacerNoButtons = global::XDogApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.textSpacerNoTitle = global::XDogApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.text_input_password_toggle = global::XDogApp.Droid.Resource.Id.text_input_password_toggle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.textinput_counter = global::XDogApp.Droid.Resource.Id.textinput_counter;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.textinput_error = global::XDogApp.Droid.Resource.Id.textinput_error;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.time = global::XDogApp.Droid.Resource.Id.time;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.title = global::XDogApp.Droid.Resource.Id.title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.titleDividerNoCustom = global::XDogApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.title_template = global::XDogApp.Droid.Resource.Id.title_template;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.top = global::XDogApp.Droid.Resource.Id.top;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.topPanel = global::XDogApp.Droid.Resource.Id.topPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.touch_outside = global::XDogApp.Droid.Resource.Id.touch_outside;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.transition_current_scene = global::XDogApp.Droid.Resource.Id.transition_current_scene;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.transition_scene_layoutid_cache = global::XDogApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.up = global::XDogApp.Droid.Resource.Id.up;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.useLogo = global::XDogApp.Droid.Resource.Id.useLogo;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.view_offset_helper = global::XDogApp.Droid.Resource.Id.view_offset_helper;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.visible = global::XDogApp.Droid.Resource.Id.visible;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.volume_item_container = global::XDogApp.Droid.Resource.Id.volume_item_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.withText = global::XDogApp.Droid.Resource.Id.withText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.wrap_content = global::XDogApp.Droid.Resource.Id.wrap_content;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.abc_config_activityDefaultDur = global::XDogApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.abc_config_activityShortDur = global::XDogApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.app_bar_elevation_anim_duration = global::XDogApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.bottom_sheet_slide_duration = global::XDogApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.cancel_button_image_alpha = global::XDogApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.design_snackbar_text_max_lines = global::XDogApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.hide_password_duration = global::XDogApp.Droid.Resource.Integer.hide_password_duration;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::XDogApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::XDogApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::XDogApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.show_password_duration = global::XDogApp.Droid.Resource.Integer.show_password_duration;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.status_bar_notification_info_maxnum = global::XDogApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.MediaManager.Forms.Android.Resource.Interpolator.mr_fast_out_slow_in = global::XDogApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Interpolator.mr_linear_out_slow_in = global::XDogApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_bar_title_item = global::XDogApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_bar_up_container = global::XDogApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::XDogApp.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_menu_item_layout = global::XDogApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_menu_layout = global::XDogApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_mode_bar = global::XDogApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_mode_close_item_material = global::XDogApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_activity_chooser_view = global::XDogApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::XDogApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::XDogApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_alert_dialog_material = global::XDogApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_alert_dialog_title_material = global::XDogApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_dialog_title_material = global::XDogApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_expanded_menu_layout = global::XDogApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_list_menu_item_checkbox = global::XDogApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_list_menu_item_icon = global::XDogApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_list_menu_item_layout = global::XDogApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_list_menu_item_radio = global::XDogApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::XDogApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_popup_menu_item_layout = global::XDogApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_screen_content_include = global::XDogApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_screen_simple = global::XDogApp.Droid.Resource.Layout.abc_screen_simple;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::XDogApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_screen_toolbar = global::XDogApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::XDogApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_search_view = global::XDogApp.Droid.Resource.Layout.abc_search_view;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_select_dialog_material = global::XDogApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_bottom_navigation_item = global::XDogApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_bottom_sheet_dialog = global::XDogApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_layout_snackbar = global::XDogApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_layout_snackbar_include = global::XDogApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_layout_tab_icon = global::XDogApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_layout_tab_text = global::XDogApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_menu_item_action_area = global::XDogApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_item = global::XDogApp.Droid.Resource.Layout.design_navigation_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_item_header = global::XDogApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_item_separator = global::XDogApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_item_subheader = global::XDogApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_menu = global::XDogApp.Droid.Resource.Layout.design_navigation_menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_menu_item = global::XDogApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_text_input_password_icon = global::XDogApp.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_chooser_dialog = global::XDogApp.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_chooser_list_item = global::XDogApp.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_controller_material_dialog_b = global::XDogApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_controller_volume_item = global::XDogApp.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_playback_control = global::XDogApp.Droid.Resource.Layout.mr_playback_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_volume_control = global::XDogApp.Droid.Resource.Layout.mr_volume_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_action = global::XDogApp.Droid.Resource.Layout.notification_action;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_action_tombstone = global::XDogApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_media_action = global::XDogApp.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_media_cancel_action = global::XDogApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_big_media = global::XDogApp.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_big_media_custom = global::XDogApp.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_big_media_narrow = global::XDogApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::XDogApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_custom_big = global::XDogApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_icon_group = global::XDogApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_lines_media = global::XDogApp.Droid.Resource.Layout.notification_template_lines_media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_media = global::XDogApp.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_media_custom = global::XDogApp.Droid.Resource.Layout.notification_template_media_custom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_part_chronometer = global::XDogApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_part_time = global::XDogApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.select_dialog_item_material = global::XDogApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.select_dialog_multichoice_material = global::XDogApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.select_dialog_singlechoice_material = global::XDogApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::XDogApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.ApplicationName = global::XDogApp.Droid.Resource.String.ApplicationName;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.Hello = global::XDogApp.Droid.Resource.String.Hello;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_bar_home_description = global::XDogApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_bar_home_description_format = global::XDogApp.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::XDogApp.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_bar_up_description = global::XDogApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_menu_overflow_description = global::XDogApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_mode_done = global::XDogApp.Droid.Resource.String.abc_action_mode_done;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_activity_chooser_view_see_all = global::XDogApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_activitychooserview_choose_application = global::XDogApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_capital_off = global::XDogApp.Droid.Resource.String.abc_capital_off;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_capital_on = global::XDogApp.Droid.Resource.String.abc_capital_on;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_body_1_material = global::XDogApp.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_body_2_material = global::XDogApp.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_button_material = global::XDogApp.Droid.Resource.String.abc_font_family_button_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_caption_material = global::XDogApp.Droid.Resource.String.abc_font_family_caption_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_display_1_material = global::XDogApp.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_display_2_material = global::XDogApp.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_display_3_material = global::XDogApp.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_display_4_material = global::XDogApp.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_headline_material = global::XDogApp.Droid.Resource.String.abc_font_family_headline_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_menu_material = global::XDogApp.Droid.Resource.String.abc_font_family_menu_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_subhead_material = global::XDogApp.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_title_material = global::XDogApp.Droid.Resource.String.abc_font_family_title_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_search_hint = global::XDogApp.Droid.Resource.String.abc_search_hint;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_clear = global::XDogApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_query = global::XDogApp.Droid.Resource.String.abc_searchview_description_query;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_search = global::XDogApp.Droid.Resource.String.abc_searchview_description_search;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_submit = global::XDogApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_voice = global::XDogApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_shareactionprovider_share_with = global::XDogApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_shareactionprovider_share_with_application = global::XDogApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_toolbar_collapse_description = global::XDogApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.appbar_scrolling_view_behavior = global::XDogApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.bottom_sheet_behavior = global::XDogApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.character_counter_pattern = global::XDogApp.Droid.Resource.String.character_counter_pattern;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_button_content_description = global::XDogApp.Droid.Resource.String.mr_button_content_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_cast_button_connected = global::XDogApp.Droid.Resource.String.mr_cast_button_connected;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_cast_button_connecting = global::XDogApp.Droid.Resource.String.mr_cast_button_connecting;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_cast_button_disconnected = global::XDogApp.Droid.Resource.String.mr_cast_button_disconnected;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_chooser_searching = global::XDogApp.Droid.Resource.String.mr_chooser_searching;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_chooser_title = global::XDogApp.Droid.Resource.String.mr_chooser_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_album_art = global::XDogApp.Droid.Resource.String.mr_controller_album_art;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_casting_screen = global::XDogApp.Droid.Resource.String.mr_controller_casting_screen;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_close_description = global::XDogApp.Droid.Resource.String.mr_controller_close_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_collapse_group = global::XDogApp.Droid.Resource.String.mr_controller_collapse_group;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_disconnect = global::XDogApp.Droid.Resource.String.mr_controller_disconnect;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_expand_group = global::XDogApp.Droid.Resource.String.mr_controller_expand_group;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_no_info_available = global::XDogApp.Droid.Resource.String.mr_controller_no_info_available;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_no_media_selected = global::XDogApp.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_pause = global::XDogApp.Droid.Resource.String.mr_controller_pause;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_play = global::XDogApp.Droid.Resource.String.mr_controller_play;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_stop = global::XDogApp.Droid.Resource.String.mr_controller_stop;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_stop_casting = global::XDogApp.Droid.Resource.String.mr_controller_stop_casting;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_volume_slider = global::XDogApp.Droid.Resource.String.mr_controller_volume_slider;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_system_route_name = global::XDogApp.Droid.Resource.String.mr_system_route_name;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_user_route_category_name = global::XDogApp.Droid.Resource.String.mr_user_route_category_name;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.password_toggle_content_description = global::XDogApp.Droid.Resource.String.password_toggle_content_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.path_password_eye = global::XDogApp.Droid.Resource.String.path_password_eye;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.path_password_eye_mask_strike_through = global::XDogApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.path_password_eye_mask_visible = global::XDogApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.path_password_strike_through = global::XDogApp.Droid.Resource.String.path_password_strike_through;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.search_menu_title = global::XDogApp.Droid.Resource.String.search_menu_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.status_bar_notification_info_overflow = global::XDogApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.AlertDialog_AppCompat = global::XDogApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.AlertDialog_AppCompat_Light = global::XDogApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Animation_AppCompat_Dialog = global::XDogApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::XDogApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::XDogApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat = global::XDogApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::XDogApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::XDogApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_CardView = global::XDogApp.Droid.Resource.Style.Base_CardView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::XDogApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::XDogApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::XDogApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::XDogApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::XDogApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::XDogApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::XDogApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::XDogApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::XDogApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::XDogApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::XDogApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::XDogApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::XDogApp.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::XDogApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::XDogApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat = global::XDogApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::XDogApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::XDogApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::XDogApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat = global::XDogApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat = global::XDogApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat = global::XDogApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::XDogApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::XDogApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::XDogApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::XDogApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::XDogApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::XDogApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_Design_AppBarLayout = global::XDogApp.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_Design_TabLayout = global::XDogApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.CardView = global::XDogApp.Droid.Resource.Style.CardView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.CardView_Dark = global::XDogApp.Droid.Resource.Style.CardView_Dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.CardView_Light = global::XDogApp.Droid.Resource.Style.CardView_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_AppCompat = global::XDogApp.Droid.Resource.Style.Platform_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::XDogApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::XDogApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V11_AppCompat = global::XDogApp.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V11_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V14_AppCompat = global::XDogApp.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V14_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V21_AppCompat = global::XDogApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V21_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::XDogApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::XDogApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::XDogApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::XDogApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::XDogApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::XDogApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::XDogApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::XDogApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::XDogApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::XDogApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::XDogApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::XDogApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::XDogApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::XDogApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::XDogApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Button = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Notification;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2 = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Media = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::XDogApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::XDogApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Counter = global::XDogApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::XDogApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Error = global::XDogApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Hint = global::XDogApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::XDogApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Tab = global::XDogApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::XDogApp.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::XDogApp.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::XDogApp.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::XDogApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::XDogApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::XDogApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::XDogApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::XDogApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::XDogApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::XDogApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::XDogApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat = global::XDogApp.Droid.Resource.Style.Theme_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Dialog = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::XDogApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design = global::XDogApp.Droid.Resource.Style.Theme_Design;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::XDogApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_Light = global::XDogApp.Droid.Resource.Style.Theme_Design_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::XDogApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::XDogApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_NoActionBar = global::XDogApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_MediaRouter = global::XDogApp.Droid.Resource.Style.Theme_MediaRouter;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_MediaRouter_Light = global::XDogApp.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::XDogApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::XDogApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat = global::XDogApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::XDogApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::XDogApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::XDogApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::XDogApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::XDogApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::XDogApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::XDogApp.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::XDogApp.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionMode = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_Small = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_EditText = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ImageButton = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListView = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_NotificationActionContainer = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_NotificationActionContainer;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_NotificationActionText = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_NotificationActionText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_SearchView = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_SeekBar = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Spinner = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::XDogApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_AppBarLayout = global::XDogApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_BottomNavigationView = global::XDogApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::XDogApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::XDogApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::XDogApp.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_FloatingActionButton = global::XDogApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_NavigationView = global::XDogApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::XDogApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_Snackbar = global::XDogApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_TabLayout = global::XDogApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_TextInputLayout = global::XDogApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::XDogApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::XDogApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar = global::XDogApp.Droid.Resource.Styleable.ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_background = global::XDogApp.Droid.Resource.Styleable.ActionBar_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_backgroundSplit = global::XDogApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_backgroundStacked = global::XDogApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::XDogApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::XDogApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::XDogApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetRight = global::XDogApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetStart = global::XDogApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::XDogApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::XDogApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_displayOptions = global::XDogApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_divider = global::XDogApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_elevation = global::XDogApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_height = global::XDogApp.Droid.Resource.Styleable.ActionBar_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::XDogApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::XDogApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_homeLayout = global::XDogApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_icon = global::XDogApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::XDogApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_itemPadding = global::XDogApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_logo = global::XDogApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_navigationMode = global::XDogApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_popupTheme = global::XDogApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_progressBarPadding = global::XDogApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_progressBarStyle = global::XDogApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_subtitle = global::XDogApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::XDogApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_title = global::XDogApp.Droid.Resource.Styleable.ActionBar_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_titleTextStyle = global::XDogApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBarLayout = global::XDogApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::XDogApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMenuItemView = global::XDogApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::XDogApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMenuView = global::XDogApp.Droid.Resource.Styleable.ActionMenuView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode = global::XDogApp.Droid.Resource.Styleable.ActionMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_background = global::XDogApp.Droid.Resource.Styleable.ActionMode_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_backgroundSplit = global::XDogApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_closeItemLayout = global::XDogApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_height = global::XDogApp.Droid.Resource.Styleable.ActionMode_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::XDogApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_titleTextStyle = global::XDogApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActivityChooserView = global::XDogApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::XDogApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::XDogApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog = global::XDogApp.Droid.Resource.Styleable.AlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_android_layout = global::XDogApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::XDogApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_listItemLayout = global::XDogApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_listLayout = global::XDogApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::XDogApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_showTitle = global::XDogApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::XDogApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout = global::XDogApp.Droid.Resource.Styleable.AppBarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_android_background = global::XDogApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_elevation = global::XDogApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_expanded = global::XDogApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayoutStates = global::XDogApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::XDogApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::XDogApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_Layout = global::XDogApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::XDogApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::XDogApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatImageView = global::XDogApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatImageView_android_src = global::XDogApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::XDogApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar = global::XDogApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::XDogApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::XDogApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::XDogApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::XDogApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper = global::XDogApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::XDogApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::XDogApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::XDogApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::XDogApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::XDogApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::XDogApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::XDogApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextView = global::XDogApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::XDogApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::XDogApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::XDogApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView = global::XDogApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_elevation = global::XDogApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::XDogApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::XDogApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::XDogApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_menu = global::XDogApp.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::XDogApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::XDogApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::XDogApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::XDogApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ButtonBarLayout = global::XDogApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::XDogApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView = global::XDogApp.Droid.Resource.Styleable.CardView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_android_minHeight = global::XDogApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_android_minWidth = global::XDogApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardBackgroundColor = global::XDogApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardCornerRadius = global::XDogApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardElevation = global::XDogApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardMaxElevation = global::XDogApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::XDogApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::XDogApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPadding = global::XDogApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPaddingBottom = global::XDogApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPaddingLeft = global::XDogApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPaddingRight = global::XDogApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPaddingTop = global::XDogApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::XDogApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ColorStateListItem = global::XDogApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ColorStateListItem_alpha = global::XDogApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::XDogApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ColorStateListItem_android_color = global::XDogApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CompoundButton = global::XDogApp.Droid.Resource.Styleable.CompoundButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CompoundButton_android_button = global::XDogApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CompoundButton_buttonTint = global::XDogApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::XDogApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout = global::XDogApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_keylines = global::XDogApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::XDogApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout = global::XDogApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::XDogApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::XDogApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::XDogApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::XDogApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::XDogApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::XDogApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::XDogApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DesignTheme = global::XDogApp.Droid.Resource.Styleable.DesignTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::XDogApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::XDogApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DesignTheme_textColorError = global::XDogApp.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle = global::XDogApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::XDogApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::XDogApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::XDogApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_color = global::XDogApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::XDogApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::XDogApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::XDogApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::XDogApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton = global::XDogApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::XDogApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::XDogApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::XDogApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_elevation = global::XDogApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_fabSize = global::XDogApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::XDogApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::XDogApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::XDogApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::XDogApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::XDogApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ForegroundLinearLayout = global::XDogApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::XDogApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::XDogApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::XDogApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_divider = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::XDogApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ListPopupWindow = global::XDogApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::XDogApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::XDogApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton = global::XDogApp.Droid.Resource.Styleable.MediaRouteButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::XDogApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::XDogApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton_buttonTint = global::XDogApp.Droid.Resource.Styleable.MediaRouteButton_buttonTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::XDogApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup = global::XDogApp.Droid.Resource.Styleable.MenuGroup;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::XDogApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_enabled = global::XDogApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_id = global::XDogApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::XDogApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::XDogApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_visible = global::XDogApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem = global::XDogApp.Droid.Resource.Styleable.MenuItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_actionLayout = global::XDogApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_actionProviderClass = global::XDogApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_actionViewClass = global::XDogApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_checkable = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_checked = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_enabled = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_icon = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_id = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_menuCategory = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_onClick = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_title = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_visible = global::XDogApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_showAsAction = global::XDogApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView = global::XDogApp.Droid.Resource.Styleable.MenuView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_headerBackground = global::XDogApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::XDogApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_itemBackground = global::XDogApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::XDogApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::XDogApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_verticalDivider = global::XDogApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::XDogApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::XDogApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_subMenuArrow = global::XDogApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView = global::XDogApp.Droid.Resource.Styleable.NavigationView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_android_background = global::XDogApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::XDogApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_android_maxWidth = global::XDogApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_elevation = global::XDogApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_headerLayout = global::XDogApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_itemBackground = global::XDogApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_itemIconTint = global::XDogApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::XDogApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_itemTextColor = global::XDogApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_menu = global::XDogApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindow = global::XDogApp.Droid.Resource.Styleable.PopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::XDogApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::XDogApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::XDogApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindowBackgroundState = global::XDogApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::XDogApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecycleListView = global::XDogApp.Droid.Resource.Styleable.RecycleListView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::XDogApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::XDogApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView = global::XDogApp.Droid.Resource.Styleable.RecyclerView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::XDogApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_android_orientation = global::XDogApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_layoutManager = global::XDogApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_reverseLayout = global::XDogApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_spanCount = global::XDogApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::XDogApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::XDogApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::XDogApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::XDogApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::XDogApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView = global::XDogApp.Droid.Resource.Styleable.SearchView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_android_focusable = global::XDogApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_android_imeOptions = global::XDogApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_android_inputType = global::XDogApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_android_maxWidth = global::XDogApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_closeIcon = global::XDogApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_commitIcon = global::XDogApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_defaultQueryHint = global::XDogApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_goIcon = global::XDogApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::XDogApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_layout = global::XDogApp.Droid.Resource.Styleable.SearchView_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_queryBackground = global::XDogApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_queryHint = global::XDogApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_searchHintIcon = global::XDogApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_searchIcon = global::XDogApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_submitBackground = global::XDogApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::XDogApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_voiceIcon = global::XDogApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SnackbarLayout = global::XDogApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::XDogApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SnackbarLayout_elevation = global::XDogApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::XDogApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner = global::XDogApp.Droid.Resource.Styleable.Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::XDogApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_android_entries = global::XDogApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_android_popupBackground = global::XDogApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_android_prompt = global::XDogApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_popupTheme = global::XDogApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat = global::XDogApp.Droid.Resource.Styleable.SwitchCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_android_textOff = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_android_textOn = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_android_thumb = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_showText = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_splitTrack = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_switchPadding = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_thumbTint = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_track = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_trackTint = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::XDogApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabItem = global::XDogApp.Droid.Resource.Styleable.TabItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabItem_android_icon = global::XDogApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabItem_android_layout = global::XDogApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabItem_android_text = global::XDogApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout = global::XDogApp.Droid.Resource.Styleable.TabLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabBackground = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabContentStart = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabGravity = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabMinWidth = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabMode = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPadding = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabTextColor = global::XDogApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance = global::XDogApp.Droid.Resource.Styleable.TextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::XDogApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::XDogApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::XDogApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::XDogApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_textColor = global::XDogApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::XDogApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_textSize = global::XDogApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_textStyle = global::XDogApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_typeface = global::XDogApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_textAllCaps = global::XDogApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout = global::XDogApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_android_hint = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::XDogApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar = global::XDogApp.Droid.Resource.Styleable.Toolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_android_gravity = global::XDogApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_android_minHeight = global::XDogApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_buttonGravity = global::XDogApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::XDogApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_collapseIcon = global::XDogApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::XDogApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::XDogApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::XDogApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetRight = global::XDogApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetStart = global::XDogApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::XDogApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_logo = global::XDogApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_logoDescription = global::XDogApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::XDogApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::XDogApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_navigationIcon = global::XDogApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_popupTheme = global::XDogApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_subtitle = global::XDogApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::XDogApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::XDogApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_title = global::XDogApp.Droid.Resource.Styleable.Toolbar_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMargin = global::XDogApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::XDogApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::XDogApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMarginStart = global::XDogApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMarginTop = global::XDogApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMargins = global::XDogApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::XDogApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleTextColor = global::XDogApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View = global::XDogApp.Droid.Resource.Styleable.View;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_android_focusable = global::XDogApp.Droid.Resource.Styleable.View_android_focusable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_android_theme = global::XDogApp.Droid.Resource.Styleable.View_android_theme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_paddingEnd = global::XDogApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_paddingStart = global::XDogApp.Droid.Resource.Styleable.View_paddingStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_theme = global::XDogApp.Droid.Resource.Styleable.View_theme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewBackgroundHelper = global::XDogApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::XDogApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::XDogApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::XDogApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewStubCompat = global::XDogApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewStubCompat_android_id = global::XDogApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::XDogApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewStubCompat_android_layout = global::XDogApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::XDogApp.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -2800,41 +4913,41 @@ namespace XDogApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f08009d
-			public const int action0 = 2131230877;
+			// aapt resource value: 0x7f08009f
+			public const int action0 = 2131230879;
 			
-			// aapt resource value: 0x7f080062
-			public const int action_bar = 2131230818;
+			// aapt resource value: 0x7f080064
+			public const int action_bar = 2131230820;
 			
 			// aapt resource value: 0x7f080001
 			public const int action_bar_activity_content = 2131230721;
 			
-			// aapt resource value: 0x7f080061
-			public const int action_bar_container = 2131230817;
+			// aapt resource value: 0x7f080063
+			public const int action_bar_container = 2131230819;
 			
-			// aapt resource value: 0x7f08005d
-			public const int action_bar_root = 2131230813;
+			// aapt resource value: 0x7f08005f
+			public const int action_bar_root = 2131230815;
 			
 			// aapt resource value: 0x7f080002
 			public const int action_bar_spinner = 2131230722;
 			
-			// aapt resource value: 0x7f080040
-			public const int action_bar_subtitle = 2131230784;
+			// aapt resource value: 0x7f080042
+			public const int action_bar_subtitle = 2131230786;
 			
-			// aapt resource value: 0x7f08003f
-			public const int action_bar_title = 2131230783;
+			// aapt resource value: 0x7f080041
+			public const int action_bar_title = 2131230785;
 			
-			// aapt resource value: 0x7f08009a
-			public const int action_container = 2131230874;
+			// aapt resource value: 0x7f08009c
+			public const int action_container = 2131230876;
 			
-			// aapt resource value: 0x7f080063
-			public const int action_context_bar = 2131230819;
+			// aapt resource value: 0x7f080065
+			public const int action_context_bar = 2131230821;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int action_divider = 2131230881;
+			// aapt resource value: 0x7f0800a3
+			public const int action_divider = 2131230883;
 			
-			// aapt resource value: 0x7f08009b
-			public const int action_image = 2131230875;
+			// aapt resource value: 0x7f08009d
+			public const int action_image = 2131230877;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2842,311 +4955,311 @@ namespace XDogApp.Droid
 			// aapt resource value: 0x7f080004
 			public const int action_menu_presenter = 2131230724;
 			
-			// aapt resource value: 0x7f08005f
-			public const int action_mode_bar = 2131230815;
-			
-			// aapt resource value: 0x7f08005e
-			public const int action_mode_bar_stub = 2131230814;
-			
-			// aapt resource value: 0x7f080041
-			public const int action_mode_close_button = 2131230785;
-			
-			// aapt resource value: 0x7f08009c
-			public const int action_text = 2131230876;
-			
-			// aapt resource value: 0x7f0800aa
-			public const int actions = 2131230890;
-			
-			// aapt resource value: 0x7f080042
-			public const int activity_chooser_view_content = 2131230786;
-			
-			// aapt resource value: 0x7f08001c
-			public const int add = 2131230748;
-			
-			// aapt resource value: 0x7f080056
-			public const int alertTitle = 2131230806;
-			
-			// aapt resource value: 0x7f08003b
-			public const int all = 2131230779;
-			
-			// aapt resource value: 0x7f080021
-			public const int always = 2131230753;
-			
-			// aapt resource value: 0x7f08002d
-			public const int auto = 2131230765;
-			
-			// aapt resource value: 0x7f08001e
-			public const int beginning = 2131230750;
-			
-			// aapt resource value: 0x7f080026
-			public const int bottom = 2131230758;
-			
-			// aapt resource value: 0x7f080049
-			public const int buttonPanel = 2131230793;
-			
-			// aapt resource value: 0x7f08009e
-			public const int cancel_action = 2131230878;
-			
-			// aapt resource value: 0x7f08002e
-			public const int center = 2131230766;
-			
-			// aapt resource value: 0x7f08002f
-			public const int center_horizontal = 2131230767;
-			
-			// aapt resource value: 0x7f080030
-			public const int center_vertical = 2131230768;
-			
-			// aapt resource value: 0x7f080059
-			public const int checkbox = 2131230809;
-			
-			// aapt resource value: 0x7f0800a6
-			public const int chronometer = 2131230886;
-			
-			// aapt resource value: 0x7f080037
-			public const int clip_horizontal = 2131230775;
-			
-			// aapt resource value: 0x7f080038
-			public const int clip_vertical = 2131230776;
-			
-			// aapt resource value: 0x7f080022
-			public const int collapseActionView = 2131230754;
-			
-			// aapt resource value: 0x7f080074
-			public const int container = 2131230836;
-			
-			// aapt resource value: 0x7f08004c
-			public const int contentPanel = 2131230796;
-			
-			// aapt resource value: 0x7f080075
-			public const int coordinator = 2131230837;
-			
-			// aapt resource value: 0x7f080053
-			public const int custom = 2131230803;
-			
-			// aapt resource value: 0x7f080052
-			public const int customPanel = 2131230802;
+			// aapt resource value: 0x7f080061
+			public const int action_mode_bar = 2131230817;
 			
 			// aapt resource value: 0x7f080060
-			public const int decor_content_parent = 2131230816;
-			
-			// aapt resource value: 0x7f080045
-			public const int default_activity_button = 2131230789;
-			
-			// aapt resource value: 0x7f080077
-			public const int design_bottom_sheet = 2131230839;
-			
-			// aapt resource value: 0x7f08007e
-			public const int design_menu_item_action_area = 2131230846;
-			
-			// aapt resource value: 0x7f08007d
-			public const int design_menu_item_action_area_stub = 2131230845;
-			
-			// aapt resource value: 0x7f08007c
-			public const int design_menu_item_text = 2131230844;
-			
-			// aapt resource value: 0x7f08007b
-			public const int design_navigation_view = 2131230843;
-			
-			// aapt resource value: 0x7f080010
-			public const int disableHome = 2131230736;
-			
-			// aapt resource value: 0x7f080064
-			public const int edit_query = 2131230820;
-			
-			// aapt resource value: 0x7f08001f
-			public const int end = 2131230751;
-			
-			// aapt resource value: 0x7f0800b0
-			public const int end_padder = 2131230896;
-			
-			// aapt resource value: 0x7f080028
-			public const int enterAlways = 2131230760;
-			
-			// aapt resource value: 0x7f080029
-			public const int enterAlwaysCollapsed = 2131230761;
-			
-			// aapt resource value: 0x7f08002a
-			public const int exitUntilCollapsed = 2131230762;
+			public const int action_mode_bar_stub = 2131230816;
 			
 			// aapt resource value: 0x7f080043
-			public const int expand_activities_button = 2131230787;
+			public const int action_mode_close_button = 2131230787;
+			
+			// aapt resource value: 0x7f08009e
+			public const int action_text = 2131230878;
+			
+			// aapt resource value: 0x7f0800ac
+			public const int actions = 2131230892;
+			
+			// aapt resource value: 0x7f080044
+			public const int activity_chooser_view_content = 2131230788;
+			
+			// aapt resource value: 0x7f08001e
+			public const int add = 2131230750;
 			
 			// aapt resource value: 0x7f080058
-			public const int expanded_menu = 2131230808;
-			
-			// aapt resource value: 0x7f080039
-			public const int fill = 2131230777;
-			
-			// aapt resource value: 0x7f08003a
-			public const int fill_horizontal = 2131230778;
-			
-			// aapt resource value: 0x7f080031
-			public const int fill_vertical = 2131230769;
+			public const int alertTitle = 2131230808;
 			
 			// aapt resource value: 0x7f08003d
-			public const int @fixed = 2131230781;
+			public const int all = 2131230781;
+			
+			// aapt resource value: 0x7f080023
+			public const int always = 2131230755;
+			
+			// aapt resource value: 0x7f08002f
+			public const int auto = 2131230767;
+			
+			// aapt resource value: 0x7f080020
+			public const int beginning = 2131230752;
+			
+			// aapt resource value: 0x7f080028
+			public const int bottom = 2131230760;
+			
+			// aapt resource value: 0x7f08004b
+			public const int buttonPanel = 2131230795;
+			
+			// aapt resource value: 0x7f0800a0
+			public const int cancel_action = 2131230880;
+			
+			// aapt resource value: 0x7f080030
+			public const int center = 2131230768;
+			
+			// aapt resource value: 0x7f080031
+			public const int center_horizontal = 2131230769;
+			
+			// aapt resource value: 0x7f080032
+			public const int center_vertical = 2131230770;
+			
+			// aapt resource value: 0x7f08005b
+			public const int checkbox = 2131230811;
+			
+			// aapt resource value: 0x7f0800a8
+			public const int chronometer = 2131230888;
+			
+			// aapt resource value: 0x7f080039
+			public const int clip_horizontal = 2131230777;
+			
+			// aapt resource value: 0x7f08003a
+			public const int clip_vertical = 2131230778;
+			
+			// aapt resource value: 0x7f080024
+			public const int collapseActionView = 2131230756;
+			
+			// aapt resource value: 0x7f080076
+			public const int container = 2131230838;
+			
+			// aapt resource value: 0x7f08004e
+			public const int contentPanel = 2131230798;
+			
+			// aapt resource value: 0x7f080077
+			public const int coordinator = 2131230839;
+			
+			// aapt resource value: 0x7f080055
+			public const int custom = 2131230805;
+			
+			// aapt resource value: 0x7f080054
+			public const int customPanel = 2131230804;
+			
+			// aapt resource value: 0x7f080062
+			public const int decor_content_parent = 2131230818;
+			
+			// aapt resource value: 0x7f080047
+			public const int default_activity_button = 2131230791;
+			
+			// aapt resource value: 0x7f080079
+			public const int design_bottom_sheet = 2131230841;
+			
+			// aapt resource value: 0x7f080080
+			public const int design_menu_item_action_area = 2131230848;
+			
+			// aapt resource value: 0x7f08007f
+			public const int design_menu_item_action_area_stub = 2131230847;
+			
+			// aapt resource value: 0x7f08007e
+			public const int design_menu_item_text = 2131230846;
+			
+			// aapt resource value: 0x7f08007d
+			public const int design_navigation_view = 2131230845;
+			
+			// aapt resource value: 0x7f080012
+			public const int disableHome = 2131230738;
+			
+			// aapt resource value: 0x7f080066
+			public const int edit_query = 2131230822;
+			
+			// aapt resource value: 0x7f080021
+			public const int end = 2131230753;
+			
+			// aapt resource value: 0x7f0800b2
+			public const int end_padder = 2131230898;
+			
+			// aapt resource value: 0x7f08002a
+			public const int enterAlways = 2131230762;
+			
+			// aapt resource value: 0x7f08002b
+			public const int enterAlwaysCollapsed = 2131230763;
+			
+			// aapt resource value: 0x7f08002c
+			public const int exitUntilCollapsed = 2131230764;
+			
+			// aapt resource value: 0x7f080045
+			public const int expand_activities_button = 2131230789;
+			
+			// aapt resource value: 0x7f08005a
+			public const int expanded_menu = 2131230810;
+			
+			// aapt resource value: 0x7f08003b
+			public const int fill = 2131230779;
+			
+			// aapt resource value: 0x7f08003c
+			public const int fill_horizontal = 2131230780;
+			
+			// aapt resource value: 0x7f080033
+			public const int fill_vertical = 2131230771;
+			
+			// aapt resource value: 0x7f08003f
+			public const int @fixed = 2131230783;
 			
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
 			
-			// aapt resource value: 0x7f080011
-			public const int homeAsUp = 2131230737;
+			// aapt resource value: 0x7f080013
+			public const int homeAsUp = 2131230739;
 			
-			// aapt resource value: 0x7f080047
-			public const int icon = 2131230791;
+			// aapt resource value: 0x7f080049
+			public const int icon = 2131230793;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int icon_group = 2131230891;
+			// aapt resource value: 0x7f0800ad
+			public const int icon_group = 2131230893;
 			
-			// aapt resource value: 0x7f080023
-			public const int ifRoom = 2131230755;
+			// aapt resource value: 0x7f080025
+			public const int ifRoom = 2131230757;
 			
-			// aapt resource value: 0x7f080044
-			public const int image = 2131230788;
+			// aapt resource value: 0x7f080046
+			public const int image = 2131230790;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int info = 2131230887;
+			// aapt resource value: 0x7f0800a9
+			public const int info = 2131230889;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f080073
-			public const int largeLabel = 2131230835;
+			// aapt resource value: 0x7f080075
+			public const int largeLabel = 2131230837;
 			
-			// aapt resource value: 0x7f080032
-			public const int left = 2131230770;
-			
-			// aapt resource value: 0x7f0800ac
-			public const int line1 = 2131230892;
+			// aapt resource value: 0x7f080034
+			public const int left = 2131230772;
 			
 			// aapt resource value: 0x7f0800ae
-			public const int line3 = 2131230894;
+			public const int line1 = 2131230894;
 			
-			// aapt resource value: 0x7f08000d
-			public const int listMode = 2131230733;
+			// aapt resource value: 0x7f0800b0
+			public const int line3 = 2131230896;
 			
-			// aapt resource value: 0x7f080046
-			public const int list_item = 2131230790;
+			// aapt resource value: 0x7f08000f
+			public const int listMode = 2131230735;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int masked = 2131230900;
+			// aapt resource value: 0x7f080048
+			public const int list_item = 2131230792;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int media_actions = 2131230880;
-			
-			// aapt resource value: 0x7f080020
-			public const int middle = 2131230752;
-			
-			// aapt resource value: 0x7f08003c
-			public const int mini = 2131230780;
-			
-			// aapt resource value: 0x7f08008c
-			public const int mr_art = 2131230860;
-			
-			// aapt resource value: 0x7f080081
-			public const int mr_chooser_list = 2131230849;
-			
-			// aapt resource value: 0x7f080084
-			public const int mr_chooser_route_desc = 2131230852;
-			
-			// aapt resource value: 0x7f080082
-			public const int mr_chooser_route_icon = 2131230850;
-			
-			// aapt resource value: 0x7f080083
-			public const int mr_chooser_route_name = 2131230851;
-			
-			// aapt resource value: 0x7f080080
-			public const int mr_chooser_title = 2131230848;
-			
-			// aapt resource value: 0x7f080089
-			public const int mr_close = 2131230857;
-			
-			// aapt resource value: 0x7f08008f
-			public const int mr_control_divider = 2131230863;
-			
-			// aapt resource value: 0x7f080095
-			public const int mr_control_playback_ctrl = 2131230869;
-			
-			// aapt resource value: 0x7f080098
-			public const int mr_control_subtitle = 2131230872;
-			
-			// aapt resource value: 0x7f080097
-			public const int mr_control_title = 2131230871;
-			
-			// aapt resource value: 0x7f080096
-			public const int mr_control_title_container = 2131230870;
-			
-			// aapt resource value: 0x7f08008a
-			public const int mr_custom_control = 2131230858;
-			
-			// aapt resource value: 0x7f08008b
-			public const int mr_default_control = 2131230859;
-			
-			// aapt resource value: 0x7f080086
-			public const int mr_dialog_area = 2131230854;
-			
-			// aapt resource value: 0x7f080085
-			public const int mr_expandable_area = 2131230853;
-			
-			// aapt resource value: 0x7f080099
-			public const int mr_group_expand_collapse = 2131230873;
-			
-			// aapt resource value: 0x7f08008d
-			public const int mr_media_main_control = 2131230861;
-			
-			// aapt resource value: 0x7f080088
-			public const int mr_name = 2131230856;
-			
-			// aapt resource value: 0x7f08008e
-			public const int mr_playback_control = 2131230862;
-			
-			// aapt resource value: 0x7f080087
-			public const int mr_title_bar = 2131230855;
-			
-			// aapt resource value: 0x7f080090
-			public const int mr_volume_control = 2131230864;
-			
-			// aapt resource value: 0x7f080091
-			public const int mr_volume_group_list = 2131230865;
-			
-			// aapt resource value: 0x7f080093
-			public const int mr_volume_item_icon = 2131230867;
-			
-			// aapt resource value: 0x7f080094
-			public const int mr_volume_slider = 2131230868;
-			
-			// aapt resource value: 0x7f080017
-			public const int multiply = 2131230743;
-			
-			// aapt resource value: 0x7f08007a
-			public const int navigation_header_container = 2131230842;
-			
-			// aapt resource value: 0x7f080024
-			public const int never = 2131230756;
-			
-			// aapt resource value: 0x7f080012
-			public const int none = 2131230738;
-			
-			// aapt resource value: 0x7f08000e
-			public const int normal = 2131230734;
-			
-			// aapt resource value: 0x7f0800a9
-			public const int notification_background = 2131230889;
-			
-			// aapt resource value: 0x7f0800a3
-			public const int notification_main_column = 2131230883;
+			// aapt resource value: 0x7f0800b6
+			public const int masked = 2131230902;
 			
 			// aapt resource value: 0x7f0800a2
-			public const int notification_main_column_container = 2131230882;
+			public const int media_actions = 2131230882;
 			
-			// aapt resource value: 0x7f080035
-			public const int parallax = 2131230773;
+			// aapt resource value: 0x7f080022
+			public const int middle = 2131230754;
 			
-			// aapt resource value: 0x7f08004b
-			public const int parentPanel = 2131230795;
+			// aapt resource value: 0x7f08003e
+			public const int mini = 2131230782;
 			
-			// aapt resource value: 0x7f080036
-			public const int pin = 2131230774;
+			// aapt resource value: 0x7f08008e
+			public const int mr_art = 2131230862;
+			
+			// aapt resource value: 0x7f080083
+			public const int mr_chooser_list = 2131230851;
+			
+			// aapt resource value: 0x7f080086
+			public const int mr_chooser_route_desc = 2131230854;
+			
+			// aapt resource value: 0x7f080084
+			public const int mr_chooser_route_icon = 2131230852;
+			
+			// aapt resource value: 0x7f080085
+			public const int mr_chooser_route_name = 2131230853;
+			
+			// aapt resource value: 0x7f080082
+			public const int mr_chooser_title = 2131230850;
+			
+			// aapt resource value: 0x7f08008b
+			public const int mr_close = 2131230859;
+			
+			// aapt resource value: 0x7f080091
+			public const int mr_control_divider = 2131230865;
+			
+			// aapt resource value: 0x7f080097
+			public const int mr_control_playback_ctrl = 2131230871;
+			
+			// aapt resource value: 0x7f08009a
+			public const int mr_control_subtitle = 2131230874;
+			
+			// aapt resource value: 0x7f080099
+			public const int mr_control_title = 2131230873;
+			
+			// aapt resource value: 0x7f080098
+			public const int mr_control_title_container = 2131230872;
+			
+			// aapt resource value: 0x7f08008c
+			public const int mr_custom_control = 2131230860;
+			
+			// aapt resource value: 0x7f08008d
+			public const int mr_default_control = 2131230861;
+			
+			// aapt resource value: 0x7f080088
+			public const int mr_dialog_area = 2131230856;
+			
+			// aapt resource value: 0x7f080087
+			public const int mr_expandable_area = 2131230855;
+			
+			// aapt resource value: 0x7f08009b
+			public const int mr_group_expand_collapse = 2131230875;
+			
+			// aapt resource value: 0x7f08008f
+			public const int mr_media_main_control = 2131230863;
+			
+			// aapt resource value: 0x7f08008a
+			public const int mr_name = 2131230858;
+			
+			// aapt resource value: 0x7f080090
+			public const int mr_playback_control = 2131230864;
+			
+			// aapt resource value: 0x7f080089
+			public const int mr_title_bar = 2131230857;
+			
+			// aapt resource value: 0x7f080092
+			public const int mr_volume_control = 2131230866;
+			
+			// aapt resource value: 0x7f080093
+			public const int mr_volume_group_list = 2131230867;
+			
+			// aapt resource value: 0x7f080095
+			public const int mr_volume_item_icon = 2131230869;
+			
+			// aapt resource value: 0x7f080096
+			public const int mr_volume_slider = 2131230870;
+			
+			// aapt resource value: 0x7f080019
+			public const int multiply = 2131230745;
+			
+			// aapt resource value: 0x7f08007c
+			public const int navigation_header_container = 2131230844;
+			
+			// aapt resource value: 0x7f080026
+			public const int never = 2131230758;
+			
+			// aapt resource value: 0x7f080014
+			public const int none = 2131230740;
+			
+			// aapt resource value: 0x7f080010
+			public const int normal = 2131230736;
+			
+			// aapt resource value: 0x7f0800ab
+			public const int notification_background = 2131230891;
+			
+			// aapt resource value: 0x7f0800a5
+			public const int notification_main_column = 2131230885;
+			
+			// aapt resource value: 0x7f0800a4
+			public const int notification_main_column_container = 2131230884;
+			
+			// aapt resource value: 0x7f080037
+			public const int parallax = 2131230775;
+			
+			// aapt resource value: 0x7f08004d
+			public const int parentPanel = 2131230797;
+			
+			// aapt resource value: 0x7f080038
+			public const int pin = 2131230776;
 			
 			// aapt resource value: 0x7f080006
 			public const int progress_circular = 2131230726;
@@ -3154,194 +5267,200 @@ namespace XDogApp.Droid
 			// aapt resource value: 0x7f080007
 			public const int progress_horizontal = 2131230727;
 			
-			// aapt resource value: 0x7f08005b
-			public const int radio = 2131230811;
+			// aapt resource value: 0x7f08005d
+			public const int radio = 2131230813;
 			
-			// aapt resource value: 0x7f080033
-			public const int right = 2131230771;
+			// aapt resource value: 0x7f080035
+			public const int right = 2131230773;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int right_icon = 2131230888;
+			// aapt resource value: 0x7f0800aa
+			public const int right_icon = 2131230890;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int right_side = 2131230884;
+			// aapt resource value: 0x7f0800a6
+			public const int right_side = 2131230886;
 			
-			// aapt resource value: 0x7f080018
-			public const int screen = 2131230744;
+			// aapt resource value: 0x7f08001a
+			public const int screen = 2131230746;
 			
-			// aapt resource value: 0x7f08002b
-			public const int scroll = 2131230763;
+			// aapt resource value: 0x7f08002d
+			public const int scroll = 2131230765;
 			
-			// aapt resource value: 0x7f080051
-			public const int scrollIndicatorDown = 2131230801;
+			// aapt resource value: 0x7f080053
+			public const int scrollIndicatorDown = 2131230803;
 			
-			// aapt resource value: 0x7f08004d
-			public const int scrollIndicatorUp = 2131230797;
+			// aapt resource value: 0x7f08004f
+			public const int scrollIndicatorUp = 2131230799;
 			
-			// aapt resource value: 0x7f08004e
-			public const int scrollView = 2131230798;
+			// aapt resource value: 0x7f080050
+			public const int scrollView = 2131230800;
 			
-			// aapt resource value: 0x7f08003e
-			public const int scrollable = 2131230782;
-			
-			// aapt resource value: 0x7f080066
-			public const int search_badge = 2131230822;
-			
-			// aapt resource value: 0x7f080065
-			public const int search_bar = 2131230821;
-			
-			// aapt resource value: 0x7f080067
-			public const int search_button = 2131230823;
-			
-			// aapt resource value: 0x7f08006c
-			public const int search_close_btn = 2131230828;
+			// aapt resource value: 0x7f080040
+			public const int scrollable = 2131230784;
 			
 			// aapt resource value: 0x7f080068
-			public const int search_edit_frame = 2131230824;
+			public const int search_badge = 2131230824;
 			
-			// aapt resource value: 0x7f08006e
-			public const int search_go_btn = 2131230830;
+			// aapt resource value: 0x7f080067
+			public const int search_bar = 2131230823;
 			
 			// aapt resource value: 0x7f080069
-			public const int search_mag_icon = 2131230825;
+			public const int search_button = 2131230825;
+			
+			// aapt resource value: 0x7f08006e
+			public const int search_close_btn = 2131230830;
 			
 			// aapt resource value: 0x7f08006a
-			public const int search_plate = 2131230826;
-			
-			// aapt resource value: 0x7f08006b
-			public const int search_src_text = 2131230827;
-			
-			// aapt resource value: 0x7f08006f
-			public const int search_voice_btn = 2131230831;
+			public const int search_edit_frame = 2131230826;
 			
 			// aapt resource value: 0x7f080070
-			public const int select_dialog_listview = 2131230832;
+			public const int search_go_btn = 2131230832;
 			
-			// aapt resource value: 0x7f08005a
-			public const int shortcut = 2131230810;
+			// aapt resource value: 0x7f08006b
+			public const int search_mag_icon = 2131230827;
 			
-			// aapt resource value: 0x7f080013
-			public const int showCustom = 2131230739;
+			// aapt resource value: 0x7f08006c
+			public const int search_plate = 2131230828;
 			
-			// aapt resource value: 0x7f080014
-			public const int showHome = 2131230740;
+			// aapt resource value: 0x7f08006d
+			public const int search_src_text = 2131230829;
 			
-			// aapt resource value: 0x7f080015
-			public const int showTitle = 2131230741;
-			
-			// aapt resource value: 0x7f0800b1
-			public const int sliding_tabs = 2131230897;
+			// aapt resource value: 0x7f080071
+			public const int search_voice_btn = 2131230833;
 			
 			// aapt resource value: 0x7f080072
-			public const int smallLabel = 2131230834;
+			public const int select_dialog_listview = 2131230834;
 			
-			// aapt resource value: 0x7f080079
-			public const int snackbar_action = 2131230841;
+			// aapt resource value: 0x7f08005c
+			public const int shortcut = 2131230812;
 			
-			// aapt resource value: 0x7f080078
-			public const int snackbar_text = 2131230840;
+			// aapt resource value: 0x7f080015
+			public const int showCustom = 2131230741;
 			
-			// aapt resource value: 0x7f08002c
-			public const int snap = 2131230764;
+			// aapt resource value: 0x7f080016
+			public const int showHome = 2131230742;
 			
-			// aapt resource value: 0x7f08004a
-			public const int spacer = 2131230794;
+			// aapt resource value: 0x7f080017
+			public const int showTitle = 2131230743;
+			
+			// aapt resource value: 0x7f0800b3
+			public const int sliding_tabs = 2131230899;
+			
+			// aapt resource value: 0x7f080074
+			public const int smallLabel = 2131230836;
+			
+			// aapt resource value: 0x7f08007b
+			public const int snackbar_action = 2131230843;
+			
+			// aapt resource value: 0x7f08007a
+			public const int snackbar_text = 2131230842;
+			
+			// aapt resource value: 0x7f08002e
+			public const int snap = 2131230766;
+			
+			// aapt resource value: 0x7f08004c
+			public const int spacer = 2131230796;
 			
 			// aapt resource value: 0x7f080008
 			public const int split_action_bar = 2131230728;
 			
-			// aapt resource value: 0x7f080019
-			public const int src_atop = 2131230745;
-			
-			// aapt resource value: 0x7f08001a
-			public const int src_in = 2131230746;
-			
 			// aapt resource value: 0x7f08001b
-			public const int src_over = 2131230747;
+			public const int src_atop = 2131230747;
 			
-			// aapt resource value: 0x7f080034
-			public const int start = 2131230772;
+			// aapt resource value: 0x7f08001c
+			public const int src_in = 2131230748;
 			
-			// aapt resource value: 0x7f08009f
-			public const int status_bar_latest_event_content = 2131230879;
+			// aapt resource value: 0x7f08001d
+			public const int src_over = 2131230749;
 			
-			// aapt resource value: 0x7f08005c
-			public const int submenuarrow = 2131230812;
+			// aapt resource value: 0x7f080036
+			public const int start = 2131230774;
 			
-			// aapt resource value: 0x7f08006d
-			public const int submit_area = 2131230829;
+			// aapt resource value: 0x7f0800a1
+			public const int status_bar_latest_event_content = 2131230881;
 			
-			// aapt resource value: 0x7f08000f
-			public const int tabMode = 2131230735;
+			// aapt resource value: 0x7f08005e
+			public const int submenuarrow = 2131230814;
+			
+			// aapt resource value: 0x7f08006f
+			public const int submit_area = 2131230831;
+			
+			// aapt resource value: 0x7f080011
+			public const int tabMode = 2131230737;
+			
+			// aapt resource value: 0x7f0800b1
+			public const int text = 2131230897;
 			
 			// aapt resource value: 0x7f0800af
-			public const int text = 2131230895;
+			public const int text2 = 2131230895;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int text2 = 2131230893;
+			// aapt resource value: 0x7f080052
+			public const int textSpacerNoButtons = 2131230802;
 			
-			// aapt resource value: 0x7f080050
-			public const int textSpacerNoButtons = 2131230800;
+			// aapt resource value: 0x7f080051
+			public const int textSpacerNoTitle = 2131230801;
 			
-			// aapt resource value: 0x7f08004f
-			public const int textSpacerNoTitle = 2131230799;
+			// aapt resource value: 0x7f080081
+			public const int text_input_password_toggle = 2131230849;
 			
-			// aapt resource value: 0x7f08007f
-			public const int text_input_password_toggle = 2131230847;
+			// aapt resource value: 0x7f08000c
+			public const int textinput_counter = 2131230732;
 			
-			// aapt resource value: 0x7f08000a
-			public const int textinput_counter = 2131230730;
+			// aapt resource value: 0x7f08000d
+			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f08000b
-			public const int textinput_error = 2131230731;
+			// aapt resource value: 0x7f0800a7
+			public const int time = 2131230887;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int time = 2131230885;
+			// aapt resource value: 0x7f08004a
+			public const int title = 2131230794;
 			
-			// aapt resource value: 0x7f080048
-			public const int title = 2131230792;
+			// aapt resource value: 0x7f080059
+			public const int titleDividerNoCustom = 2131230809;
 			
 			// aapt resource value: 0x7f080057
-			public const int titleDividerNoCustom = 2131230807;
+			public const int title_template = 2131230807;
 			
-			// aapt resource value: 0x7f080055
-			public const int title_template = 2131230805;
+			// aapt resource value: 0x7f0800b4
+			public const int toolbar = 2131230900;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int toolbar = 2131230898;
+			// aapt resource value: 0x7f080029
+			public const int top = 2131230761;
 			
-			// aapt resource value: 0x7f080027
-			public const int top = 2131230759;
+			// aapt resource value: 0x7f080056
+			public const int topPanel = 2131230806;
 			
-			// aapt resource value: 0x7f080054
-			public const int topPanel = 2131230804;
+			// aapt resource value: 0x7f080078
+			public const int touch_outside = 2131230840;
 			
-			// aapt resource value: 0x7f080076
-			public const int touch_outside = 2131230838;
+			// aapt resource value: 0x7f08000a
+			public const int transition_current_scene = 2131230730;
+			
+			// aapt resource value: 0x7f08000b
+			public const int transition_scene_layoutid_cache = 2131230731;
 			
 			// aapt resource value: 0x7f080009
 			public const int up = 2131230729;
 			
-			// aapt resource value: 0x7f080016
-			public const int useLogo = 2131230742;
+			// aapt resource value: 0x7f080018
+			public const int useLogo = 2131230744;
 			
-			// aapt resource value: 0x7f08000c
-			public const int view_offset_helper = 2131230732;
+			// aapt resource value: 0x7f08000e
+			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int visible = 2131230899;
+			// aapt resource value: 0x7f0800b5
+			public const int visible = 2131230901;
 			
-			// aapt resource value: 0x7f080092
-			public const int volume_item_container = 2131230866;
+			// aapt resource value: 0x7f080094
+			public const int volume_item_container = 2131230868;
 			
-			// aapt resource value: 0x7f080071
-			public const int webview = 2131230833;
+			// aapt resource value: 0x7f080073
+			public const int webview = 2131230835;
 			
-			// aapt resource value: 0x7f080025
-			public const int withText = 2131230757;
+			// aapt resource value: 0x7f080027
+			public const int withText = 2131230759;
 			
-			// aapt resource value: 0x7f08001d
-			public const int wrap_content = 2131230749;
+			// aapt resource value: 0x7f08001f
+			public const int wrap_content = 2131230751;
 			
 			static Id()
 			{

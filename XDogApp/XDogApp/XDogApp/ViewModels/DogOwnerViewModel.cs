@@ -31,26 +31,41 @@ namespace XDogApp.ViewModels
             
             ClickCreate = new Command(async () =>
             {
-                //DogOwner item = new DogOwner { ScreenName = this.ScreenName, FirstName = this.FirstName, Surname = this.Surname, AgeRangeMin = Int32.Parse(this.AgeRangeMin),
-                //                               CurrentTown = this.CurrentTown, HomeTown = this.HomeTown, Interests = new List<string> (new string[] { this.Interests }),
-                //                               Bio = this.Bio, RelationshipStatus = this.RelationshipStatus, Job = this.Job, WorkPlace = this.WorkPlace,
-                //                               Education = new List<string>(new string[] { this.Education }), Address = new List<string>(new string[] { this.Address }),
-                //                               PostCode = this.PostCode, Country = this.Country, TelphoneNumber = this.TelphoneNumber, MobileNumber = this.MobileNumber,
-                //                               EmailAddress = this.EmailAddress, DOB = Convert.ToDateTime(this.DOB)
-                //                               //, Dogs = new List<string>(new string[] { this.Dogs }),RelatedDogs = new List<string>(new string[] { this.RelatedDogs })
-                //                              };
+                DogOwner item = new DogOwner
+                {
+                    ScreenName = this.ScreenName, FirstName = this.FirstName, Surname = this.Surname, AgeRangeMin = Int32.Parse(this.AgeRangeMin),
+                    CurrentTown = this.CurrentTown, HomeTown = this.HomeTown,
+                    Bio = this.Bio, RelationshipStatus = this.RelationshipStatus, Job = this.Job, WorkPlace = this.WorkPlace,
+                    //Education = new List<string>(new string[] { this.Education }), Address = new List<string>(new string[] { this.Address }),
+                    //PostCode = this.PostCode, Country = this.Country, TelphoneNumber = this.TelphoneNumber, MobileNumber = this.MobileNumber,
+                    //EmailAddress = this.EmailAddress,
+                    DOB = Convert.ToDateTime(this.DOB)
+                    //, Dogs = new List<string>(new string[] { this.Dogs }),RelatedDogs = new List<string>(new string[] { this.RelatedDogs })
+                };
 
-                DogOwner item = new DogOwner { ScreenName = this.ScreenName };
 
-                await DataStore.AddItemAsync(item);
+                bool res = await DataStore.AddItemAsync(item);
+                ResponseType = (res ? 1 : 2);
+                ResponseText = (res ? "Successfully Saved" : "Failed to Save");
+
                 Settings.ScreenName = this.ScreenName;
             });
         }
 
 
         #region Attributes
+
+        public List<string> RelationshipStatusTypes = new List<string>(new string[] { "Single", "Married", "In a Relationship", "It's Complicated" });
+        public List<string> InterestTypes = new List<string>(new string[] { "Films", "Books", "Travel", "Sports" });
+        public List<string> EducationTypes = new List<string>(new string[] { "High School", "Degree", "Masters", "PhD" });
+        public List<string> AgeRanges = new List<string>(new string[] { "-15", "16-21", "22-30", "31-40", "41-50", "51-60", "61+" });
+
+
         private string _ScreenName = "";
         public string ScreenName { get { return _ScreenName; } set { if (_ScreenName == value) return; _ScreenName = value; OnPropertyChenged(); }}
+
+        private string _Gender = "";
+        public string Gender { get { return _Gender; } set { if (_Gender == value) return; _Gender = value; OnPropertyChenged(); } }
 
         private string _FirstName = "";
         public string FirstName { get { return _FirstName; } set { if (_FirstName == value) return; _FirstName = value; OnPropertyChenged(); } }
@@ -111,6 +126,12 @@ namespace XDogApp.ViewModels
 
         private string _RelatedDogs = "";
         public string RelatedDogs { get { return _RelatedDogs; } set { if (_RelatedDogs == value) return; _RelatedDogs = value; OnPropertyChenged(); } }
+
+        private string _ResponseText = "";
+        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChenged(); } }
+
+        private int _ResponseType = 1;
+        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChenged(); } }
 
         #endregion
 

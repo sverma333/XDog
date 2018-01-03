@@ -5,6 +5,7 @@ using System.Web.Http.Controllers;
 using System.Web.Http.OData;
 using Microsoft.Azure.Mobile.Server;
 using XDogService.Models;
+using Microsoft.AspNet.Identity;
 
 namespace XDogService.Controllers
 {
@@ -13,8 +14,7 @@ namespace XDogService.Controllers
         protected override void Initialize(HttpControllerContext controllerContext)
         {
             base.Initialize(controllerContext);
-            DogContext context = new DogContext();
-            DomainManager = new EntityDomainManager<Dog>(context, Request);
+            DomainManager = new EntityDomainManager<Dog>(new DogXContext(), Request);
         }
 
         // GET tables/Dog
@@ -38,6 +38,7 @@ namespace XDogService.Controllers
         // POST tables/Dog
         public async Task<IHttpActionResult> PostDog(Dog item)
         {
+            item.MainOwnerUserId = User.Identity.GetUserId();
             Dog current = await InsertAsync(item);
             return CreatedAtRoute("Tables", new { id = current.Id }, current);
         }

@@ -10,6 +10,8 @@ using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using Microsoft.WindowsAzure.MobileServices;
+using Plugin.Media;
+using Plugin.MediaManager.Forms.Android;
 
 namespace XDogApp.Droid
 {
@@ -19,7 +21,7 @@ namespace XDogApp.Droid
         //SV Added
         //public static MobileServiceClient MobileService = new MobileServiceClient("https://xdogserver.azurewebsites.net");
 
-        protected override void OnCreate(Bundle bundle)
+        protected override async void OnCreate(Bundle bundle)
         {
             AppCenter.Start("fd3b9965-2833-481b-a812-3cb085f66bc8", typeof(Analytics), typeof(Crashes));
 
@@ -28,8 +30,13 @@ namespace XDogApp.Droid
 
             base.OnCreate(bundle);
 
+            #region SV ADDED Init
+
+            VideoViewRenderer.Init();
             global::Xamarin.Forms.Forms.Init(this, bundle);
             Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
+            #endregion
+
             LoadApplication(new App());
         }
     }

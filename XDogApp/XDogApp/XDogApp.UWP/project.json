@@ -4,9 +4,13 @@
     "Microsoft.AppCenter.Crashes": "1.0.1",
     "Microsoft.Azure.Mobile.Client": "4.0.2",
     "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.0.2",
+    "Microsoft.Bcl.Build": "1.0.21",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
+    "PCLStorage": "1.0.2",
+    "Plugin.MediaManager.Forms": "0.4.5",
     "Plugin.Multilingual": "1.0.2",
     "Xam.Plugin.Connectivity": "3.0.3",
+    "Xam.Plugin.Media": "3.1.1",
     "Xam.Plugins.Settings": "3.1.1",
     "Xamarin.Forms": "2.4.0.280"
   },
