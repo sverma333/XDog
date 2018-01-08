@@ -65,22 +65,22 @@ namespace XDogApp.ViewModels
         #region Attributes
 
         private string _Email = "";
-        public string Email { get { return _Email; } set { if (_Email == value) return; _Email = value;  OnPropertyChenged(); }}
+        public string Email { get { return _Email; } set { if (_Email == value) return; _Email = value;  OnPropertyChanged(); }}
 
         private string _VerficationCode = "";
-        public string VerficationCode { get { return _VerficationCode; } set { if (_VerficationCode == value) return; _VerficationCode = value; OnPropertyChenged(); } }
+        public string VerficationCode { get { return _VerficationCode; } set { if (_VerficationCode == value) return; _VerficationCode = value; OnPropertyChanged(); } }
 
         private string _Password = "";
-        public string Password { get { return _Password; } set { if (_Password == value) return; _Password = value; OnPropertyChenged(); } }
+        public string Password { get { return _Password; } set { if (_Password == value) return; _Password = value; OnPropertyChanged(); } }
 
         private string _ConfirmPassword = "";
-        public string ConfirmPassword { get { return _ConfirmPassword; } set { if (_ConfirmPassword == value) return; _ConfirmPassword = value; OnPropertyChenged(); } }
+        public string ConfirmPassword { get { return _ConfirmPassword; } set { if (_ConfirmPassword == value) return; _ConfirmPassword = value; OnPropertyChanged(); } }
 
         private string _ResponseText = "";
-        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChenged(); } }
+        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChanged(); } }
 
         private int _ResponseType = 1;
-        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChenged(); } }
+        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChanged(); } }
 
         #endregion
 

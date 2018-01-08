@@ -27,6 +27,11 @@ namespace XDogApp.iOS
             #region SV ADDED Init
             VideoViewRenderer.Init();
             global::Xamarin.Forms.Forms.Init();
+            global::Xamarin.FormsMaps.Init ();
+            Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
+            App.ScreenWidth = UIScreen.MainScreen.Bounds.Width;
+            App.ScreenHeight = UIScreen.MainScreen.Bounds.Height;
+
             #endregion
             LoadApplication(new App());
 

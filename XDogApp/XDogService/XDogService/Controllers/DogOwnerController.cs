@@ -21,7 +21,8 @@ namespace XDogService.Controllers
         // GET tables/DogOwner
         public IQueryable<DogOwner> GetAllDogOwner()
         {
-            return Query(); 
+            IQueryable<DogOwner> x = Query();
+            return x; 
         }
 
         // GET tables/DogOwner/48D68C86-6EA6-4C25-AA33-223FC9A27959

@@ -43,34 +43,34 @@ namespace XDogApp.ViewModels
 
         #region Attributes
         private string _Address1 = "";
-        public string Address1 { get { return _Address1; } set { if (_Address1 == value) return; _Address1 = value; OnPropertyChenged(); } }
+        public string Address1 { get { return _Address1; } set { if (_Address1 == value) return; _Address1 = value; OnPropertyChanged(); } }
 
         private string _Address2 = "";
-        public string Address2 { get { return _Address2; } set { if (_Address2 == value) return; _Address2 = value; OnPropertyChenged(); } }
+        public string Address2 { get { return _Address2; } set { if (_Address2 == value) return; _Address2 = value; OnPropertyChanged(); } }
 
         private string _Address3 = "";
-        public string Address3 { get { return _Address3; } set { if (_Address3 == value) return; _Address3 = value; OnPropertyChenged(); } }
+        public string Address3 { get { return _Address3; } set { if (_Address3 == value) return; _Address3 = value; OnPropertyChanged(); } }
 
         private string _Address4 = "";
-        public string Address4 { get { return _Address4; } set { if (_Address4 == value) return; _Address4 = value; OnPropertyChenged(); } }
+        public string Address4 { get { return _Address4; } set { if (_Address4 == value) return; _Address4 = value; OnPropertyChanged(); } }
 
         private string _Town = "";
-        public string Town { get { return _Town; } set { if (_Town == value) return; _Town = value; OnPropertyChenged(); } }
+        public string Town { get { return _Town; } set { if (_Town == value) return; _Town = value; OnPropertyChanged(); } }
 
         private string _City = "";
-        public string City { get { return _City; } set { if (_City == value) return; _City = value; OnPropertyChenged(); } }
+        public string City { get { return _City; } set { if (_City == value) return; _City = value; OnPropertyChanged(); } }
 
         private string _PostCode = "";
-        public string PostCode { get { return _PostCode; } set { if (_PostCode == value) return; _PostCode = value; OnPropertyChenged(); } }
+        public string PostCode { get { return _PostCode; } set { if (_PostCode == value) return; _PostCode = value; OnPropertyChanged(); } }
 
         private string _Country = "";
-        public string Country { get { return _Country; } set { if (_Country == value) return; _Country = value; OnPropertyChenged(); } }
+        public string Country { get { return _Country; } set { if (_Country == value) return; _Country = value; OnPropertyChanged(); } }
 
         private string _ResponseText = "";
-        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChenged(); } }
+        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChanged(); } }
 
         private int _ResponseType = 1;
-        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChenged(); } }
+        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChanged(); } }
 
         #endregion
 

@@ -47,7 +47,7 @@ namespace XDogApp.ViewModels
             {
                 if (_Email == value) return;
                 _Email = value; 
-                OnPropertyChenged();
+                OnPropertyChanged();
             }
         }
 
@@ -60,7 +60,7 @@ namespace XDogApp.ViewModels
             {
                 if (_Password == value) return;
                 _Password = value;
-                OnPropertyChenged();
+                OnPropertyChanged();
             }
         }
 
@@ -73,7 +73,7 @@ namespace XDogApp.ViewModels
             {
                 if (_ResponseText == value) return;
                 _ResponseText = value;
-                OnPropertyChenged();
+                OnPropertyChanged();
             }
         }
 
@@ -85,7 +85,7 @@ namespace XDogApp.ViewModels
             {
                 if (_ResponseType == value) return;
                 _ResponseType = value;
-                OnPropertyChenged();
+                OnPropertyChanged();
             }
         }
 

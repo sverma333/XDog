@@ -62,76 +62,76 @@ namespace XDogApp.ViewModels
 
 
         private string _ScreenName = "";
-        public string ScreenName { get { return _ScreenName; } set { if (_ScreenName == value) return; _ScreenName = value; OnPropertyChenged(); }}
+        public string ScreenName { get { return _ScreenName; } set { if (_ScreenName == value) return; _ScreenName = value; OnPropertyChanged(); }}
 
         private string _Gender = "";
-        public string Gender { get { return _Gender; } set { if (_Gender == value) return; _Gender = value; OnPropertyChenged(); } }
+        public string Gender { get { return _Gender; } set { if (_Gender == value) return; _Gender = value; OnPropertyChanged(); } }
 
         private string _FirstName = "";
-        public string FirstName { get { return _FirstName; } set { if (_FirstName == value) return; _FirstName = value; OnPropertyChenged(); } }
+        public string FirstName { get { return _FirstName; } set { if (_FirstName == value) return; _FirstName = value; OnPropertyChanged(); } }
 
         private string _Surname = "";
-        public string Surname { get { return _Surname; } set { if (_Surname == value) return; _Surname = value; OnPropertyChenged(); } }
+        public string Surname { get { return _Surname; } set { if (_Surname == value) return; _Surname = value; OnPropertyChanged(); } }
 
         private string _AgeRangeMin = "";
-        public string AgeRangeMin { get { return _AgeRangeMin; } set { if (_AgeRangeMin == value) return; _AgeRangeMin = value; OnPropertyChenged(); } }
+        public string AgeRangeMin { get { return _AgeRangeMin; } set { if (_AgeRangeMin == value) return; _AgeRangeMin = value; OnPropertyChanged(); } }
 
         private string _CurrentTown = "";
-        public string CurrentTown { get { return _CurrentTown; } set { if (_CurrentTown == value) return; _CurrentTown = value; OnPropertyChenged(); } }
+        public string CurrentTown { get { return _CurrentTown; } set { if (_CurrentTown == value) return; _CurrentTown = value; OnPropertyChanged(); } }
 
         private string _HomeTown = "";
-        public string HomeTown { get { return _HomeTown; } set { if (_HomeTown == value) return; _HomeTown = value; OnPropertyChenged(); } }
+        public string HomeTown { get { return _HomeTown; } set { if (_HomeTown == value) return; _HomeTown = value; OnPropertyChanged(); } }
 
         private string _Interests = "";
-        public string Interests { get { return _Interests; } set { if (_Interests == value) return; _Interests = value; OnPropertyChenged(); } }
+        public string Interests { get { return _Interests; } set { if (_Interests == value) return; _Interests = value; OnPropertyChanged(); } }
 
         private string _Bio = "";
-        public string Bio { get { return _Bio; } set { if (_Bio == value) return; _Bio = value; OnPropertyChenged(); } }
+        public string Bio { get { return _Bio; } set { if (_Bio == value) return; _Bio = value; OnPropertyChanged(); } }
 
         private string _RelationshipStatus = "";
-        public string RelationshipStatus { get { return _RelationshipStatus; } set { if (_RelationshipStatus == value) return; _RelationshipStatus = value; OnPropertyChenged(); } }
+        public string RelationshipStatus { get { return _RelationshipStatus; } set { if (_RelationshipStatus == value) return; _RelationshipStatus = value; OnPropertyChanged(); } }
 
         private string _Job = "";
-        public string Job { get { return _Job; } set { if (_Job == value) return; _Job = value; OnPropertyChenged(); } }
+        public string Job { get { return _Job; } set { if (_Job == value) return; _Job = value; OnPropertyChanged(); } }
 
         private string _WorkPlace = "";
-        public string WorkPlace { get { return _WorkPlace; } set { if (_WorkPlace == value) return; _WorkPlace = value; OnPropertyChenged(); } }
+        public string WorkPlace { get { return _WorkPlace; } set { if (_WorkPlace == value) return; _WorkPlace = value; OnPropertyChanged(); } }
 
         private string _Education = "";
-        public string Education { get { return _Education; } set { if (_Education == value) return; _Education = value; OnPropertyChenged(); } }
+        public string Education { get { return _Education; } set { if (_Education == value) return; _Education = value; OnPropertyChanged(); } }
 
         private string _Address = "";
-        public string Address { get { return _Address; } set { if (_Address == value) return; _Address = value; OnPropertyChenged(); } }
+        public string Address { get { return _Address; } set { if (_Address == value) return; _Address = value; OnPropertyChanged(); } }
 
         private string _PostCode = "";
-        public string PostCode { get { return _PostCode; } set { if (_PostCode == value) return; _PostCode = value; OnPropertyChenged(); } }
+        public string PostCode { get { return _PostCode; } set { if (_PostCode == value) return; _PostCode = value; OnPropertyChanged(); } }
 
         private string _Country = "";
-        public string Country { get { return _Country; } set { if (_Country == value) return; _Country = value; OnPropertyChenged(); } }
+        public string Country { get { return _Country; } set { if (_Country == value) return; _Country = value; OnPropertyChanged(); } }
 
         private string _TelphoneNumber = "";
-        public string TelphoneNumber { get { return _TelphoneNumber; } set { if (_TelphoneNumber == value) return; _TelphoneNumber = value; OnPropertyChenged(); } }
+        public string TelphoneNumber { get { return _TelphoneNumber; } set { if (_TelphoneNumber == value) return; _TelphoneNumber = value; OnPropertyChanged(); } }
 
         private string _MobileNumber = "";
-        public string MobileNumber { get { return _MobileNumber; } set { if (_MobileNumber == value) return; _MobileNumber = value; OnPropertyChenged(); } }
+        public string MobileNumber { get { return _MobileNumber; } set { if (_MobileNumber == value) return; _MobileNumber = value; OnPropertyChanged(); } }
 
         private string _EmailAddress = "";
-        public string EmailAddress { get { return _EmailAddress; } set { if (_EmailAddress == value) return; _EmailAddress = value; OnPropertyChenged(); } }
+        public string EmailAddress { get { return _EmailAddress; } set { if (_EmailAddress == value) return; _EmailAddress = value; OnPropertyChanged(); } }
 
         private string _DOB = "";
-        public string DOB { get { return _DOB; } set { if (_DOB == value) return; _DOB = value; OnPropertyChenged(); } }
+        public string DOB { get { return _DOB; } set { if (_DOB == value) return; _DOB = value; OnPropertyChanged(); } }
 
         private string _Dogs = "";
-        public string Dogs { get { return _Dogs; } set { if (_Dogs == value) return; _Dogs = value; OnPropertyChenged(); } }
+        public string Dogs { get { return _Dogs; } set { if (_Dogs == value) return; _Dogs = value; OnPropertyChanged(); } }
 
         private string _RelatedDogs = "";
-        public string RelatedDogs { get { return _RelatedDogs; } set { if (_RelatedDogs == value) return; _RelatedDogs = value; OnPropertyChenged(); } }
+        public string RelatedDogs { get { return _RelatedDogs; } set { if (_RelatedDogs == value) return; _RelatedDogs = value; OnPropertyChanged(); } }
 
         private string _ResponseText = "";
-        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChenged(); } }
+        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChanged(); } }
 
         private int _ResponseType = 1;
-        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChenged(); } }
+        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChanged(); } }
 
         #endregion
 

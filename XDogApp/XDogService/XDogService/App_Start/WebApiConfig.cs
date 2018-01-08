@@ -23,7 +23,10 @@ namespace XDogService
 
             // Web API routes
             config.MapHttpAttributeRoutes();
-            new MobileAppConfiguration().UseDefaultConfiguration().ApplyTo(config);
+                        new MobileAppConfiguration().UseDefaultConfiguration().ApplyTo(config);
+
+            //new MobileAppConfiguration().AddMobileAppHomeController().MapApiControllers().AddTables(
+            //        new MobileAppTableConfiguration().MapTableControllers().AddEntityFramework()).ApplyTo(config);
 
         }
     }

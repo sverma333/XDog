@@ -20,7 +20,7 @@ namespace XDogApp.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            Xamarin.FormsMaps.Init("RvxeQMWODHqpsn0ES2lf~LiFAvb1keNQD1MTzl8u_OQ~Ah87p8ShFvCIttHh6gp95TCD_mwEObtjAn9KTOCDtbIgUMZUsg3LSgCWb-EpjgW1");
             LoadApplication(new XDogApp.App());
         }
     }

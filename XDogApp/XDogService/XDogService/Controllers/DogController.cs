@@ -20,7 +20,8 @@ namespace XDogService.Controllers
         // GET tables/Dog
         public IQueryable<Dog> GetAllDog()
         {
-            return Query(); 
+            IQueryable<Dog> x = Query();
+            return x; 
         }
 
         // GET tables/Dog/48D68C86-6EA6-4C25-AA33-223FC9A27959
@@ -38,7 +39,7 @@ namespace XDogService.Controllers
         // POST tables/Dog
         public async Task<IHttpActionResult> PostDog(Dog item)
         {
-            item.MainOwnerUserId = User.Identity.GetUserId();
+            //item.MainOwnerUserId = User.Identity.GetUserId();
             Dog current = await InsertAsync(item);
             return CreatedAtRoute("Tables", new { id = current.Id }, current);
         }

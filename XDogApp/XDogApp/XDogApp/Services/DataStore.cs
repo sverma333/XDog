@@ -27,7 +27,7 @@ namespace XDogApp.Services
                 return;
 
             MobileService = new MobileServiceClient(PCL_AppConstants.sCurrentServiceURL);
-            string path = "app12.db";
+            string path = "local.db";
 
             var store = new MobileServiceSQLiteStoreWithLogging(path, PCL_AppConstants.bLogSqlLite);
             store.DefineTable<T>();

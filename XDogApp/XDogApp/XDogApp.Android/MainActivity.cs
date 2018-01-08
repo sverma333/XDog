@@ -35,6 +35,14 @@ namespace XDogApp.Droid
             VideoViewRenderer.Init();
             global::Xamarin.Forms.Forms.Init(this, bundle);
             Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
+
+            var width = Resources.DisplayMetrics.WidthPixels;
+			var height = Resources.DisplayMetrics.HeightPixels;
+			var density = Resources.DisplayMetrics.Density;
+
+			App.ScreenWidth = (width - 0.5f) / density;
+			App.ScreenHeight = (height - 0.5f) / density;
+
             #endregion
 
             LoadApplication(new App());

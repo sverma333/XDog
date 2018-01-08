@@ -19,6 +19,9 @@ namespace XDogApp
 {
     public partial class App : Application
     {
+        //SV ADDED
+        public static double ScreenHeight;
+        public static double ScreenWidth;
 
         public App()
         {
@@ -54,7 +57,7 @@ namespace XDogApp
             Page ret;
 
             // test TODO remove later
-            return new DogListPage();
+            return new RecordDogWalkPage();
 
 
             if (!string.IsNullOrEmpty(Settings.Token) && !string.IsNullOrEmpty(Settings.ScreenName))     // logged in, so start

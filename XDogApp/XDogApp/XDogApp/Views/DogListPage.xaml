@@ -10,16 +10,18 @@
     <ContentPage.BindingContext><vm1:DogListViewModel/></ContentPage.BindingContext>
 
     <StackLayout Padding="0,20,0,0">
-        <ListView  x:Name="lstView" RowHeight="60" HasUnevenRows="True" ItemsSource = "{Binding obvDataList}">
+        <Button x:Name="btnLoad" Text="Test Button" Command="{Binding RefreshDataCommand}" AutomationId="btnLoad"/>
+        <ListView  x:Name="lstView" RowHeight="60" HasUnevenRows="True" ItemsSource = "{Binding obvDataList}" 
+                   IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshDataCommand}" IsRefreshing="{Binding IsRefreshing}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" BackgroundColor="Olive">
                             <Image Source="{Binding Image}" HorizontalOptions="End" AbsoluteLayout.LayoutBounds="250.25, 0.25, 50, 50 "/>
                             <StackLayout Orientation="Vertical">
-                                <Label Text = "{Binding Name}" FontSize="24" AbsoluteLayout.LayoutBounds="0.25, 0.25, 400, 40"/>
-                                <Label Text = "{Binding Breed}" AbsoluteLayout.LayoutBounds="50, 35, 200, 25"/>
-                                <Label Text = "{Binding Bio}" AbsoluteLayout.LayoutBounds="50, 35, 200, 25"/>
+                                <Label Text = "{Binding Title1}" FontSize="24" AbsoluteLayout.LayoutBounds="0.25, 0.25, 400, 40"/>
+                                <Label Text = "{Binding SubTitle1}" AbsoluteLayout.LayoutBounds="50, 35, 200, 25"/>
+                                <Label Text = "{Binding SubTitle2}" AbsoluteLayout.LayoutBounds="50, 35, 200, 25"/>
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>

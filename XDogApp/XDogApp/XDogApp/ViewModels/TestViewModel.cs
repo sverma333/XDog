@@ -21,13 +21,13 @@ namespace XDogApp.ViewModels
         private AzureDataStore<TodoItem> testServices = new AzureDataStore<TodoItem>();
 
         private string _EntryText = "";
-        public string EntryText { get { return _EntryText; } set { if (_EntryText == value) return; _EntryText = value; OnPropertyChenged(); } }
+        public string EntryText { get { return _EntryText; } set { if (_EntryText == value) return; _EntryText = value; OnPropertyChanged(); } }
 
         private string _ResponseText = "";
-        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChenged(); } }
+        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChanged(); } }
 
         private int _ResponseType = 1;
-        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChenged(); } }
+        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChanged(); } }
 
 
         public ICommand ClickTest { get; private set; }

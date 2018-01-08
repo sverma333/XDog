@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Record Dog Walk Page"
+             x:Class="XDogApp.Views.RecordDogWalkPage"
+             xmlns:vm1="clr-namespace:XDogApp.ViewModels; assembly=XDogApp"
+             xmlns:local="clr-namespace:XDogApp"
+             xmlns:local2="clr-namespace:XDogApp; assembly=XDogApp"
+             xmlns:t="clr-namespace:XDogApp.Helpers"
+             xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp">
+
+    <ContentPage.BindingContext><vm1:RecordDogWalkViewModel/></ContentPage.BindingContext>
+
+    <StackLayout Padding="0,20,0,0">
+        <local:CustomMap x:Name="customMap" Route="{Binding RoutePoints}" IsRecording ="{Binding IsRecording}" MapType="Street" WidthRequest="{x:Static local2:App.ScreenWidth}" HeightRequest="{x:Static local2:App.ScreenHeight}" />
+    </StackLayout>
+</ContentPage>  

@@ -41,7 +41,7 @@ namespace XDogApp.ViewModels
             
             ClickCreate = new Command(async () =>
             {
-                Dog item = new Dog { Name = this.Name, Breed = this.Breed, Bio = this.Bio, DOB = Convert.ToDateTime(this.DOB) };
+                Dog2 item = new Dog2 { Name = this.Name, Breed = this.Breed, Bio = this.Bio, DOB = Convert.ToDateTime(this.DOB) };
                 if (MainImageByteArray != null)
                     await FileUtils.SaveToFile("Images", $"DogMainPic_{item.Id}.png", MainImageByteArray);
 
@@ -109,41 +109,41 @@ namespace XDogApp.ViewModels
 
         #region Attributes
         private string _MainOwnerId = "";
-        public string MainOwnerId { get { return _MainOwnerId; } set { if (_MainOwnerId == value) return; _MainOwnerId = value; OnPropertyChenged(); } }
+        public string MainOwnerId { get { return _MainOwnerId; } set { if (_MainOwnerId == value) return; _MainOwnerId = value; OnPropertyChanged(); } }
 
         private string _MainOwnerUserId = "";
-        public string MainOwnerUserId { get { return _MainOwnerUserId; } set { if (_MainOwnerUserId == value) return; _MainOwnerUserId = value; OnPropertyChenged(); } }
+        public string MainOwnerUserId { get { return _MainOwnerUserId; } set { if (_MainOwnerUserId == value) return; _MainOwnerUserId = value; OnPropertyChanged(); } }
 
         private string _Name = "";
-        public string Name { get { return _Name; } set { if (_Name == value) return; _Name = value; OnPropertyChenged(); }}
+        public string Name { get { return _Name; } set { if (_Name == value) return; _Name = value; OnPropertyChanged(); }}
 
         private string _Breed = "";
-        public string Breed { get { return _Breed; } set { if (_Breed == value) return; _Breed = value; OnPropertyChenged(); }}
+        public string Breed { get { return _Breed; } set { if (_Breed == value) return; _Breed = value; OnPropertyChanged(); }}
 
         private string _Gender = "";
-        public string Gender { get { return _Gender; } set { if (_Gender == value) return; _Gender = value; OnPropertyChenged(); } }
+        public string Gender { get { return _Gender; } set { if (_Gender == value) return; _Gender = value; OnPropertyChanged(); } }
 
         private string _Interests = "";
-        public string Interests { get { return _Interests; } set { if (_Interests == value) return; _Interests = value; OnPropertyChenged(); } }
+        public string Interests { get { return _Interests; } set { if (_Interests == value) return; _Interests = value; OnPropertyChanged(); } }
 
         private string _Bio = "";
-        public string Bio { get { return _Bio; } set { if (_Bio == value) return; _Bio = value; OnPropertyChenged(); } }
+        public string Bio { get { return _Bio; } set { if (_Bio == value) return; _Bio = value; OnPropertyChanged(); } }
 
 
         private string _DOB = "";
-        public string DOB { get { return _DOB; } set { if (_DOB == value) return; _DOB = value; OnPropertyChenged(); } }
+        public string DOB { get { return _DOB; } set { if (_DOB == value) return; _DOB = value; OnPropertyChanged(); } }
 
         private ImageSource _MainImageSource;
-        public ImageSource MainImageSource { get { return _MainImageSource; } set { if (_MainImageSource == value) return; _MainImageSource = value; OnPropertyChenged(); } }
+        public ImageSource MainImageSource { get { return _MainImageSource; } set { if (_MainImageSource == value) return; _MainImageSource = value; OnPropertyChanged(); } }
 
         private byte[] _MainImageByteArray = null;
-        public byte[] MainImageByteArray { get { return _MainImageByteArray; } set { if (_MainImageByteArray == value) return; _MainImageByteArray = value; OnPropertyChenged(); } }
+        public byte[] MainImageByteArray { get { return _MainImageByteArray; } set { if (_MainImageByteArray == value) return; _MainImageByteArray = value; OnPropertyChanged(); } }
 
         private string _ResponseText = "";
-        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChenged(); } }
+        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChanged(); } }
 
         private int _ResponseType = 1;
-        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChenged(); } }
+        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChanged(); } }
 
         #endregion
 

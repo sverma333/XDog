@@ -42,26 +42,26 @@ namespace XDogApp.ViewModels
 
         #region Attributes
         private string _BusinessName = "";
-        public string BusinessName { get { return _BusinessName; } set { if (_BusinessName == value) return; _BusinessName = value; OnPropertyChenged(); }}
+        public string BusinessName { get { return _BusinessName; } set { if (_BusinessName == value) return; _BusinessName = value; OnPropertyChanged(); }}
 
         private string _BusinessType = "";
-        public string BusinessType { get { return _BusinessType; } set { if (_BusinessType == value) return; _BusinessType = value; OnPropertyChenged(); }}
+        public string BusinessType { get { return _BusinessType; } set { if (_BusinessType == value) return; _BusinessType = value; OnPropertyChanged(); }}
 
 
         private string _BusinessBio = "";
-        public string BusinessBio { get { return _BusinessBio; } set { if (_BusinessBio == value) return; _BusinessBio = value; OnPropertyChenged(); }}
+        public string BusinessBio { get { return _BusinessBio; } set { if (_BusinessBio == value) return; _BusinessBio = value; OnPropertyChanged(); }}
 
         private string _BusinessOpeningTimes = "";
-        public string BusinessOpeningTimes { get { return _BusinessOpeningTimes; } set { if (_BusinessOpeningTimes == value) return; _BusinessOpeningTimes = value; OnPropertyChenged(); }}
+        public string BusinessOpeningTimes { get { return _BusinessOpeningTimes; } set { if (_BusinessOpeningTimes == value) return; _BusinessOpeningTimes = value; OnPropertyChanged(); }}
 
         private string _BusinessDOB = "";
-        public string BusinessDOB { get { return _BusinessDOB; } set { if (_BusinessDOB == value) return; _BusinessDOB = value; OnPropertyChenged(); }}
+        public string BusinessDOB { get { return _BusinessDOB; } set { if (_BusinessDOB == value) return; _BusinessDOB = value; OnPropertyChanged(); }}
 
         private string _ResponseText = "";
-        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChenged(); } }
+        public string ResponseText { get { return _ResponseText; } set { if (_ResponseText == value) return; _ResponseText = value; OnPropertyChanged(); } }
 
         private int _ResponseType = 1;
-        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChenged(); } }
+        public int ResponseType { get { return _ResponseType; } set { if (_ResponseType == value) return; _ResponseType = value; OnPropertyChanged(); } }
 
         #endregion
 
