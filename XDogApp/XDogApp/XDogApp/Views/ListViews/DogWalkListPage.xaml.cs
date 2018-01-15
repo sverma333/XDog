@@ -13,13 +13,11 @@ using XDogApp.ViewModels;
 namespace XDogApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class DogListPage : ContentPage
+    public partial class DogWalkListPage : ContentPage
     {
-        public DogListPage()
+        public DogWalkListPage()
         {
             InitializeComponent();
-            //Label_Response.Text = AppResources.AppResources.RegisterResponseDef;
-
         }
     }
 }

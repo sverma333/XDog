@@ -18,7 +18,7 @@ namespace XDogApp.Services
     {
         IMobileServiceSyncTable<T> itemsTable;
 
-        public static MobileServiceClient MobileService = null;
+        public MobileServiceClient MobileService = null;
 
         public async Task InitializeAsync()
         {
@@ -26,8 +26,15 @@ namespace XDogApp.Services
             if (MobileService?.SyncContext?.IsInitialized ?? false)
                 return;
 
-            MobileService = new MobileServiceClient(PCL_AppConstants.sCurrentServiceURL);
-            string path = "local.db";
+            MobileService = new MobileServiceClient(PCL_AppConstants.sCurrentServiceURL)
+            {
+                SerializerSettings = new MobileServiceJsonSerializerSettings
+                {
+                    CamelCasePropertyNames = true
+                }
+            };
+
+            string path = "local11.db";
 
             var store = new MobileServiceSQLiteStoreWithLogging(path, PCL_AppConstants.bLogSqlLite);
             store.DefineTable<T>();
@@ -96,9 +103,9 @@ namespace XDogApp.Services
             try
             {
                 var va = $"all{typeof(T).Name}";
-                var v2 = itemsTable.CreateQuery();
+                var query = itemsTable.CreateQuery();
 
-                await itemsTable.PullAsync($"all{typeof(T).Name}", itemsTable.CreateQuery());
+                await itemsTable.PullAsync(va, query);
             }
             catch (Exception ex)
             {

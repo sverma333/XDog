@@ -59,13 +59,26 @@
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
     <Compile Include="CustomControls\CustomMap.cs" />
+    <Compile Include="CustomControls\ListViewPage1.xaml.cs">
+      <DependentUpon>ListViewPage1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Menu\MDMainPage.xaml.cs">
+      <DependentUpon>MDMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MDMainPageMaster.xaml.cs">
+      <DependentUpon>MDMainPageMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuItem.cs" />
     <Compile Include="Models\AzureTestData.cs" />
     <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\MarketPlaceItem.cs" />
+    <Compile Include="Models\PrivateBusiness.cs" />
     <Compile Include="Models\Business.cs" />
+    <Compile Include="Models\ListDataItem.cs" />
     <Compile Include="Models\LoginUser.cs" />
     <Compile Include="Models\Token.cs" />
     <Compile Include="Models\RegisterUser.cs" />
@@ -87,14 +100,24 @@
     <Compile Include="Services\MockDataStore.cs" />
     <Compile Include="Utils\CameraUtils.cs" />
     <Compile Include="Utils\FileUtils.cs" />
+    <Compile Include="Utils\PageUtils.cs" />
+    <Compile Include="Utils\PositionUtils.cs" />
     <Compile Include="Utils\StringUtils.cs" />
+    <Compile Include="Utils\TimeUtils.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\Converters\convTextColor.cs" />
     <Compile Include="ViewModels\Converters\convBackgroundColor.cs" />
     <Compile Include="ViewModels\AddressViewModel.cs" />
     <Compile Include="ViewModels\BusinessViewModel.cs" />
+    <Compile Include="ViewModels\ListViewModels\BaseListViewModel.cs" />
+    <Compile Include="ViewModels\ListViewModels\MarketPlaceListViewModel.cs" />
+    <Compile Include="ViewModels\ListViewModels\PrivateBusinessListViewModel.cs" />
+    <Compile Include="ViewModels\ListViewModels\BusinessListViewModel.cs" />
+    <Compile Include="ViewModels\ListViewModels\DogWalkListViewModel.cs" />
+    <Compile Include="ViewModels\ListViewModels\DogOwnerListViewModel.cs" />
+    <Compile Include="ViewModels\OpeningViewModel.cs" />
     <Compile Include="ViewModels\RecordDogWalkViewModel.cs" />
-    <Compile Include="ViewModels\DogListViewModel.cs" />
+    <Compile Include="ViewModels\ListViewModels\DogListViewModel.cs" />
     <Compile Include="ViewModels\DogViewModel.cs" />
     <Compile Include="ViewModels\DogOwnerViewModel.cs" />
     <Compile Include="ViewModels\TestViewModel.cs" />
@@ -106,14 +129,35 @@
     <Compile Include="Views\Business.xaml.cs">
       <DependentUpon>Business.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\DogListPage.xaml.cs">
+    <Compile Include="Views\ListViews\MarketPlaceListPage.xaml.cs">
+      <DependentUpon>MarketPlaceListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListViews\PrivateBusinessListPage.xaml.cs">
+      <DependentUpon>PrivateBusinessListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListViews\BusinessListPage.xaml.cs">
+      <DependentUpon>BusinessListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListViews\DogOwnerListPage.xaml.cs">
+      <DependentUpon>DogOwnerListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListViews\DogWalkListPage.xaml.cs">
+      <DependentUpon>DogWalkListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListViews\DogListPage.xaml.cs">
       <DependentUpon>DogListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OpeningPage.xaml.cs">
+      <DependentUpon>OpeningPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\RecordDogWalkPage.xaml.cs">
       <DependentUpon>RecordDogWalkPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\DogPage.xaml.cs">
       <DependentUpon>DogPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\SlideMenu.xaml.cs">
+      <DependentUpon>SlideMenu.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\TestPage.xaml.cs">
       <DependentUpon>TestPage.xaml</DependentUpon>
@@ -261,6 +305,9 @@
     <Reference Include="Validation, Version=2.2.0.0, Culture=neutral, PublicKeyToken=2fc06f0d701809a7, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Validation.2.2.8\lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Validation.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Forms.BehaviorsPack, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.BehaviorsPack.1.3.1\lib\netstandard1.0\Xamarin.Forms.BehaviorsPack.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.5.0.121934\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Core.dll</HintPath>
     </Reference>
@@ -338,7 +385,67 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\DogListPage.xaml">
+    <EmbeddedResource Include="Views\ListViews\DogListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CustomControls\SlideMenu.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\OpeningPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CustomControls\ListViewPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\ListViews\DogWalkListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\ListViews\BusinessListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\ListViews\DogOwnerListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\ListViews\PrivateBusinessListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\ListViews\MarketPlaceListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Menu\MDMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Menu\MDMainPageMaster.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

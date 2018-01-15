@@ -8,7 +8,7 @@ namespace XDogApp
 {
     public static class PCL_AppConstants
     {
-        public static bool bUseTestASPNetServer = false;
+        public static bool bUseTestASPNetServer = true;
         public static bool bUseMockDataStore = false;
         public static bool bLogSqlLite = false;
 

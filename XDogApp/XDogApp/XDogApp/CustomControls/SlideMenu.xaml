@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XDogApp.SlideMenu"
+             xmlns:vm1="clr-namespace:XDogApp.ViewModels; assembly=XDogApp"
+             xmlns:t="clr-namespace:XDogApp.Helpers"
+             xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp"
+             xmlns:Vid="clr-namespace:Plugin.MediaManager.Forms;assembly=Plugin.MediaManager.Forms">
+ <ContentView.Content>
+
+        <!--<StackLayout WidthRequest="600" VerticalOptions="FillAndExpand" HorizontalOptions="Start">  CachingStrategy="RecycleElement">-->
+        <StackLayout x:Name="MainStackLayout">
+            <Label x:Name="Label_Message" AutomationId="MenuLabelMessage" Text="Test Item" />
+            <ListView x:Name="MyListView" ItemsSource="{Binding Items}" BackgroundColor="OrangeRed" CachingStrategy="RecycleElement"> 
+                <ListView.ItemTemplate>
+                    <DataTemplate><TextCell Text="{Binding .}" /></DataTemplate></ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

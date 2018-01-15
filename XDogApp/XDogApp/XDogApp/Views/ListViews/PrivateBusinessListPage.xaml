@@ -2,16 +2,16 @@
     <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Dog List Page"
-             x:Class="XDogApp.Views.DogListPage"
+             x:Class="XDogApp.Views.PrivateBusinessListPage"
              xmlns:vm1="clr-namespace:XDogApp.ViewModels; assembly=XDogApp"
              xmlns:t="clr-namespace:XDogApp.Helpers"
              xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp">
 
-    <ContentPage.BindingContext><vm1:DogListViewModel/></ContentPage.BindingContext>
+    <ContentPage.BindingContext><vm1:PrivateBusinessListViewModel/></ContentPage.BindingContext>
 
     <StackLayout Padding="0,20,0,0">
         <Button x:Name="btnLoad" Text="Test Button" Command="{Binding RefreshDataCommand}" AutomationId="btnLoad"/>
-        <ListView  x:Name="lstView" RowHeight="60" HasUnevenRows="True" ItemsSource = "{Binding obvDataList}" 
+        <ListView  x:Name="lstView" RowHeight="60" HasUnevenRows="True" ItemsSource = "{Binding obvDataList}"  CachingStrategy="RecycleElement"
                    IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshDataCommand}" IsRefreshing="{Binding IsRefreshing}">
             <ListView.ItemTemplate>
                 <DataTemplate>

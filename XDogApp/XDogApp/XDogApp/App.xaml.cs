@@ -49,7 +49,8 @@ namespace XDogApp
             }
 
 
-            MainPage = (Device.RuntimePlatform == Device.iOS ? getStartPage() : new NavigationPage(getStartPage()));
+            //MainPage = (Device.RuntimePlatform == Device.iOS ? getStartPage() : new NavigationPage(getStartPage()));
+            MainPage = getStartPage();
         }
 
         private Page getStartPage()
@@ -57,7 +58,8 @@ namespace XDogApp
             Page ret;
 
             // test TODO remove later
-            return new RecordDogWalkPage();
+            return new Menu.MDMainPage();
+            //return new Menu.MainMenu();
 
 
             if (!string.IsNullOrEmpty(Settings.Token) && !string.IsNullOrEmpty(Settings.ScreenName))     // logged in, so start

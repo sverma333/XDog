@@ -76,7 +76,6 @@ namespace XDogApp.UWP
                 //VideoViewRenderer.Init();
                 Xamarin.Forms.Forms.Init(e);
                 await CrossMedia.Current.Initialize();
-
                 #endregion
 
 

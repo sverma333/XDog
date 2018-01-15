@@ -40,22 +40,32 @@ namespace XDogApp.Helpers
         #endregion
 
         #region base getter, Setter
-        private static string Getter(string def = "", [CallerMemberName] string propertyName = null)
+        private static string StringGetter(string def = "", [CallerMemberName] string propertyName = null) 
         {
             return AppSettings.GetValueOrDefault(propertyName, def);
         }
 
-        private static void Setter(string val = "", [CallerMemberName] string propertyName = null)
+        private static void StringSetter(string val = "", [CallerMemberName] string propertyName = null)
         {
             AppSettings.AddOrUpdateValue(propertyName, val);
         }
 
+        private static bool BoolGetter(bool def = default(bool), [CallerMemberName] string propertyName = null) 
+        {
+            return AppSettings.GetValueOrDefault(propertyName, def);
+        }
+
+        private static void BoolSetter(bool val = default(bool), [CallerMemberName] string propertyName = null)
+        {
+            AppSettings.AddOrUpdateValue(propertyName, val);
+        }
         #endregion
 
-        public static string Email { get { return Getter(); } set { Setter(value); } }
-        public static string Password { get { return Getter(); } set { Setter(value); } }
-        public static string Token { get { return Getter(); } set { Setter(value); } }
-        public static string ScreenName { get { return Getter(); } set { Setter(value); } }
+        public static string Email { get { return StringGetter(); } set { StringSetter(value); } }
+        public static string Password { get { return StringGetter(); } set { StringSetter(value); } }
+        public static string Token { get { return StringGetter(); } set { StringSetter(value); } }
+        public static string ScreenName { get { return StringGetter(); } set { StringSetter(value); } }
+        public static bool UseMetric { get { return BoolGetter(); } set { BoolSetter(value); } }
 
 
 	}

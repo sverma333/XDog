@@ -41,7 +41,7 @@ namespace XDogApp.ViewModels
             
             ClickCreate = new Command(async () =>
             {
-                Dog2 item = new Dog2 { Name = this.Name, Breed = this.Breed, Bio = this.Bio, DOB = Convert.ToDateTime(this.DOB) };
+                Dog item = new Dog { Name = this.Name, Breed = this.Breed, Bio = this.Bio }; //, DOB = Convert.ToDateTime(this.DOB) };
                 if (MainImageByteArray != null)
                     await FileUtils.SaveToFile("Images", $"DogMainPic_{item.Id}.png", MainImageByteArray);
 

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="OpeningPage"
+             x:Class="XDogApp.Views.OpeningPage"
+             xmlns:menu="clr-namespace:XDogApp; assembly=XDogApp"
+             xmlns:t="clr-namespace:XDogApp.Helpers">
+
+    <ContentPage.Content>
+        <StackLayout Padding="0,20,0,0">
+            <StackLayout.GestureRecognizers><TapGestureRecognizer Command="{Binding CloseTappedCommand}"/></StackLayout.GestureRecognizers>
+            <Button x:Name="btnMenu" Text="{t:Translate Create}" Command="{Binding SlideOpenCommand}" AutomationId="btMenu"/>
+            <!--<menu:SlideMenu x:Name="slideMenu" Mode="Bottom" DefaultHeight="{Binding DefaultHeight}" IsSlideOpen="{Binding IsSlide}" BackgroundColor="Gray"/>-->
+            <menu:SlideMenu x:Name="slideMenu" Mode="Top" DefaultHeight="{Binding DefaultHeight}" IsSlideOpen="{Binding IsSlide}" BackgroundColor="Gray"/>
+            <!--<menu:SlideMenu x:Name="slideMenu" Mode="Left" DefaultWidth="{Binding DefaultWidth}" IsSlideOpen="{Binding IsSlide}" BackgroundColor="OrangeRed"/>-->
+                <!--<menu:SlideMenu x:Name="slideMenu" Mode="LeftSide" DefaultWidth="{Binding DefaultWidth}" IsSlideOpen="{Binding IsSlide}" BackgroundColor="OrangeRed"/>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>  

@@ -11,18 +11,18 @@ namespace XDogApp.Models
     public class BaseId
     {
         public string Id { get; set; }
-        
-        //[Version]
-        //public string AzureVersion { get; set; }
 
-        //[CreatedAt]
-        //public string AzureCreatedAt { get; set; }
+        [Version]
+        public string AzureVersion { get; set; }
 
-        //[UpdatedAt]
-        //public string AzureUpdatedAt { get; set; }
+        [CreatedAt]
+        public string AzureCreatedAt { get; set; }
 
-        //[Deleted]
-        //public string AzureDeletedAt { get; set; }
+        [UpdatedAt]
+        public string AzureUpdatedAt { get; set; }
+
+        [Deleted]
+        public string AzureDeletedAt { get; set; }
 
 
     }

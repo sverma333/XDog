@@ -90,6 +90,9 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="hamburger_menu.png" />
+    <Content Include="menu_inbox.png" />
+    <Content Include="menu_stock.png" />
     <Content Include="packages.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

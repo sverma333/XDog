@@ -1,120 +1,78 @@
-﻿//using System;
-//using System.Configuration;
-//using System.Data.Entity.Spatial;
-//using System.Linq;
-//using System.Net;
-//using System.Net.Http;
-//using System.Threading;
-//using System.Threading.Tasks;
-//using System.Web.Http;
-//using System.Web.Http.Controllers;
-//using System.Web.Http.ExceptionHandling;
-//using System.Web.Http.Validation;
-//using Autofac;
-//using Autofac.Builder;
-//using Autofac.Integration.WebApi;
-//using Microsoft.Azure.Mobile.Server;
-//using Microsoft.Azure.Mobile.Server.Authentication;
-//using Microsoft.Azure.Mobile.Server.Config;
-//using Microsoft.Azure.Mobile.Server.Tables;
-//using Microsoft.Owin.Security.DataProtection;
-//using Owin;
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data.Entity;
+using System.Web.Http;
+using Microsoft.Azure.Mobile.Server;
+using Microsoft.Azure.Mobile.Server.Authentication;
+using Microsoft.Azure.Mobile.Server.Config;
+using Owin;
+using XDogService.Models;
+using System.Diagnostics;
+using System.Web.Http.Tracing;
 
-//namespace XDogService
-//{
-//    public class JsonDotNetConfigProvider : TableControllerConfigProvider
-//    {
-//        public override void Configure(HttpControllerSettings controllerSettings, HttpControllerDescriptor controllerDescriptor)
-//        {
-//            base.Configure(controllerSettings, controllerDescriptor);
-//            if (!controllerSettings.Formatters.OfType<JsonDotNetFormatter>().Any())
-//            {
-//                controllerSettings.Formatters.Insert(0, new JsonDotNetFormatter());
-//            }
-//        }
-//    }
+namespace XDogService
+{
+    public partial class Startup
+    {
+        public static void ConfigureMobileApp(IAppBuilder app)
+        {
+            HttpConfiguration config = new HttpConfiguration();
 
-////    public class CustomBodyModelValidator : DefaultBodyModelValidator
-////    {
-////        public override bool ShouldValidateType(Type type)
-////        {
-////            return type != typeof(DbGeography) && base.ShouldValidateType(type);
-////        }
-////    }
+            //For more information on Web API tracing, see http://go.microsoft.com/fwlink/?LinkId=620686 
+            SystemDiagnosticsTraceWriter traceWriter = config.EnableSystemDiagnosticsTracing();
+            //traceWriter.IsVerbose = true;
+            //traceWriter.MinimumLevel = System.Web.Http.Tracing.TraceLevel.Debug;
 
-////    public partial class Startup
-////    {
-////        private static void ConfigureMobileApp(IAppBuilder app, ContainerBuilder builder)
-////        {
-////            GlobalConfiguration.Configure(c => Configure(app, builder, c));
-////            GlobalConfiguration.Configuration.Services.Replace(typeof(IBodyModelValidator), new CustomBodyModelValidator());
-////        }
+            new MobileAppConfiguration()
+                .UseDefaultConfiguration()
+                .ApplyTo(config);
 
-////        class OopsExceptionHandler : ExceptionHandler
-////        {
-////            public override void Handle(ExceptionHandlerContext context)
-////            {
-////                context.Result = new TextPlainErrorResult
-////                {
-////                    Request = context.ExceptionContext.Request,
-////                    Content = "Oops! Sorry! Something went wrong." +
-////                              "Please contact support so we can try to fix it."
-////                };
-////            }
+            // Use Entity Framework Code First to create database tables based on your DbContext
+            Database.SetInitializer(new DatabaseInitializer());
 
-////            private class TextPlainErrorResult : IHttpActionResult
-////            {
-////                public HttpRequestMessage Request { get; set; }
+            // To prevent Entity Framework from modifying your database schema, use a null database initializer
+            // Database.SetInitializer<templateitemsContext>(null);
 
-////                public string Content { get; set; }
+            MobileAppSettingsDictionary settings = config.GetMobileAppSettingsProvider().GetMobileAppSettings();
 
-////                public Task<HttpResponseMessage> ExecuteAsync(CancellationToken cancellationToken)
-////                {
-////                    HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.InternalServerError);
-////                    response.Content = new StringContent(Content);
-////                    response.RequestMessage = Request;
-////                    return Task.FromResult(response);
-////                }
-////            }
-////        }
+            if (string.IsNullOrEmpty(settings.HostName))
+            {
+                // This middleware is intended to be used locally for debugging. By default, HostName will
+                // only have a value when running in an App Service application.
+                app.UseAppServiceAuthentication(new AppServiceAuthenticationOptions
+                {
+                    SigningKey = ConfigurationManager.AppSettings["SigningKey"],
+                    ValidAudiences = new[] { ConfigurationManager.AppSettings["ValidAudience"] },
+                    ValidIssuers = new[] { ConfigurationManager.AppSettings["ValidIssuer"] },
+                    TokenHandler = config.GetAppServiceTokenHandler()
+                });
+            }
+            app.UseWebApi(config);
 
-////        private static void Configure(IAppBuilder app, ContainerBuilder builder, HttpConfiguration config)
-////        {
-////            builder.RegisterModule(new WebApiModule(config));
-////            var container = builder.Build();
-////            RegisterIdentity(app.GetDataProtectionProvider(), container);
-////            config.Services.Replace(typeof(IExceptionHandler), new OopsExceptionHandler());
-////            config.DependencyResolver = new AutofacWebApiDependencyResolver(container);
-////            config.EnableSystemDiagnosticsTracing();
+        }
+    }
 
-////            config.Routes.MapHttpRoute("DefaultApi", "api/{culture}/{controller}/{id}", new { id = RouteParameter.Optional });
-////            new MobileAppConfiguration()
-////                .AddTablesWithEntityFramework()
-////                .WithTableControllerConfigProvider(new JsonDotNetConfigProvider())
-////                .ApplyTo(config);
+    public class DatabaseInitializer : CreateDatabaseIfNotExists<DogXContext>
+    {
+        protected override void Seed(DogXContext context)
+        {
+            List<TodoItem> items = new List<TodoItem>
+            {
+                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "First item"},
+                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Second item"},
+                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Third item" },
+                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Fourth item" },
+                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Fifth item" },
+                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Sixth item" },
+            };
 
-////            MobileAppSettingsDictionary settings = config.GetMobileAppSettingsProvider().GetMobileAppSettings();
-////            if (string.IsNullOrEmpty(settings.HostName))
-////            {
-////                // This middleware is intended to be used locally for debugging. By default, HostName will
-////                // only have a value when running in an App Service application.
-////                app.UseAppServiceAuthentication(new AppServiceAuthenticationOptions
-////                {
-////                    SigningKey = ConfigurationManager.AppSettings["SigningKey"],
-////                    ValidAudiences = new[] { ConfigurationManager.AppSettings["ValidAudience"] },
-////                    ValidIssuers = new[] { ConfigurationManager.AppSettings["ValidIssuer"] },
-////                    TokenHandler = config.GetAppServiceTokenHandler()
-////                });
-////            }
+            foreach (TodoItem item in items)
+            {
+                context.Set<TodoItem>().Add(item);
+            }
 
-////            app.UseAutofacWebApi(config);
-////            app.UseAutofacMiddleware(container);
-////        }
-
-////        private static void RegisterIdentity(IDataProtectionProvider dataProtectionProvider, IContainer container)
-////        {
-////            container.ComponentRegistry.Register(RegistrationBuilder.ForDelegate((c, p) => dataProtectionProvider).CreateRegistration());
-////        }
-////    }
-////}
-
+            base.Seed(context);
+        }
+    }
+}

@@ -440,6 +440,24 @@ namespace XDogApp.AppResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Journey Distance.
+        /// </summary>
+        public static string JourneyDistance {
+            get {
+                return ResourceManager.GetString("JourneyDistance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Journey Time.
+        /// </summary>
+        public static string JourneyTime {
+            get {
+                return ResourceManager.GetString("JourneyTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please Login.
         /// </summary>
         public static string LoginResponseDef {
@@ -463,6 +481,24 @@ namespace XDogApp.AppResources {
         public static string PickVideo {
             get {
                 return ResourceManager.GetString("PickVideo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Record.
+        /// </summary>
+        public static string Record {
+            get {
+                return ResourceManager.GetString("Record", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recording.
+        /// </summary>
+        public static string Recording {
+            get {
+                return ResourceManager.GetString("Recording", resourceCulture);
             }
         }
         
@@ -535,6 +571,24 @@ namespace XDogApp.AppResources {
         public static string RegisterVerificationCode {
             get {
                 return ResourceManager.GetString("RegisterVerificationCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reset.
+        /// </summary>
+        public static string Reset {
+            get {
+                return ResourceManager.GetString("Reset", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stop.
+        /// </summary>
+        public static string Stop {
+            get {
+                return ResourceManager.GetString("Stop", resourceCulture);
             }
         }
         

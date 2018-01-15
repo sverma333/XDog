@@ -27,13 +27,42 @@ namespace XDogApp.ViewModels
     class RecordDogWalkViewModel : BaseViewModel
     { 
         private int routePoint = 0;
+        private bool paused = false;
+
+        private DateTime lastStart;
+        private double jTime = 0;
+        private double jDistance = 0;
+
         private List<Position> secretRoute = new List<Position>();
+        public ICommand ClickRecordStop { get; private set; }
+        public ICommand ClickReset { get; private set; }
+
 
         public RecordDogWalkViewModel()
         {
             Initialize();
+            ClickRecordStop = new Command(() =>
+            {
+                if (IsRecording)
+                {
+                    if (!paused)
+                        Reset(true);
 
-            Device.StartTimer(TimeSpan.FromSeconds(2), SeedData);
+                    lastStart = DateTime.Now;
+                    Device.StartTimer(TimeSpan.FromSeconds(2), RecordPoint);
+                }
+                paused = !IsRecording;
+            });
+
+            ClickReset = new Command(() =>
+            {
+                Reset(false);
+            });
+        }
+
+        private void Reset(bool bRec)
+        {
+            routePoint = 0; paused = false; IsRecording = bRec; RoutePoints = new ObservableCollection<Position>(); jDistance = 0; jTime = 0; JourneyDistance = ""; JourneyTime = "";
         }
 
         private void Initialize()
@@ -56,10 +85,25 @@ namespace XDogApp.ViewModels
             secretRoute.Add(new Position(37.776831, -122.394627));
         }
 
-        private bool SeedData()
+        private bool RecordPoint()
         {
-            RoutePoints.Add(secretRoute[routePoint++]);
-            IsRecording =  routePoint < secretRoute.Count;
+            if (paused || routePoint >= secretRoute.Count) return false;
+
+            Position curPos = secretRoute[routePoint]; routePoint++;
+
+            if (RoutePoints.Count > 0)
+            {
+                jDistance += PositionUtils.DistanceBetween(RoutePoints.Last(), curPos, Settings.UseMetric);
+                TimeSpan ts = DateTime.Now - lastStart;
+                jTime += ts.TotalSeconds;
+                lastStart = DateTime.Now;
+            }
+
+            RoutePoints.Add(curPos);
+            JourneyDistance = string.Format("{0:0.00} ", jDistance) + (Settings.UseMetric ? "km" : "mi");
+            JourneyTime = TimeUtils.FormatSecMultiple(jTime);
+            IsRecording = routePoint < secretRoute.Count;
+
 
             return IsRecording;
         }
@@ -68,8 +112,16 @@ namespace XDogApp.ViewModels
         #region Attributes
         public ObservableCollection<Position> RoutePoints { get; set; } = new ObservableCollection<Position>();
 
-        private bool _IsRecordinge = false;
-        public bool IsRecording  { get { return _IsRecordinge; } set { if (_IsRecordinge == value) return; _IsRecordinge = value; OnPropertyChanged(); } }
+        private bool _IsRecording = false;
+        public bool IsRecording  { get { return _IsRecording; } set { if (_IsRecording == value) return; _IsRecording = value; OnPropertyChanged(); OnPropertyChanged(nameof(IsNotRecording));} }
+        public bool IsNotRecording { get { return !_IsRecording; } }
+
+
+        private string _JourneyDistance = "";
+        public string JourneyDistance { get { return _JourneyDistance; } set { if (_JourneyDistance == value) return; _JourneyDistance = value; OnPropertyChanged(); } }
+
+        private string _JourneyTime = "";
+        public string JourneyTime { get { return _JourneyTime; } set { if (_JourneyTime == value) return; _JourneyTime = value; OnPropertyChanged(); } }
 
         #endregion
 

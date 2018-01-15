@@ -243,6 +243,12 @@
   <data name="GenderDesc" xml:space="preserve">
     <value>Male or Female</value>
   </data>
+  <data name="JourneyDistance" xml:space="preserve">
+    <value>Journey Distance</value>
+  </data>
+  <data name="JourneyTime" xml:space="preserve">
+    <value>Journey Time</value>
+  </data>
   <data name="LoginResponseDef" xml:space="preserve">
     <value>Please Login</value>
   </data>
@@ -251,6 +257,12 @@
   </data>
   <data name="PickVideo" xml:space="preserve">
     <value>Pick Video</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="Recording" xml:space="preserve">
+    <value>Recording</value>
   </data>
   <data name="RegisterConfirmPassword" xml:space="preserve">
     <value>Confirm Password</value>
@@ -275,6 +287,12 @@
   </data>
   <data name="RegisterVerificationCode" xml:space="preserve">
     <value>Verification Code</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
   </data>
   <data name="TakePhoto" xml:space="preserve">
     <value>Take Photo</value>

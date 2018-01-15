@@ -45,19 +45,29 @@ namespace XDogApp.Droid
             Control.GetMapAsync(this);
         }
 
+        private List<Polyline> lines = new List<Polyline>();
         protected override void OnMapReady(Android.Gms.Maps.GoogleMap map)
         {
             base.OnMapReady(map);
+
+            clearRoute();
 
             var polylineOptions = new PolylineOptions();
             polylineOptions.InvokeColor(0x66FF0000);
 
             foreach (var position in routeCoordinates)
-            {
                 polylineOptions.Add(new LatLng(position.Latitude, position.Longitude));
-            }
 
-            NativeMap.AddPolyline(polylineOptions);
+            lines.Add(NativeMap.AddPolyline(polylineOptions));
+
+        }
+
+        private void clearRoute()
+        {
+            foreach (Polyline p in lines)
+                p.Remove();
+
+            lines.Clear();
         }
     }
 

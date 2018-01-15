@@ -19,31 +19,21 @@ using Plugin.MediaManager;
 using PCLStorage;
 using System.IO;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 
 namespace XDogApp.ViewModels
 {
-    public class ListDataItem
+    public class BaseListViewModel : BaseViewModel
     {
-         public string Image1 { get; set; }
-         public string Title1 { get; set; }
-         public string SubTitle1 { get; set; }
-         public string SubTitle2 { get; set; }
-    }
-
-    class DogListViewModel : BaseViewModel
-    {
-        private IDataStore<BaseId> DataStore = null;
+        protected IDataStore<BaseId> DataStore = null;
 
         public ICommand RefreshDataCommand { get; private set; }
 
         private bool _isRefreshing = false;
         public bool IsRefreshing { get { return _isRefreshing; } set { _isRefreshing = value; OnPropertyChanged();}}
 
-        public DogListViewModel()
+        public BaseListViewModel()
         {
-            //SV initialise backend framework
-
-            DataStore = (IDataStore<BaseId>)DependencyService.Get<DataStore<Dog>>() ?? new MockDataStore<Dog>();
             RefreshDataCommand = new Command(async () =>
             {
                 try
@@ -51,16 +41,18 @@ namespace XDogApp.ViewModels
                     IsRefreshing = true;
                     await DataStore.InitializeAsync();
                     var data = await DataStore.GetItemsAsync(true);
+                    Debug.WriteLine("Debugger: " + data.Count());
                     obvDataList = new ObservableCollection<ListDataItem>(cleanData(data));
                 }
                 finally
                 {
                     IsRefreshing = false;
                 }
+
             });
         }
 
-        private static List<ListDataItem> cleanData(IEnumerable<BaseId> data)
+        protected virtual List<ListDataItem> cleanData(IEnumerable<BaseId> data)
         {
             return (from w in data
                 select new ListDataItem()
@@ -82,9 +74,7 @@ namespace XDogApp.ViewModels
         }
 
 
-        #region Attributes
         public ObservableCollection<ListDataItem> obvDataList { get; set; }
-        #endregion
 
     }
 }

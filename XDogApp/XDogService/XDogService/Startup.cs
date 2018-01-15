@@ -12,6 +12,7 @@ namespace XDogService
     {
         public void Configuration(IAppBuilder app)
         {
+            ConfigureMobileApp(app);
             ConfigureAuth(app);
         }
     }

@@ -4,14 +4,48 @@
              Title="Record Dog Walk Page"
              x:Class="XDogApp.Views.RecordDogWalkPage"
              xmlns:vm1="clr-namespace:XDogApp.ViewModels; assembly=XDogApp"
+             xmlns:b="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
              xmlns:local="clr-namespace:XDogApp"
              xmlns:local2="clr-namespace:XDogApp; assembly=XDogApp"
              xmlns:t="clr-namespace:XDogApp.Helpers"
              xmlns:conv="clr-namespace:XDogApp.ViewModels.Converters; assembly=XDogApp">
 
     <ContentPage.BindingContext><vm1:RecordDogWalkViewModel/></ContentPage.BindingContext>
-
-    <StackLayout Padding="0,20,0,0">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:convTextColor x:Key="convTextColor"/>
+            <conv:convBackgroundColor x:Key="convBackgroundColor"/>
+            <OnPlatform x:Key="btnHeight" x:TypeArguments="x:Double"><On Platform="iOS, Android, UWP" Value="40" /></OnPlatform>
+            <OnPlatform x:Key="btnWidth" x:TypeArguments="x:Double"><On Platform="iOS, Android, UWP" Value="80" /></OnPlatform>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+        
+    <StackLayout>
+        <StackLayout Padding="5, 5, 0, 5"
+                                 Orientation="Horizontal"
+                                 Spacing="15">
+            <StackLayout>
+                <Label x:Name="Label_Record" Text="{t:Translate Record}" HorizontalOptions="FillAndExpand" />
+                <Switch x:Name="btnWalkRec" IsToggled="{Binding IsRecording, Mode=TwoWay}" AutomationId="btnWalkRec" HorizontalOptions="FillAndExpand">
+                    <Switch.Behaviors><b:EventToCommandBehavior EventName="Toggled" Command="{Binding ClickRecordStop}"/></Switch.Behaviors>
+                </Switch>
+            </StackLayout>
+            <StackLayout>
+                <Button x:Name="btnWalkReset" Text="{t:Translate Reset}" Command="{Binding ClickReset}" AutomationId="btnWalkStop" WidthRequest="{StaticResource btnWidth}" HeightRequest="{StaticResource btnHeight}" />
+            </StackLayout>
+            <StackLayout>
+                <Label x:Name="Label_JourneyTime" Text="{t:Translate JourneyTime}" HorizontalOptions="FillAndExpand" />
+                <Label x:Name="Label_JourneyTimeAct" Text="{Binding JourneyTime}" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+            <StackLayout>
+                <Label x:Name="Label_JourneyDistance" Text="{t:Translate JourneyDistance}" HorizontalOptions="FillAndExpand" />
+                <Label x:Name="Label_JourneyDistanceAct" Text="{Binding JourneyDistance}" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+            <StackLayout>
+                <Label x:Name="Label_Recording" Text="{t:Translate Recording}" TextColor="Red" HorizontalOptions="End" IsVisible="{Binding IsRecording}" HorizontalTextAlignment ="End"/>
+            </StackLayout>            
+        </StackLayout>
         <local:CustomMap x:Name="customMap" Route="{Binding RoutePoints}" IsRecording ="{Binding IsRecording}" MapType="Street" WidthRequest="{x:Static local2:App.ScreenWidth}" HeightRequest="{x:Static local2:App.ScreenHeight}" />
     </StackLayout>
-</ContentPage>  
+</ContentPage>
+

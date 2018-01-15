@@ -22,8 +22,8 @@ namespace XDogService
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
             // Web API routes
-            config.MapHttpAttributeRoutes();
-                        new MobileAppConfiguration().UseDefaultConfiguration().ApplyTo(config);
+            //config.MapHttpAttributeRoutes();
+            //            new MobileAppConfiguration().UseDefaultConfiguration().ApplyTo(config);
 
             //new MobileAppConfiguration().AddMobileAppHomeController().MapApiControllers().AddTables(
             //        new MobileAppTableConfiguration().MapTableControllers().AddEntityFramework()).ApplyTo(config);
